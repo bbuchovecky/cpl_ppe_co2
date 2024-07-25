@@ -1,6 +1,6 @@
 # cpl_ppe_co2
 
-Repository for the coupled PPEs with transient forcings from the present-day and future.
+Coupled PPEs with transient forcings from the present-day and future.
 
 ## File organization
 ```
@@ -17,7 +17,7 @@ Repository for the coupled PPEs with transient forcings from the present-day and
 │   ├── code
 |   |   ├── 01_select-parameters   <- Workflow for parameter selection using the land-only PPEs.
 |   |   ├── 02_set-up-ensemble     <- Review parameter files and store run script templates.
-|   |   ├── 03_run-scripts         <- The run scripts for each ensemble member.
+|   |   ├── 03_run-scripts         <- The run scripts for each simulation in the ensemble.
 |   |   ├── 04_check-simulations   <- Quick checks of the simulations.
 |   |   ├── 05_postprocess         <- Scripts that postprocess the raw simulation output.
 |   |   └── 05_analyze_simulations <- Notebooks for analyzing the ensemble.
@@ -39,7 +39,7 @@ Repository for the coupled PPEs with transient forcings from the present-day and
 |                                     directly from the model and never modified manually.
 |
 └── future                         <- All files for the PPE under future scenario forcings.
-    |                                 Same structure as present.
+    |                                 Same structure as `present`.
     ├── code
     |   ├── 01_select-parameters
     |   ├── 02_set-up-ensemble
@@ -49,6 +49,9 @@ Repository for the coupled PPEs with transient forcings from the present-day and
     |
     └── data
         ├── setup
+        |   ├── namelist_mods
+        |   ├── paramfiles
+        |   └── sst 
         ├── interim
         ├── processed
         └── raw
