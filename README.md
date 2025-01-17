@@ -1,6 +1,6 @@
 # cpl_ppe_co2
 
-Code and documentation for coupled PPEs with transient forcings from the present-day and future.
+Code and documentation for coupled CESM PPEs under transient forcings from the historical and future.
 
 ## File organization
 Adapted from Julius Busecke's [`cookiecuttter-science-project`](https://github.com/jbusecke/cookiecutter-science-project) and Claire Zarakas's [`coupled_PPE`](https://github.com/czarakas/coupled_PPE).
