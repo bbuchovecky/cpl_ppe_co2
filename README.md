@@ -12,7 +12,7 @@ Adapted from Julius Busecke's [`cookiecuttter-science-project`](https://github.c
 ├── environment.yml                <- Conda environment file. Create environment with
 │                                     `conda env create -f environment.yml`
 │
-├── references                     <- Notes, data dictionaries, and all other explanatory materials.
+├── ref                            <- Notes, data dictionaries, and all other explanatory materials.
 |
 ├── utils                          <- Python utilities.
 │
