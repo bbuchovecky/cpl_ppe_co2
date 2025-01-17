@@ -16,7 +16,7 @@ Adapted from Julius Busecke's [`cookiecuttter-science-project`](https://github.c
 |
 ├── utils                          <- Python utilities.
 │
-├── present                        <- All files for the PPE under present-day forcings.
+├── hist                           <- All files for the PPE under historical forcing.
 │   ├── code
 |   |   ├── 01_select-parameters   <- Workflow for parameter selection using the land-only PPEs.
 |   |   ├── 02_set-up-ensemble     <- Review parameter files and store run script templates.
