@@ -1,0 +1,1801 @@
+param_name,biome,forcing,criteria,variable,measure,x
+default,Ice sheet,CTL2010,EFLX_LH_TOT_mean_Ice sheet,EFLX_LH_TOT,mean,-0.015469502121533321
+default,Ice sheet,CTL2010,EFLX_LH_TOT_iav_Ice sheet,EFLX_LH_TOT,iav,0.009261237447732908
+default,Tropical rain forest,CTL2010,EFLX_LH_TOT_mean_Tropical rain forest,EFLX_LH_TOT,mean,3.256376430500729
+default,Tropical rain forest,CTL2010,EFLX_LH_TOT_iav_Tropical rain forest,EFLX_LH_TOT,iav,0.09859911151217436
+default,Tropical seasonal forest/savanna,CTL2010,EFLX_LH_TOT_mean_Tropical seasonal forest/savanna,EFLX_LH_TOT,mean,18.886276713219207
+default,Tropical seasonal forest/savanna,CTL2010,EFLX_LH_TOT_iav_Tropical seasonal forest/savanna,EFLX_LH_TOT,iav,0.24781940866627153
+default,Subtropical desert,CTL2010,EFLX_LH_TOT_mean_Subtropical desert,EFLX_LH_TOT,mean,3.976146870035719
+default,Subtropical desert,CTL2010,EFLX_LH_TOT_iav_Subtropical desert,EFLX_LH_TOT,iav,0.3366076618309761
+default,Temperate rain forest,CTL2010,EFLX_LH_TOT_mean_Temperate rain forest,EFLX_LH_TOT,mean,0.0725040569309014
+default,Temperate rain forest,CTL2010,EFLX_LH_TOT_iav_Temperate rain forest,EFLX_LH_TOT,iav,0.0020686881964508117
+default,Temperate seasonal forest,CTL2010,EFLX_LH_TOT_mean_Temperate seasonal forest,EFLX_LH_TOT,mean,3.1785862344939924
+default,Temperate seasonal forest,CTL2010,EFLX_LH_TOT_iav_Temperate seasonal forest,EFLX_LH_TOT,iav,0.0549106117517331
+default,Woodland/shrubland,CTL2010,EFLX_LH_TOT_mean_Woodland/shrubland,EFLX_LH_TOT,mean,4.970440848379276
+default,Woodland/shrubland,CTL2010,EFLX_LH_TOT_iav_Woodland/shrubland,EFLX_LH_TOT,iav,0.13423759916178885
+default,Temperate grassland/desert,CTL2010,EFLX_LH_TOT_mean_Temperate grassland/desert,EFLX_LH_TOT,mean,1.2059385379684087
+default,Temperate grassland/desert,CTL2010,EFLX_LH_TOT_iav_Temperate grassland/desert,EFLX_LH_TOT,iav,0.06920387949269616
+default,Boreal forest,CTL2010,EFLX_LH_TOT_mean_Boreal forest,EFLX_LH_TOT,mean,2.30530653027831
+default,Boreal forest,CTL2010,EFLX_LH_TOT_iav_Boreal forest,EFLX_LH_TOT,iav,0.0631251513457704
+default,Tundra,CTL2010,EFLX_LH_TOT_mean_Tundra,EFLX_LH_TOT,mean,1.3731067528171677
+default,Tundra,CTL2010,EFLX_LH_TOT_iav_Tundra,EFLX_LH_TOT,iav,0.04216837907094372
+default,Ice sheet,CTL2010,FSH_mean_Ice sheet,FSH,mean,-0.2353736907149006
+default,Ice sheet,CTL2010,FSH_iav_Ice sheet,FSH,iav,0.03222991483466239
+default,Tropical rain forest,CTL2010,FSH_mean_Tropical rain forest,FSH,mean,0.6499791421418808
+default,Tropical rain forest,CTL2010,FSH_iav_Tropical rain forest,FSH,iav,0.06407853952830113
+default,Tropical seasonal forest/savanna,CTL2010,FSH_mean_Tropical seasonal forest/savanna,FSH,mean,10.167057501904335
+default,Tropical seasonal forest/savanna,CTL2010,FSH_iav_Tropical seasonal forest/savanna,FSH,iav,0.1708491130406852
+default,Subtropical desert,CTL2010,FSH_mean_Subtropical desert,FSH,mean,11.848554750194088
+default,Subtropical desert,CTL2010,FSH_iav_Subtropical desert,FSH,iav,0.12453503287716977
+default,Temperate rain forest,CTL2010,FSH_mean_Temperate rain forest,FSH,mean,0.028877640197865602
+default,Temperate rain forest,CTL2010,FSH_iav_Temperate rain forest,FSH,iav,0.004051304502347535
+default,Temperate seasonal forest,CTL2010,FSH_mean_Temperate seasonal forest,FSH,mean,1.6092928532130628
+default,Temperate seasonal forest,CTL2010,FSH_iav_Temperate seasonal forest,FSH,iav,0.06890490746003632
+default,Woodland/shrubland,CTL2010,FSH_mean_Woodland/shrubland,FSH,mean,4.012360556976099
+default,Woodland/shrubland,CTL2010,FSH_iav_Woodland/shrubland,FSH,iav,0.11951209883205863
+default,Temperate grassland/desert,CTL2010,FSH_mean_Temperate grassland/desert,FSH,mean,3.17641466255708
+default,Temperate grassland/desert,CTL2010,FSH_iav_Temperate grassland/desert,FSH,iav,0.042556892269621914
+default,Boreal forest,CTL2010,FSH_mean_Boreal forest,FSH,mean,1.9235563112186225
+default,Boreal forest,CTL2010,FSH_iav_Boreal forest,FSH,iav,0.06427781384661539
+default,Tundra,CTL2010,FSH_mean_Tundra,FSH,mean,0.8650435678701965
+default,Tundra,CTL2010,FSH_iav_Tundra,FSH,iav,0.1217639591456151
+default,Ice sheet,CTL2010,QVEGT_mean_Ice sheet,QVEGT,mean,9.418980107407284e-27
+default,Ice sheet,CTL2010,QVEGT_iav_Ice sheet,QVEGT,iav,1.2024494364619587e-27
+default,Tropical rain forest,CTL2010,QVEGT_mean_Tropical rain forest,QVEGT,mean,7.589761030886742e-07
+default,Tropical rain forest,CTL2010,QVEGT_iav_Tropical rain forest,QVEGT,iav,1.2081754410551588e-08
+default,Tropical seasonal forest/savanna,CTL2010,QVEGT_mean_Tropical seasonal forest/savanna,QVEGT,mean,4.572676645383528e-06
+default,Tropical seasonal forest/savanna,CTL2010,QVEGT_iav_Tropical seasonal forest/savanna,QVEGT,iav,4.296304164846892e-08
+default,Subtropical desert,CTL2010,QVEGT_mean_Subtropical desert,QVEGT,mean,8.071787334631001e-07
+default,Subtropical desert,CTL2010,QVEGT_iav_Subtropical desert,QVEGT,iav,8.247757742396824e-08
+default,Temperate rain forest,CTL2010,QVEGT_mean_Temperate rain forest,QVEGT,mean,1.3236563398905994e-08
+default,Temperate rain forest,CTL2010,QVEGT_iav_Temperate rain forest,QVEGT,iav,2.4173209066902043e-10
+default,Temperate seasonal forest,CTL2010,QVEGT_mean_Temperate seasonal forest,QVEGT,mean,7.985330106577766e-07
+default,Temperate seasonal forest,CTL2010,QVEGT_iav_Temperate seasonal forest,QVEGT,iav,1.94671266254539e-08
+default,Woodland/shrubland,CTL2010,QVEGT_mean_Woodland/shrubland,QVEGT,mean,1.2778902275712618e-06
+default,Woodland/shrubland,CTL2010,QVEGT_iav_Woodland/shrubland,QVEGT,iav,5.639355053432926e-08
+default,Temperate grassland/desert,CTL2010,QVEGT_mean_Temperate grassland/desert,QVEGT,mean,2.306403480175688e-07
+default,Temperate grassland/desert,CTL2010,QVEGT_iav_Temperate grassland/desert,QVEGT,iav,2.4933551585725208e-08
+default,Boreal forest,CTL2010,QVEGT_mean_Boreal forest,QVEGT,mean,5.755792217280644e-07
+default,Boreal forest,CTL2010,QVEGT_iav_Boreal forest,QVEGT,iav,2.0062879072949856e-08
+default,Tundra,CTL2010,QVEGT_mean_Tundra,QVEGT,mean,3.0423804013550236e-07
+default,Tundra,CTL2010,QVEGT_iav_Tundra,QVEGT,iav,1.0449951417051612e-08
+default,Ice sheet,CTL2010,QVEGE_mean_Ice sheet,QVEGE,mean,-4.0669142416739456e-11
+default,Ice sheet,CTL2010,QVEGE_iav_Ice sheet,QVEGE,iav,1.4256652099795685e-11
+default,Tropical rain forest,CTL2010,QVEGE_mean_Tropical rain forest,QVEGE,mean,4.656905037073031e-07
+default,Tropical rain forest,CTL2010,QVEGE_iav_Tropical rain forest,QVEGE,iav,3.2617535748143236e-08
+default,Tropical seasonal forest/savanna,CTL2010,QVEGE_mean_Tropical seasonal forest/savanna,QVEGE,mean,1.5918284672802385e-06
+default,Tropical seasonal forest/savanna,CTL2010,QVEGE_iav_Tropical seasonal forest/savanna,QVEGE,iav,5.5688315741243965e-08
+default,Subtropical desert,CTL2010,QVEGE_mean_Subtropical desert,QVEGE,mean,9.887666507657768e-08
+default,Subtropical desert,CTL2010,QVEGE_iav_Subtropical desert,QVEGE,iav,1.258399824969838e-08
+default,Temperate rain forest,CTL2010,QVEGE_mean_Temperate rain forest,QVEGE,mean,1.2363365510264149e-08
+default,Temperate rain forest,CTL2010,QVEGE_iav_Temperate rain forest,QVEGE,iav,7.604549677596706e-10
+default,Temperate seasonal forest,CTL2010,QVEGE_mean_Temperate seasonal forest,QVEGE,mean,2.4844370858849713e-07
+default,Temperate seasonal forest,CTL2010,QVEGE_iav_Temperate seasonal forest,QVEGE,iav,1.1877598838693191e-08
+default,Woodland/shrubland,CTL2010,QVEGE_mean_Woodland/shrubland,QVEGE,mean,2.690040003898612e-07
+default,Woodland/shrubland,CTL2010,QVEGE_iav_Woodland/shrubland,QVEGE,iav,8.63214912892699e-09
+default,Temperate grassland/desert,CTL2010,QVEGE_mean_Temperate grassland/desert,QVEGE,mean,2.124159842285332e-08
+default,Temperate grassland/desert,CTL2010,QVEGE_iav_Temperate grassland/desert,QVEGE,iav,2.4687897739073085e-09
+default,Boreal forest,CTL2010,QVEGE_mean_Boreal forest,QVEGE,mean,1.4485073023438201e-07
+default,Boreal forest,CTL2010,QVEGE_iav_Boreal forest,QVEGE,iav,5.199797682764232e-09
+default,Tundra,CTL2010,QVEGE_mean_Tundra,QVEGE,mean,4.5386925822503516e-08
+default,Tundra,CTL2010,QVEGE_iav_Tundra,QVEGE,iav,2.4095990135705524e-09
+default,Ice sheet,CTL2010,QSOIL_mean_Ice sheet,QSOIL,mean,-5.14568040095372e-09
+default,Ice sheet,CTL2010,QSOIL_iav_Ice sheet,QSOIL,iav,3.317788809886384e-09
+default,Tropical rain forest,CTL2010,QSOIL_mean_Tropical rain forest,QSOIL,mean,7.736315118100695e-08
+default,Tropical rain forest,CTL2010,QSOIL_iav_Tropical rain forest,QSOIL,iav,1.8123466616833565e-09
+default,Tropical seasonal forest/savanna,CTL2010,QSOIL_mean_Tropical seasonal forest/savanna,QSOIL,mean,1.3869849856367882e-06
+default,Tropical seasonal forest/savanna,CTL2010,QSOIL_iav_Tropical seasonal forest/savanna,QSOIL,iav,4.014909741812752e-08
+default,Subtropical desert,CTL2010,QSOIL_mean_Subtropical desert,QSOIL,mean,6.837557488151499e-07
+default,Subtropical desert,CTL2010,QSOIL_iav_Subtropical desert,QSOIL,iav,4.564726330107111e-08
+default,Temperate rain forest,CTL2010,QSOIL_mean_Temperate rain forest,QSOIL,mean,3.3784942450688903e-09
+default,Temperate rain forest,CTL2010,QSOIL_iav_Temperate rain forest,QSOIL,iav,1.8542974628315067e-10
+default,Temperate seasonal forest,CTL2010,QSOIL_mean_Temperate seasonal forest,QSOIL,mean,2.23147099672758e-07
+default,Temperate seasonal forest,CTL2010,QSOIL_iav_Temperate seasonal forest,QSOIL,iav,5.654320110836158e-09
+default,Woodland/shrubland,CTL2010,QSOIL_mean_Woodland/shrubland,QSOIL,mean,4.4028735783077767e-07
+default,Woodland/shrubland,CTL2010,QSOIL_iav_Woodland/shrubland,QSOIL,iav,1.5427296598688785e-08
+default,Temperate grassland/desert,CTL2010,QSOIL_mean_Temperate grassland/desert,QSOIL,mean,2.299662958126547e-07
+default,Temperate grassland/desert,CTL2010,QSOIL_iav_Temperate grassland/desert,QSOIL,iav,6.8043941143240145e-09
+default,Boreal forest,CTL2010,QSOIL_mean_Boreal forest,QSOIL,mean,2.0107304199564631e-07
+default,Boreal forest,CTL2010,QSOIL_iav_Boreal forest,QSOIL,iav,6.931350290281991e-09
+default,Tundra,CTL2010,QSOIL_mean_Tundra,QSOIL,mean,1.9960693104174216e-07
+default,Tundra,CTL2010,QSOIL_iav_Tundra,QSOIL,iav,1.0035528452126753e-08
+default,Ice sheet,CTL2010,FSR_mean_Ice sheet,FSR,mean,1.3713373469260755
+default,Ice sheet,CTL2010,FSR_iav_Ice sheet,FSR,iav,0.01920312851914696
+default,Tropical rain forest,CTL2010,FSR_mean_Tropical rain forest,FSR,mean,1.112093362239876
+default,Tropical rain forest,CTL2010,FSR_iav_Tropical rain forest,FSR,iav,0.009753569948712
+default,Tropical seasonal forest/savanna,CTL2010,FSR_mean_Tropical seasonal forest/savanna,FSR,mean,9.351013014425005
+default,Tropical seasonal forest/savanna,CTL2010,FSR_iav_Tropical seasonal forest/savanna,FSR,iav,0.052338505010405816
+default,Subtropical desert,CTL2010,FSR_mean_Subtropical desert,FSR,mean,15.564476085924307
+default,Subtropical desert,CTL2010,FSR_iav_Subtropical desert,FSR,iav,0.10503062522217933
+default,Temperate rain forest,CTL2010,FSR_mean_Temperate rain forest,FSR,mean,0.04748417667299401
+default,Temperate rain forest,CTL2010,FSR_iav_Temperate rain forest,FSR,iav,0.0014460858655438945
+default,Temperate seasonal forest,CTL2010,FSR_mean_Temperate seasonal forest,FSR,mean,2.119107251346204
+default,Temperate seasonal forest,CTL2010,FSR_iav_Temperate seasonal forest,FSR,iav,0.05125259952918593
+default,Woodland/shrubland,CTL2010,FSR_mean_Woodland/shrubland,FSR,mean,4.339735892602856
+default,Woodland/shrubland,CTL2010,FSR_iav_Woodland/shrubland,FSR,iav,0.09151018752731663
+default,Temperate grassland/desert,CTL2010,FSR_mean_Temperate grassland/desert,FSR,mean,2.9504823595275833
+default,Temperate grassland/desert,CTL2010,FSR_iav_Temperate grassland/desert,FSR,iav,0.03359570060285691
+default,Boreal forest,CTL2010,FSR_mean_Boreal forest,FSR,mean,2.8758541024263833
+default,Boreal forest,CTL2010,FSR_iav_Boreal forest,FSR,iav,0.06339149586371268
+default,Tundra,CTL2010,FSR_mean_Tundra,FSR,mean,3.2466456040803306
+default,Tundra,CTL2010,FSR_iav_Tundra,FSR,iav,0.03873369141251557
+default,Ice sheet,CTL2010,FSDS_mean_Ice sheet,FSDS,mean,1.7874442545929097
+default,Ice sheet,CTL2010,FSDS_iav_Ice sheet,FSDS,iav,0.017722274294217237
+default,Tropical rain forest,CTL2010,FSDS_mean_Tropical rain forest,FSDS,mean,6.387212760375864
+default,Tropical rain forest,CTL2010,FSDS_iav_Tropical rain forest,FSDS,iav,0.058541423081682746
+default,Tropical seasonal forest/savanna,CTL2010,FSDS_mean_Tropical seasonal forest/savanna,FSDS,mean,55.627565076488544
+default,Tropical seasonal forest/savanna,CTL2010,FSDS_iav_Tropical seasonal forest/savanna,FSDS,iav,0.23376980317805682
+default,Subtropical desert,CTL2010,FSDS_mean_Subtropical desert,FSDS,mean,55.09169128918647
+default,Subtropical desert,CTL2010,FSDS_iav_Subtropical desert,FSDS,iav,0.22618730450410962
+default,Temperate rain forest,CTL2010,FSDS_mean_Temperate rain forest,FSDS,mean,0.2573822705127758
+default,Temperate rain forest,CTL2010,FSDS_iav_Temperate rain forest,FSDS,iav,0.004147689285532838
+default,Temperate seasonal forest,CTL2010,FSDS_mean_Temperate seasonal forest,FSDS,mean,11.152129970597706
+default,Temperate seasonal forest,CTL2010,FSDS_iav_Temperate seasonal forest,FSDS,iav,0.05485945496206571
+default,Woodland/shrubland,CTL2010,FSDS_mean_Woodland/shrubland,FSDS,mean,21.868370748376584
+default,Woodland/shrubland,CTL2010,FSDS_iav_Woodland/shrubland,FSDS,iav,0.07189349835009333
+default,Temperate grassland/desert,CTL2010,FSDS_mean_Temperate grassland/desert,FSDS,mean,13.70082291885384
+default,Temperate grassland/desert,CTL2010,FSDS_iav_Temperate grassland/desert,FSDS,iav,0.029106657743329576
+default,Boreal forest,CTL2010,FSDS_mean_Boreal forest,FSDS,mean,11.963304212352957
+default,Boreal forest,CTL2010,FSDS_iav_Boreal forest,FSDS,iav,0.10179433238168006
+default,Tundra,CTL2010,FSDS_mean_Tundra,FSDS,mean,9.167105405868535
+default,Tundra,CTL2010,FSDS_iav_Tundra,FSDS,iav,0.06045900820248317
+default,Ice sheet,CTL2010,TSA_mean_Ice sheet,TSA,mean,4.216671394971476
+default,Ice sheet,CTL2010,TSA_iav_Ice sheet,TSA,iav,0.008203269853553907
+default,Tropical rain forest,CTL2010,TSA_mean_Tropical rain forest,TSA,mean,9.554868762523954
+default,Tropical rain forest,CTL2010,TSA_iav_Tropical rain forest,TSA,iav,0.005117487623445925
+default,Tropical seasonal forest/savanna,CTL2010,TSA_mean_Tropical seasonal forest/savanna,TSA,mean,76.37275040764438
+default,Tropical seasonal forest/savanna,CTL2010,TSA_iav_Tropical seasonal forest/savanna,TSA,iav,0.0373441115522534
+default,Subtropical desert,CTL2010,TSA_mean_Subtropical desert,TSA,mean,67.99865891563987
+default,Subtropical desert,CTL2010,TSA_iav_Subtropical desert,TSA,iav,0.04352098695153754
+default,Temperate rain forest,CTL2010,TSA_mean_Temperate rain forest,TSA,mean,0.578352320665848
+default,Temperate rain forest,CTL2010,TSA_iav_Temperate rain forest,TSA,iav,0.0005369805220817246
+default,Temperate seasonal forest,CTL2010,TSA_mean_Temperate seasonal forest,TSA,mean,21.746596252062552
+default,Temperate seasonal forest,CTL2010,TSA_iav_Temperate seasonal forest,TSA,iav,0.01488755751004245
+default,Woodland/shrubland,CTL2010,TSA_mean_Woodland/shrubland,TSA,mean,38.37510078933118
+default,Woodland/shrubland,CTL2010,TSA_iav_Woodland/shrubland,TSA,iav,0.024849507305494956
+default,Temperate grassland/desert,CTL2010,TSA_mean_Temperate grassland/desert,TSA,mean,20.300008657968952
+default,Temperate grassland/desert,CTL2010,TSA_iav_Temperate grassland/desert,TSA,iav,0.015193239419220116
+default,Boreal forest,CTL2010,TSA_mean_Boreal forest,TSA,mean,24.99920130385222
+default,Boreal forest,CTL2010,TSA_iav_Boreal forest,TSA,iav,0.03489570403407925
+default,Tundra,CTL2010,TSA_mean_Tundra,TSA,mean,22.89838207780165
+default,Tundra,CTL2010,TSA_iav_Tundra,TSA,iav,0.033935531779255575
+default,Ice sheet,CTL2010,TSKIN_mean_Ice sheet,TSKIN,mean,4.19227270915032
+default,Ice sheet,CTL2010,TSKIN_iav_Ice sheet,TSKIN,iav,0.010618294433066462
+default,Tropical rain forest,CTL2010,TSKIN_mean_Tropical rain forest,TSKIN,mean,9.556921831919663
+default,Tropical rain forest,CTL2010,TSKIN_iav_Tropical rain forest,TSKIN,iav,0.004540045042511787
+default,Tropical seasonal forest/savanna,CTL2010,TSKIN_mean_Tropical seasonal forest/savanna,TSKIN,mean,76.63271809298244
+default,Tropical seasonal forest/savanna,CTL2010,TSKIN_iav_Tropical seasonal forest/savanna,TSKIN,iav,0.03686756925659117
+default,Subtropical desert,CTL2010,TSKIN_mean_Subtropical desert,TSKIN,mean,68.46500378380605
+default,Subtropical desert,CTL2010,TSKIN_iav_Subtropical desert,TSKIN,iav,0.04386236602197603
+default,Temperate rain forest,CTL2010,TSKIN_mean_Temperate rain forest,TSKIN,mean,0.5780554117417636
+default,Temperate rain forest,CTL2010,TSKIN_iav_Temperate rain forest,TSKIN,iav,0.0005559724543941527
+default,Temperate seasonal forest,CTL2010,TSKIN_mean_Temperate seasonal forest,TSKIN,mean,21.744663461137975
+default,Temperate seasonal forest,CTL2010,TSKIN_iav_Temperate seasonal forest,TSKIN,iav,0.015516605038264108
+default,Woodland/shrubland,CTL2010,TSKIN_mean_Woodland/shrubland,TSKIN,mean,38.46674235925182
+default,Woodland/shrubland,CTL2010,TSKIN_iav_Woodland/shrubland,TSKIN,iav,0.02672323571769011
+default,Temperate grassland/desert,CTL2010,TSKIN_mean_Temperate grassland/desert,TSKIN,mean,20.44359447450869
+default,Temperate grassland/desert,CTL2010,TSKIN_iav_Temperate grassland/desert,TSKIN,iav,0.014468124161303834
+default,Boreal forest,CTL2010,TSKIN_mean_Boreal forest,TSKIN,mean,25.01459116948456
+default,Boreal forest,CTL2010,TSKIN_iav_Boreal forest,TSKIN,iav,0.03388636447878393
+default,Tundra,CTL2010,TSKIN_mean_Tundra,TSKIN,mean,22.881748083891054
+default,Tundra,CTL2010,TSKIN_iav_Tundra,TSKIN,iav,0.03880494269212157
+default,Ice sheet,CTL2010,Q2M_mean_Ice sheet,Q2M,mean,2.326174864053516e-05
+default,Ice sheet,CTL2010,Q2M_iav_Ice sheet,Q2M,iav,6.549681289462723e-07
+default,Tropical rain forest,CTL2010,Q2M_mean_Tropical rain forest,Q2M,mean,0.0006208095178401242
+default,Tropical rain forest,CTL2010,Q2M_iav_Tropical rain forest,Q2M,iav,7.753588426333246e-06
+default,Tropical seasonal forest/savanna,CTL2010,Q2M_mean_Tropical seasonal forest/savanna,Q2M,mean,0.003898808784175899
+default,Tropical seasonal forest/savanna,CTL2010,Q2M_iav_Tropical seasonal forest/savanna,Q2M,iav,5.399344222558244e-05
+default,Subtropical desert,CTL2010,Q2M_mean_Subtropical desert,Q2M,mean,0.0019017271960502552
+default,Subtropical desert,CTL2010,Q2M_iav_Subtropical desert,Q2M,iav,4.622846606347423e-05
+default,Temperate rain forest,CTL2010,Q2M_mean_Temperate rain forest,Q2M,mean,1.3693995798053975e-05
+default,Temperate rain forest,CTL2010,Q2M_iav_Temperate rain forest,Q2M,iav,2.157045563868701e-07
+default,Temperate seasonal forest,CTL2010,Q2M_mean_Temperate seasonal forest,Q2M,mean,0.000537690685068848
+default,Temperate seasonal forest,CTL2010,Q2M_iav_Temperate seasonal forest,Q2M,iav,8.388092914608045e-06
+default,Woodland/shrubland,CTL2010,Q2M_mean_Woodland/shrubland,Q2M,mean,0.0008236317174545871
+default,Woodland/shrubland,CTL2010,Q2M_iav_Woodland/shrubland,Q2M,iav,2.0953557122685043e-05
+default,Temperate grassland/desert,CTL2010,Q2M_mean_Temperate grassland/desert,Q2M,mean,0.00032167317100883054
+default,Temperate grassland/desert,CTL2010,Q2M_iav_Temperate grassland/desert,Q2M,iav,6.815104513129198e-06
+default,Boreal forest,CTL2010,Q2M_mean_Boreal forest,Q2M,mean,0.0003442174633430047
+default,Boreal forest,CTL2010,Q2M_iav_Boreal forest,Q2M,iav,6.510557094418891e-06
+default,Tundra,CTL2010,Q2M_mean_Tundra,Q2M,mean,0.00021429810149129692
+default,Tundra,CTL2010,Q2M_iav_Tundra,Q2M,iav,5.369735698586042e-06
+default,Ice sheet,CTL2010,U10_mean_Ice sheet,U10,mean,0.06480332756360373
+default,Ice sheet,CTL2010,U10_iav_Ice sheet,U10,iav,0.001792059634681152
+default,Tropical rain forest,CTL2010,U10_mean_Tropical rain forest,U10,mean,0.05422408216462067
+default,Tropical rain forest,CTL2010,U10_iav_Tropical rain forest,U10,iav,0.0018623150947679244
+default,Tropical seasonal forest/savanna,CTL2010,U10_mean_Tropical seasonal forest/savanna,U10,mean,0.5059292807678569
+default,Tropical seasonal forest/savanna,CTL2010,U10_iav_Tropical seasonal forest/savanna,U10,iav,0.005175880603623707
+default,Subtropical desert,CTL2010,U10_mean_Subtropical desert,U10,mean,0.6326548753905407
+default,Subtropical desert,CTL2010,U10_iav_Subtropical desert,U10,iav,0.0034730880114066357
+default,Temperate rain forest,CTL2010,U10_mean_Temperate rain forest,U10,mean,0.006995776042900225
+default,Temperate rain forest,CTL2010,U10_iav_Temperate rain forest,U10,iav,0.0005851788503134604
+default,Temperate seasonal forest,CTL2010,U10_mean_Temperate seasonal forest,U10,mean,0.22751129995115962
+default,Temperate seasonal forest,CTL2010,U10_iav_Temperate seasonal forest,U10,iav,0.001969766299284095
+default,Woodland/shrubland,CTL2010,U10_mean_Woodland/shrubland,U10,mean,0.41363983419394207
+default,Woodland/shrubland,CTL2010,U10_iav_Woodland/shrubland,U10,iav,0.004753854501292927
+default,Temperate grassland/desert,CTL2010,U10_mean_Temperate grassland/desert,U10,mean,0.22734189008117692
+default,Temperate grassland/desert,CTL2010,U10_iav_Temperate grassland/desert,U10,iav,0.003366467655696972
+default,Boreal forest,CTL2010,U10_mean_Boreal forest,U10,mean,0.26648369229012536
+default,Boreal forest,CTL2010,U10_iav_Boreal forest,U10,iav,0.003698749765809594
+default,Tundra,CTL2010,U10_mean_Tundra,U10,mean,0.2642352943948051
+default,Tundra,CTL2010,U10_iav_Tundra,U10,iav,0.0019327135069920893
+default,Ice sheet,CTL2010,TAUX_mean_Ice sheet,TAUX,mean,-0.0005655471611500283
+default,Ice sheet,CTL2010,TAUX_iav_Ice sheet,TAUX,iav,3.271800184287682e-05
+default,Tropical rain forest,CTL2010,TAUX_mean_Tropical rain forest,TAUX,mean,-0.0034360911903516395
+default,Tropical rain forest,CTL2010,TAUX_iav_Tropical rain forest,TAUX,iav,0.0004769509425152969
+default,Tropical seasonal forest/savanna,CTL2010,TAUX_mean_Tropical seasonal forest/savanna,TAUX,mean,-0.017282631353139514
+default,Tropical seasonal forest/savanna,CTL2010,TAUX_iav_Tropical seasonal forest/savanna,TAUX,iav,0.00035615730277931205
+default,Subtropical desert,CTL2010,TAUX_mean_Subtropical desert,TAUX,mean,-0.00784056342161311
+default,Subtropical desert,CTL2010,TAUX_iav_Subtropical desert,TAUX,iav,0.0002536064708174277
+default,Temperate rain forest,CTL2010,TAUX_mean_Temperate rain forest,TAUX,mean,-0.0006003477183080996
+default,Temperate rain forest,CTL2010,TAUX_iav_Temperate rain forest,TAUX,iav,0.0001167872304798768
+default,Temperate seasonal forest,CTL2010,TAUX_mean_Temperate seasonal forest,TAUX,mean,-0.012085547081370811
+default,Temperate seasonal forest,CTL2010,TAUX_iav_Temperate seasonal forest,TAUX,iav,0.00027125496098616067
+default,Woodland/shrubland,CTL2010,TAUX_mean_Woodland/shrubland,TAUX,mean,-0.01122649814199874
+default,Woodland/shrubland,CTL2010,TAUX_iav_Woodland/shrubland,TAUX,iav,0.0005933088886461019
+default,Temperate grassland/desert,CTL2010,TAUX_mean_Temperate grassland/desert,TAUX,mean,-0.0035000537072224737
+default,Temperate grassland/desert,CTL2010,TAUX_iav_Temperate grassland/desert,TAUX,iav,0.00014127005469017902
+default,Boreal forest,CTL2010,TAUX_mean_Boreal forest,TAUX,mean,-0.009728805605785875
+default,Boreal forest,CTL2010,TAUX_iav_Boreal forest,TAUX,iav,0.0002017322162408628
+default,Tundra,CTL2010,TAUX_mean_Tundra,TAUX,mean,-0.0035971331237595536
+default,Tundra,CTL2010,TAUX_iav_Tundra,TAUX,iav,9.28123880030495e-05
+default,Ice sheet,CTL2010,TAUY_mean_Ice sheet,TAUY,mean,-0.0005655471611500283
+default,Ice sheet,CTL2010,TAUY_iav_Ice sheet,TAUY,iav,3.271800184287682e-05
+default,Tropical rain forest,CTL2010,TAUY_mean_Tropical rain forest,TAUY,mean,-0.0034360911903516395
+default,Tropical rain forest,CTL2010,TAUY_iav_Tropical rain forest,TAUY,iav,0.0004769509425152969
+default,Tropical seasonal forest/savanna,CTL2010,TAUY_mean_Tropical seasonal forest/savanna,TAUY,mean,-0.017282631353139514
+default,Tropical seasonal forest/savanna,CTL2010,TAUY_iav_Tropical seasonal forest/savanna,TAUY,iav,0.00035615730277931205
+default,Subtropical desert,CTL2010,TAUY_mean_Subtropical desert,TAUY,mean,-0.00784056342161311
+default,Subtropical desert,CTL2010,TAUY_iav_Subtropical desert,TAUY,iav,0.0002536064708174277
+default,Temperate rain forest,CTL2010,TAUY_mean_Temperate rain forest,TAUY,mean,-0.0006003477183080996
+default,Temperate rain forest,CTL2010,TAUY_iav_Temperate rain forest,TAUY,iav,0.0001167872304798768
+default,Temperate seasonal forest,CTL2010,TAUY_mean_Temperate seasonal forest,TAUY,mean,-0.012085547081370811
+default,Temperate seasonal forest,CTL2010,TAUY_iav_Temperate seasonal forest,TAUY,iav,0.00027125496098616067
+default,Woodland/shrubland,CTL2010,TAUY_mean_Woodland/shrubland,TAUY,mean,-0.01122649814199874
+default,Woodland/shrubland,CTL2010,TAUY_iav_Woodland/shrubland,TAUY,iav,0.0005933088886461019
+default,Temperate grassland/desert,CTL2010,TAUY_mean_Temperate grassland/desert,TAUY,mean,-0.0035000537072224737
+default,Temperate grassland/desert,CTL2010,TAUY_iav_Temperate grassland/desert,TAUY,iav,0.00014127005469017902
+default,Boreal forest,CTL2010,TAUY_mean_Boreal forest,TAUY,mean,-0.009728805605785875
+default,Boreal forest,CTL2010,TAUY_iav_Boreal forest,TAUY,iav,0.0002017322162408628
+default,Tundra,CTL2010,TAUY_mean_Tundra,TAUY,mean,-0.0035971331237595536
+default,Tundra,CTL2010,TAUY_iav_Tundra,TAUY,iav,9.28123880030495e-05
+default,Ice sheet,CTL2010,GPP_mean_Ice sheet,GPP,mean,0.0
+default,Ice sheet,CTL2010,GPP_iav_Ice sheet,GPP,iav,0.0
+default,Tropical rain forest,CTL2010,GPP_mean_Tropical rain forest,GPP,mean,3.106732782060339e-06
+default,Tropical rain forest,CTL2010,GPP_iav_Tropical rain forest,GPP,iav,4.198930700142606e-08
+default,Tropical seasonal forest/savanna,CTL2010,GPP_mean_Tropical seasonal forest/savanna,GPP,mean,1.514808379174362e-05
+default,Tropical seasonal forest/savanna,CTL2010,GPP_iav_Tropical seasonal forest/savanna,GPP,iav,2.0592685467297574e-07
+default,Subtropical desert,CTL2010,GPP_mean_Subtropical desert,GPP,mean,1.9534226012487316e-06
+default,Subtropical desert,CTL2010,GPP_iav_Subtropical desert,GPP,iav,2.2655171324056786e-07
+default,Temperate rain forest,CTL2010,GPP_mean_Temperate rain forest,GPP,mean,1.0287783944905449e-07
+default,Temperate rain forest,CTL2010,GPP_iav_Temperate rain forest,GPP,iav,1.7809513057245129e-09
+default,Temperate seasonal forest,CTL2010,GPP_mean_Temperate seasonal forest,GPP,mean,3.4970746143947855e-06
+default,Temperate seasonal forest,CTL2010,GPP_iav_Temperate seasonal forest,GPP,iav,4.303659157799985e-08
+default,Woodland/shrubland,CTL2010,GPP_mean_Woodland/shrubland,GPP,mean,4.099014707159251e-06
+default,Woodland/shrubland,CTL2010,GPP_iav_Woodland/shrubland,GPP,iav,1.9250702207418195e-07
+default,Temperate grassland/desert,CTL2010,GPP_mean_Temperate grassland/desert,GPP,mean,5.687211758557665e-07
+default,Temperate grassland/desert,CTL2010,GPP_iav_Temperate grassland/desert,GPP,iav,5.914426457703082e-08
+default,Boreal forest,CTL2010,GPP_mean_Boreal forest,GPP,mean,2.8272202105724004e-06
+default,Boreal forest,CTL2010,GPP_iav_Boreal forest,GPP,iav,6.1347160181206e-08
+default,Tundra,CTL2010,GPP_mean_Tundra,GPP,mean,1.4319367049940029e-06
+default,Tundra,CTL2010,GPP_iav_Tundra,GPP,iav,4.684865986452929e-08
+default,Ice sheet,CTL2010,HR_mean_Ice sheet,HR,mean,5.594899864616218e-12
+default,Ice sheet,CTL2010,HR_iav_Ice sheet,HR,iav,3.695186118518299e-12
+default,Tropical rain forest,CTL2010,HR_mean_Tropical rain forest,HR,mean,1.3151379895694105e-06
+default,Tropical rain forest,CTL2010,HR_iav_Tropical rain forest,HR,iav,3.699721835342961e-08
+default,Tropical seasonal forest/savanna,CTL2010,HR_mean_Tropical seasonal forest/savanna,HR,mean,6.034282273569284e-06
+default,Tropical seasonal forest/savanna,CTL2010,HR_iav_Tropical seasonal forest/savanna,HR,iav,6.467194274360966e-08
+default,Subtropical desert,CTL2010,HR_mean_Subtropical desert,HR,mean,5.99231403187531e-07
+default,Subtropical desert,CTL2010,HR_iav_Subtropical desert,HR,iav,3.504121647359708e-08
+default,Temperate rain forest,CTL2010,HR_mean_Temperate rain forest,HR,mean,4.513206822526372e-08
+default,Temperate rain forest,CTL2010,HR_iav_Temperate rain forest,HR,iav,7.061041616660099e-10
+default,Temperate seasonal forest,CTL2010,HR_mean_Temperate seasonal forest,HR,mean,1.5488565502941587e-06
+default,Temperate seasonal forest,CTL2010,HR_iav_Temperate seasonal forest,HR,iav,3.2303964767624685e-08
+default,Woodland/shrubland,CTL2010,HR_mean_Woodland/shrubland,HR,mean,1.64294908119151e-06
+default,Woodland/shrubland,CTL2010,HR_iav_Woodland/shrubland,HR,iav,7.194829021575428e-08
+default,Temperate grassland/desert,CTL2010,HR_mean_Temperate grassland/desert,HR,mean,2.397709522980173e-07
+default,Temperate grassland/desert,CTL2010,HR_iav_Temperate grassland/desert,HR,iav,1.1262917198273363e-08
+default,Boreal forest,CTL2010,HR_mean_Boreal forest,HR,mean,1.397651417431576e-06
+default,Boreal forest,CTL2010,HR_iav_Boreal forest,HR,iav,4.411167155209257e-08
+default,Tundra,CTL2010,HR_mean_Tundra,HR,mean,7.765607775661334e-07
+default,Tundra,CTL2010,HR_iav_Tundra,HR,iav,4.437304608482029e-08
+default,Ice sheet,CTL2010,AR_mean_Ice sheet,AR,mean,2.334352385625257e-20
+default,Ice sheet,CTL2010,AR_iav_Ice sheet,AR,iav,4.7408758120680636e-20
+default,Tropical rain forest,CTL2010,AR_mean_Tropical rain forest,AR,mean,1.7906677162265087e-06
+default,Tropical rain forest,CTL2010,AR_iav_Tropical rain forest,AR,iav,2.4194424547608737e-08
+default,Tropical seasonal forest/savanna,CTL2010,AR_mean_Tropical seasonal forest/savanna,AR,mean,8.787028564335758e-06
+default,Tropical seasonal forest/savanna,CTL2010,AR_iav_Tropical seasonal forest/savanna,AR,iav,1.1996947313077575e-07
+default,Subtropical desert,CTL2010,AR_mean_Subtropical desert,AR,mean,1.264084197315332e-06
+default,Subtropical desert,CTL2010,AR_iav_Subtropical desert,AR,iav,1.5531707543658248e-07
+default,Temperate rain forest,CTL2010,AR_mean_Temperate rain forest,AR,mean,5.755136350931148e-08
+default,Temperate rain forest,CTL2010,AR_iav_Temperate rain forest,AR,iav,1.0789252372525866e-09
+default,Temperate seasonal forest,CTL2010,AR_mean_Temperate seasonal forest,AR,mean,1.923894596514374e-06
+default,Temperate seasonal forest,CTL2010,AR_iav_Temperate seasonal forest,AR,iav,3.442717235333884e-08
+default,Woodland/shrubland,CTL2010,AR_mean_Woodland/shrubland,AR,mean,2.370202617307215e-06
+default,Woodland/shrubland,CTL2010,AR_iav_Woodland/shrubland,AR,iav,1.3730093025642496e-07
+default,Temperate grassland/desert,CTL2010,AR_mean_Temperate grassland/desert,AR,mean,3.0885439920154274e-07
+default,Temperate grassland/desert,CTL2010,AR_iav_Temperate grassland/desert,AR,iav,3.2186889451513497e-08
+default,Boreal forest,CTL2010,AR_mean_Boreal forest,AR,mean,1.3873854316023514e-06
+default,Boreal forest,CTL2010,AR_iav_Boreal forest,AR,iav,3.555594767406391e-08
+default,Tundra,CTL2010,AR_mean_Tundra,AR,mean,6.41271276685166e-07
+default,Tundra,CTL2010,AR_iav_Tundra,AR,iav,3.052417243725988e-08
+default,Ice sheet,CTL2010,ALBEDO_allSW_mean_Ice sheet,ALBEDO_allSW,mean,0.010451378152043831
+default,Ice sheet,CTL2010,ALBEDO_allSW_iav_Ice sheet,ALBEDO_allSW,iav,6.340185797359081e-05
+default,Tropical rain forest,CTL2010,ALBEDO_allSW_mean_Tropical rain forest,ALBEDO_allSW,mean,0.005549057535919264
+default,Tropical rain forest,CTL2010,ALBEDO_allSW_iav_Tropical rain forest,ALBEDO_allSW,iav,3.817687355526495e-06
+default,Tropical seasonal forest/savanna,CTL2010,ALBEDO_allSW_mean_Tropical seasonal forest/savanna,ALBEDO_allSW,mean,0.04312367831634962
+default,Tropical seasonal forest/savanna,CTL2010,ALBEDO_allSW_iav_Tropical seasonal forest/savanna,ALBEDO_allSW,iav,7.727725115550176e-05
+default,Subtropical desert,CTL2010,ALBEDO_allSW_mean_Subtropical desert,ALBEDO_allSW,mean,0.06346632932454657
+default,Subtropical desert,CTL2010,ALBEDO_allSW_iav_Subtropical desert,ALBEDO_allSW,iav,0.0002862583481506065
+default,Temperate rain forest,CTL2010,ALBEDO_allSW_mean_Temperate rain forest,ALBEDO_allSW,mean,0.0004193354773863924
+default,Temperate rain forest,CTL2010,ALBEDO_allSW_iav_Temperate rain forest,ALBEDO_allSW,iav,1.5061320640792487e-05
+default,Temperate seasonal forest,CTL2010,ALBEDO_allSW_mean_Temperate seasonal forest,ALBEDO_allSW,mean,0.016535768858512045
+default,Temperate seasonal forest,CTL2010,ALBEDO_allSW_iav_Temperate seasonal forest,ALBEDO_allSW,iav,0.00037083962879834025
+default,Woodland/shrubland,CTL2010,ALBEDO_allSW_mean_Woodland/shrubland,ALBEDO_allSW,mean,0.030879366526979785
+default,Woodland/shrubland,CTL2010,ALBEDO_allSW_iav_Woodland/shrubland,ALBEDO_allSW,iav,0.0008082412962191472
+default,Temperate grassland/desert,CTL2010,ALBEDO_allSW_mean_Temperate grassland/desert,ALBEDO_allSW,mean,0.016400686599856256
+default,Temperate grassland/desert,CTL2010,ALBEDO_allSW_iav_Temperate grassland/desert,ALBEDO_allSW,iav,0.00029714474831211486
+default,Boreal forest,CTL2010,ALBEDO_allSW_mean_Boreal forest,ALBEDO_allSW,mean,0.027263186731651855
+default,Boreal forest,CTL2010,ALBEDO_allSW_iav_Boreal forest,ALBEDO_allSW,iav,0.0003683082579357801
+default,Tundra,CTL2010,ALBEDO_allSW_mean_Tundra,ALBEDO_allSW,mean,0.03722054285878014
+default,Tundra,CTL2010,ALBEDO_allSW_iav_Tundra,ALBEDO_allSW,iav,0.0002708506265185696
+default,Ice sheet,CTL2010,ET_mean_Ice sheet,ET,mean,-5.186349530151815e-09
+default,Ice sheet,CTL2010,ET_iav_Ice sheet,ET,iav,3.315158354827865e-09
+default,Tropical rain forest,CTL2010,ET_mean_Tropical rain forest,ET,mean,1.3020297575317754e-06
+default,Tropical rain forest,CTL2010,ET_iav_Tropical rain forest,ET,iav,3.942387197818049e-08
+default,Tropical seasonal forest/savanna,CTL2010,ET_mean_Tropical seasonal forest/savanna,ET,mean,7.551490102255985e-06
+default,Tropical seasonal forest/savanna,CTL2010,ET_iav_Tropical seasonal forest/savanna,ET,iav,9.908811435187669e-08
+default,Subtropical desert,CTL2010,ET_mean_Subtropical desert,ET,mean,1.5898111424933204e-06
+default,Subtropical desert,CTL2010,ET_iav_Subtropical desert,ET,iav,1.3459555584784678e-07
+default,Temperate rain forest,CTL2010,ET_mean_Temperate rain forest,ET,mean,2.8978423147452146e-08
+default,Temperate rain forest,CTL2010,ET_iav_Temperate rain forest,ET,iav,8.263076655712263e-10
+default,Temperate seasonal forest,CTL2010,ET_mean_Temperate seasonal forest,ET,mean,1.2701238203968984e-06
+default,Temperate seasonal forest,CTL2010,ET_iav_Temperate seasonal forest,ET,iav,2.2046280536820743e-08
+default,Woodland/shrubland,CTL2010,ET_mean_Woodland/shrubland,ET,mean,1.9871815859018286e-06
+default,Woodland/shrubland,CTL2010,ET_iav_Woodland/shrubland,ET,iav,5.361654332279859e-08
+default,Temperate grassland/desert,CTL2010,ET_mean_Temperate grassland/desert,ET,mean,4.818482425254731e-07
+default,Temperate grassland/desert,CTL2010,ET_iav_Temperate grassland/desert,ET,iav,2.766562583739824e-08
+default,Boreal forest,CTL2010,ET_mean_Boreal forest,ET,mean,9.215029933327275e-07
+default,Boreal forest,CTL2010,ET_iav_Boreal forest,ET,iav,2.5161837379216543e-08
+default,Tundra,CTL2010,ET_mean_Tundra,ET,mean,5.492318964025802e-07
+default,Tundra,CTL2010,ET_iav_Tundra,ET,iav,1.671548745924031e-08
+default,Ice sheet,C285,EFLX_LH_TOT_mean_Ice sheet,EFLX_LH_TOT,mean,-0.015488190372176589
+default,Ice sheet,C285,EFLX_LH_TOT_iav_Ice sheet,EFLX_LH_TOT,iav,0.009264014966204742
+default,Tropical rain forest,C285,EFLX_LH_TOT_mean_Tropical rain forest,EFLX_LH_TOT,mean,3.199653085689118
+default,Tropical rain forest,C285,EFLX_LH_TOT_iav_Tropical rain forest,EFLX_LH_TOT,iav,0.09272494553255085
+default,Tropical seasonal forest/savanna,C285,EFLX_LH_TOT_mean_Tropical seasonal forest/savanna,EFLX_LH_TOT,mean,18.824467595571452
+default,Tropical seasonal forest/savanna,C285,EFLX_LH_TOT_iav_Tropical seasonal forest/savanna,EFLX_LH_TOT,iav,0.24000294681857193
+default,Subtropical desert,C285,EFLX_LH_TOT_mean_Subtropical desert,EFLX_LH_TOT,mean,3.966566527017169
+default,Subtropical desert,C285,EFLX_LH_TOT_iav_Subtropical desert,EFLX_LH_TOT,iav,0.30952804746208906
+default,Temperate rain forest,C285,EFLX_LH_TOT_mean_Temperate rain forest,EFLX_LH_TOT,mean,0.0734553873770307
+default,Temperate rain forest,C285,EFLX_LH_TOT_iav_Temperate rain forest,EFLX_LH_TOT,iav,0.001991716200413952
+default,Temperate seasonal forest,C285,EFLX_LH_TOT_mean_Temperate seasonal forest,EFLX_LH_TOT,mean,3.202695346635167
+default,Temperate seasonal forest,C285,EFLX_LH_TOT_iav_Temperate seasonal forest,EFLX_LH_TOT,iav,0.06067747684136636
+default,Woodland/shrubland,C285,EFLX_LH_TOT_mean_Woodland/shrubland,EFLX_LH_TOT,mean,4.905917127682262
+default,Woodland/shrubland,C285,EFLX_LH_TOT_iav_Woodland/shrubland,EFLX_LH_TOT,iav,0.12573744651358076
+default,Temperate grassland/desert,C285,EFLX_LH_TOT_mean_Temperate grassland/desert,EFLX_LH_TOT,mean,1.2055313038915911
+default,Temperate grassland/desert,C285,EFLX_LH_TOT_iav_Temperate grassland/desert,EFLX_LH_TOT,iav,0.06520147452983582
+default,Boreal forest,C285,EFLX_LH_TOT_mean_Boreal forest,EFLX_LH_TOT,mean,2.3735855183364967
+default,Boreal forest,C285,EFLX_LH_TOT_iav_Boreal forest,EFLX_LH_TOT,iav,0.06292401599745694
+default,Tundra,C285,EFLX_LH_TOT_mean_Tundra,EFLX_LH_TOT,mean,1.3948495319085235
+default,Tundra,C285,EFLX_LH_TOT_iav_Tundra,EFLX_LH_TOT,iav,0.049071372167591096
+default,Ice sheet,C285,FSH_mean_Ice sheet,FSH,mean,-0.23536038760765607
+default,Ice sheet,C285,FSH_iav_Ice sheet,FSH,iav,0.03222765041444566
+default,Tropical rain forest,C285,FSH_mean_Tropical rain forest,FSH,mean,0.7048101027864928
+default,Tropical rain forest,C285,FSH_iav_Tropical rain forest,FSH,iav,0.05785618794755867
+default,Tropical seasonal forest/savanna,C285,FSH_mean_Tropical seasonal forest/savanna,FSH,mean,10.2533540240308
+default,Tropical seasonal forest/savanna,C285,FSH_iav_Tropical seasonal forest/savanna,FSH,iav,0.17261208679248338
+default,Subtropical desert,C285,FSH_mean_Subtropical desert,FSH,mean,11.894377802056573
+default,Subtropical desert,C285,FSH_iav_Subtropical desert,FSH,iav,0.11636559047172379
+default,Temperate rain forest,C285,FSH_mean_Temperate rain forest,FSH,mean,0.028020044673266124
+default,Temperate rain forest,C285,FSH_iav_Temperate rain forest,FSH,iav,0.003984778850101576
+default,Temperate seasonal forest,C285,FSH_mean_Temperate seasonal forest,FSH,mean,1.5753332092255727
+default,Temperate seasonal forest,C285,FSH_iav_Temperate seasonal forest,FSH,iav,0.07167265783780685
+default,Woodland/shrubland,C285,FSH_mean_Woodland/shrubland,FSH,mean,4.003102416812025
+default,Woodland/shrubland,C285,FSH_iav_Woodland/shrubland,FSH,iav,0.1134390615175159
+default,Temperate grassland/desert,C285,FSH_mean_Temperate grassland/desert,FSH,mean,3.1684879005323383
+default,Temperate grassland/desert,C285,FSH_iav_Temperate grassland/desert,FSH,iav,0.04470978195644501
+default,Boreal forest,C285,FSH_mean_Boreal forest,FSH,mean,1.857293336837199
+default,Boreal forest,C285,FSH_iav_Boreal forest,FSH,iav,0.05992700450652219
+default,Tundra,C285,FSH_mean_Tundra,FSH,mean,0.8426759939478883
+default,Tundra,C285,FSH_iav_Tundra,FSH,iav,0.12137576421225243
+default,Ice sheet,C285,QVEGT_mean_Ice sheet,QVEGT,mean,9.38357266293343e-27
+default,Ice sheet,C285,QVEGT_iav_Ice sheet,QVEGT,iav,1.2945011479452151e-27
+default,Tropical rain forest,C285,QVEGT_mean_Tropical rain forest,QVEGT,mean,7.904419519123346e-07
+default,Tropical rain forest,C285,QVEGT_iav_Tropical rain forest,QVEGT,iav,1.2956336629415338e-08
+default,Tropical seasonal forest/savanna,C285,QVEGT_mean_Tropical seasonal forest/savanna,QVEGT,mean,4.6833835105047194e-06
+default,Tropical seasonal forest/savanna,C285,QVEGT_iav_Tropical seasonal forest/savanna,QVEGT,iav,3.887208309033027e-08
+default,Subtropical desert,C285,QVEGT_mean_Subtropical desert,QVEGT,mean,7.998650038996601e-07
+default,Subtropical desert,C285,QVEGT_iav_Subtropical desert,QVEGT,iav,6.916766264189307e-08
+default,Temperate rain forest,C285,QVEGT_mean_Temperate rain forest,QVEGT,mean,1.468550111187876e-08
+default,Temperate rain forest,C285,QVEGT_iav_Temperate rain forest,QVEGT,iav,2.4017195912661375e-10
+default,Temperate seasonal forest,C285,QVEGT_mean_Temperate seasonal forest,QVEGT,mean,8.235749161521154e-07
+default,Temperate seasonal forest,C285,QVEGT_iav_Temperate seasonal forest,QVEGT,iav,2.3527702044373927e-08
+default,Woodland/shrubland,C285,QVEGT_mean_Woodland/shrubland,QVEGT,mean,1.2465980545905556e-06
+default,Woodland/shrubland,C285,QVEGT_iav_Woodland/shrubland,QVEGT,iav,5.4022317269925145e-08
+default,Temperate grassland/desert,C285,QVEGT_mean_Temperate grassland/desert,QVEGT,mean,2.255988114412543e-07
+default,Temperate grassland/desert,C285,QVEGT_iav_Temperate grassland/desert,QVEGT,iav,2.3654481935050135e-08
+default,Boreal forest,C285,QVEGT_mean_Boreal forest,QVEGT,mean,6.056194203988069e-07
+default,Boreal forest,C285,QVEGT_iav_Boreal forest,QVEGT,iav,1.8968079718430678e-08
+default,Tundra,C285,QVEGT_mean_Tundra,QVEGT,mean,3.135442845584631e-07
+default,Tundra,C285,QVEGT_iav_Tundra,QVEGT,iav,1.2652201547152535e-08
+default,Ice sheet,C285,QVEGE_mean_Ice sheet,QVEGE,mean,-4.061339530755006e-11
+default,Ice sheet,C285,QVEGE_iav_Ice sheet,QVEGE,iav,1.425198341675405e-11
+default,Tropical rain forest,C285,QVEGE_mean_Tropical rain forest,QVEGE,mean,3.912041878294928e-07
+default,Tropical rain forest,C285,QVEGE_iav_Tropical rain forest,QVEGE,iav,2.7627633903791576e-08
+default,Tropical seasonal forest/savanna,C285,QVEGE_mean_Tropical seasonal forest/savanna,QVEGE,mean,1.3878767993719992e-06
+default,Tropical seasonal forest/savanna,C285,QVEGE_iav_Tropical seasonal forest/savanna,QVEGE,iav,4.960834143091459e-08
+default,Subtropical desert,C285,QVEGE_mean_Subtropical desert,QVEGE,mean,9.294681186523618e-08
+default,Subtropical desert,C285,QVEGE_iav_Subtropical desert,QVEGE,iav,1.0366923425162373e-08
+default,Temperate rain forest,C285,QVEGE_mean_Temperate rain forest,QVEGE,mean,1.1082739382027675e-08
+default,Temperate rain forest,C285,QVEGE_iav_Temperate rain forest,QVEGE,iav,6.839001139800584e-10
+default,Temperate seasonal forest,C285,QVEGE_mean_Temperate seasonal forest,QVEGE,mean,2.1670373385348513e-07
+default,Temperate seasonal forest,C285,QVEGE_iav_Temperate seasonal forest,QVEGE,iav,9.941058484662152e-09
+default,Woodland/shrubland,C285,QVEGE_mean_Woodland/shrubland,QVEGE,mean,2.3609036335022966e-07
+default,Woodland/shrubland,C285,QVEGE_iav_Woodland/shrubland,QVEGE,iav,8.03343625853743e-09
+default,Temperate grassland/desert,C285,QVEGE_mean_Temperate grassland/desert,QVEGE,mean,1.9112857091824954e-08
+default,Temperate grassland/desert,C285,QVEGE_iav_Temperate grassland/desert,QVEGE,iav,2.065850816333503e-09
+default,Boreal forest,C285,QVEGE_mean_Boreal forest,QVEGE,mean,1.282798191242481e-07
+default,Boreal forest,C285,QVEGE_iav_Boreal forest,QVEGE,iav,4.894650443539561e-09
+default,Tundra,C285,QVEGE_mean_Tundra,QVEGE,mean,4.076658183863867e-08
+default,Tundra,C285,QVEGE_iav_Tundra,QVEGE,iav,2.3338046451938426e-09
+default,Ice sheet,C285,QSOIL_mean_Ice sheet,QSOIL,mean,-5.144393959841982e-09
+default,Ice sheet,C285,QSOIL_iav_Ice sheet,QSOIL,iav,3.317479737204507e-09
+default,Tropical rain forest,C285,QSOIL_mean_Tropical rain forest,QSOIL,mean,9.770335578631371e-08
+default,Tropical rain forest,C285,QSOIL_iav_Tropical rain forest,QSOIL,iav,1.7755970294967476e-09
+default,Tropical seasonal forest/savanna,C285,QSOIL_mean_Tropical seasonal forest/savanna,QSOIL,mean,1.4555160273848976e-06
+default,Tropical seasonal forest/savanna,C285,QSOIL_iav_Tropical seasonal forest/savanna,QSOIL,iav,4.2325181023706095e-08
+default,Subtropical desert,C285,QSOIL_mean_Subtropical desert,QSOIL,mean,6.93169646447411e-07
+default,Subtropical desert,C285,QSOIL_iav_Subtropical desert,QSOIL,iav,5.0874408340218546e-08
+default,Temperate rain forest,C285,QSOIL_mean_Temperate rain forest,QSOIL,mean,3.5912269009502585e-09
+default,Temperate rain forest,C285,QSOIL_iav_Temperate rain forest,QSOIL,iav,1.9199278501852274e-10
+default,Temperate seasonal forest,C285,QSOIL_mean_Temperate seasonal forest,QSOIL,mean,2.3943964315607223e-07
+default,Temperate seasonal forest,C285,QSOIL_iav_Temperate seasonal forest,QSOIL,iav,6.4566114495635735e-09
+default,Woodland/shrubland,C285,QSOIL_mean_Woodland/shrubland,QSOIL,mean,4.786985951738099e-07
+default,Woodland/shrubland,C285,QSOIL_iav_Woodland/shrubland,QSOIL,iav,1.572914413682156e-08
+default,Temperate grassland/desert,C285,QSOIL_mean_Temperate grassland/desert,QSOIL,mean,2.3695402064729764e-07
+default,Temperate grassland/desert,C285,QSOIL_iav_Temperate grassland/desert,QSOIL,iav,6.46502138390619e-09
+default,Boreal forest,C285,QSOIL_mean_Boreal forest,QSOIL,mean,2.1489121704410364e-07
+default,Boreal forest,C285,QSOIL_iav_Boreal forest,QSOIL,iav,6.790999021107496e-09
+default,Tundra,C285,QSOIL_mean_Tundra,QSOIL,mean,2.0362302822465558e-07
+default,Tundra,C285,QSOIL_iav_Tundra,QSOIL,iav,1.0384373530003165e-08
+default,Ice sheet,C285,FSR_mean_Ice sheet,FSR,mean,1.3713365877442136
+default,Ice sheet,C285,FSR_iav_Ice sheet,FSR,iav,0.019204690118889638
+default,Tropical rain forest,C285,FSR_mean_Tropical rain forest,FSR,mean,1.0969786839130538
+default,Tropical rain forest,C285,FSR_iav_Tropical rain forest,FSR,iav,0.009949815608835158
+default,Tropical seasonal forest/savanna,C285,FSR_mean_Tropical seasonal forest/savanna,FSR,mean,9.180007136376831
+default,Tropical seasonal forest/savanna,C285,FSR_iav_Tropical seasonal forest/savanna,FSR,iav,0.053384148966770455
+default,Subtropical desert,C285,FSR_mean_Subtropical desert,FSR,mean,15.518938851798813
+default,Subtropical desert,C285,FSR_iav_Subtropical desert,FSR,iav,0.11889213325174168
+default,Temperate rain forest,C285,FSR_mean_Temperate rain forest,FSR,mean,0.047208942460121875
+default,Temperate rain forest,C285,FSR_iav_Temperate rain forest,FSR,iav,0.0014411999675672772
+default,Temperate seasonal forest,C285,FSR_mean_Temperate seasonal forest,FSR,mean,2.1129638320346396
+default,Temperate seasonal forest,C285,FSR_iav_Temperate seasonal forest,FSR,iav,0.052359290406119384
+default,Woodland/shrubland,C285,FSR_mean_Woodland/shrubland,FSR,mean,4.342911886520508
+default,Woodland/shrubland,C285,FSR_iav_Woodland/shrubland,FSR,iav,0.09236385411480082
+default,Temperate grassland/desert,C285,FSR_mean_Temperate grassland/desert,FSR,mean,2.955356831750316
+default,Temperate grassland/desert,C285,FSR_iav_Temperate grassland/desert,FSR,iav,0.03051401634392529
+default,Boreal forest,C285,FSR_mean_Boreal forest,FSR,mean,2.8644835647888915
+default,Boreal forest,C285,FSR_iav_Boreal forest,FSR,iav,0.06337780397557469
+default,Tundra,C285,FSR_mean_Tundra,FSR,mean,3.2486637491765307
+default,Tundra,C285,FSR_iav_Tundra,FSR,iav,0.037428892507528254
+default,Ice sheet,C285,FSDS_mean_Ice sheet,FSDS,mean,1.7874442545929097
+default,Ice sheet,C285,FSDS_iav_Ice sheet,FSDS,iav,0.017722274294217237
+default,Tropical rain forest,C285,FSDS_mean_Tropical rain forest,FSDS,mean,6.387212760375864
+default,Tropical rain forest,C285,FSDS_iav_Tropical rain forest,FSDS,iav,0.058541423081682746
+default,Tropical seasonal forest/savanna,C285,FSDS_mean_Tropical seasonal forest/savanna,FSDS,mean,55.627565076488544
+default,Tropical seasonal forest/savanna,C285,FSDS_iav_Tropical seasonal forest/savanna,FSDS,iav,0.23376980317805682
+default,Subtropical desert,C285,FSDS_mean_Subtropical desert,FSDS,mean,55.09169128918647
+default,Subtropical desert,C285,FSDS_iav_Subtropical desert,FSDS,iav,0.22618730450410962
+default,Temperate rain forest,C285,FSDS_mean_Temperate rain forest,FSDS,mean,0.2573822705127758
+default,Temperate rain forest,C285,FSDS_iav_Temperate rain forest,FSDS,iav,0.004147689285532838
+default,Temperate seasonal forest,C285,FSDS_mean_Temperate seasonal forest,FSDS,mean,11.152129970597706
+default,Temperate seasonal forest,C285,FSDS_iav_Temperate seasonal forest,FSDS,iav,0.05485945496206571
+default,Woodland/shrubland,C285,FSDS_mean_Woodland/shrubland,FSDS,mean,21.868370748376584
+default,Woodland/shrubland,C285,FSDS_iav_Woodland/shrubland,FSDS,iav,0.07189349835009333
+default,Temperate grassland/desert,C285,FSDS_mean_Temperate grassland/desert,FSDS,mean,13.70082291885384
+default,Temperate grassland/desert,C285,FSDS_iav_Temperate grassland/desert,FSDS,iav,0.029106657743329576
+default,Boreal forest,C285,FSDS_mean_Boreal forest,FSDS,mean,11.963304212352957
+default,Boreal forest,C285,FSDS_iav_Boreal forest,FSDS,iav,0.10179433238168006
+default,Tundra,C285,FSDS_mean_Tundra,FSDS,mean,9.167105405868535
+default,Tundra,C285,FSDS_iav_Tundra,FSDS,iav,0.06045900820248317
+default,Ice sheet,C285,TSA_mean_Ice sheet,TSA,mean,4.216672246586126
+default,Ice sheet,C285,TSA_iav_Ice sheet,TSA,iav,0.008203236746031795
+default,Tropical rain forest,C285,TSA_mean_Tropical rain forest,TSA,mean,9.557493050584723
+default,Tropical rain forest,C285,TSA_iav_Tropical rain forest,TSA,iav,0.005255674540669618
+default,Tropical seasonal forest/savanna,C285,TSA_mean_Tropical seasonal forest/savanna,TSA,mean,76.38954435079845
+default,Tropical seasonal forest/savanna,C285,TSA_iav_Tropical seasonal forest/savanna,TSA,iav,0.037566429795146045
+default,Subtropical desert,C285,TSA_mean_Subtropical desert,TSA,mean,67.99952477946536
+default,Subtropical desert,C285,TSA_iav_Subtropical desert,TSA,iav,0.0433901890812349
+default,Temperate rain forest,C285,TSA_mean_Temperate rain forest,TSA,mean,0.5784250834774528
+default,Temperate rain forest,C285,TSA_iav_Temperate rain forest,TSA,iav,0.0005387654862197482
+default,Temperate seasonal forest,C285,TSA_mean_Temperate seasonal forest,TSA,mean,21.74840151343999
+default,Temperate seasonal forest,C285,TSA_iav_Temperate seasonal forest,TSA,iav,0.014882897549493724
+default,Woodland/shrubland,C285,TSA_mean_Woodland/shrubland,TSA,mean,38.380267353267435
+default,Woodland/shrubland,C285,TSA_iav_Woodland/shrubland,TSA,iav,0.024945907739767726
+default,Temperate grassland/desert,C285,TSA_mean_Temperate grassland/desert,TSA,mean,20.300597400830366
+default,Temperate grassland/desert,C285,TSA_iav_Temperate grassland/desert,TSA,iav,0.014984410140140483
+default,Boreal forest,C285,TSA_mean_Boreal forest,TSA,mean,24.999841032584488
+default,Boreal forest,C285,TSA_iav_Boreal forest,TSA,iav,0.03479624643081578
+default,Tundra,C285,TSA_mean_Tundra,TSA,mean,22.897029340306027
+default,Tundra,C285,TSA_iav_Tundra,TSA,iav,0.03403280553002865
+default,Ice sheet,C285,TSKIN_mean_Ice sheet,TSKIN,mean,4.1922744127582465
+default,Ice sheet,C285,TSKIN_iav_Ice sheet,TSKIN,iav,0.01061790411057071
+default,Tropical rain forest,C285,TSKIN_mean_Tropical rain forest,TSKIN,mean,9.559689816541201
+default,Tropical rain forest,C285,TSKIN_iav_Tropical rain forest,TSKIN,iav,0.004656793755003197
+default,Tropical seasonal forest/savanna,C285,TSKIN_mean_Tropical seasonal forest/savanna,TSKIN,mean,76.66340635409301
+default,Tropical seasonal forest/savanna,C285,TSKIN_iav_Tropical seasonal forest/savanna,TSKIN,iav,0.03751548933824897
+default,Subtropical desert,C285,TSKIN_mean_Subtropical desert,TSKIN,mean,68.50049869842096
+default,Subtropical desert,C285,TSKIN_iav_Subtropical desert,TSKIN,iav,0.0459725190773364
+default,Temperate rain forest,C285,TSKIN_mean_Temperate rain forest,TSKIN,mean,0.5781010636330179
+default,Temperate rain forest,C285,TSKIN_iav_Temperate rain forest,TSKIN,iav,0.0005573980964425023
+default,Temperate seasonal forest,C285,TSKIN_mean_Temperate seasonal forest,TSKIN,mean,21.748542930340157
+default,Temperate seasonal forest,C285,TSKIN_iav_Temperate seasonal forest,TSKIN,iav,0.01564090283491048
+default,Woodland/shrubland,C285,TSKIN_mean_Woodland/shrubland,TSKIN,mean,38.48134063772844
+default,Woodland/shrubland,C285,TSKIN_iav_Woodland/shrubland,TSKIN,iav,0.02675044070756575
+default,Temperate grassland/desert,C285,TSKIN_mean_Temperate grassland/desert,TSKIN,mean,20.444043395998232
+default,Temperate grassland/desert,C285,TSKIN_iav_Temperate grassland/desert,TSKIN,iav,0.01403871388562561
+default,Boreal forest,C285,TSKIN_mean_Boreal forest,TSKIN,mean,25.01657287577806
+default,Boreal forest,C285,TSKIN_iav_Boreal forest,TSKIN,iav,0.03391020741400229
+default,Tundra,C285,TSKIN_mean_Tundra,TSKIN,mean,22.881063283166405
+default,Tundra,C285,TSKIN_iav_Tundra,TSKIN,iav,0.03916798885819689
+default,Ice sheet,C285,Q2M_mean_Ice sheet,Q2M,mean,2.3261813916537358e-05
+default,Ice sheet,C285,Q2M_iav_Ice sheet,Q2M,iav,6.549744086122553e-07
+default,Tropical rain forest,C285,Q2M_mean_Tropical rain forest,Q2M,mean,0.0006211818752110841
+default,Tropical rain forest,C285,Q2M_iav_Tropical rain forest,Q2M,iav,7.787510245074735e-06
+default,Tropical seasonal forest/savanna,C285,Q2M_mean_Tropical seasonal forest/savanna,Q2M,mean,0.003898315903371876
+default,Tropical seasonal forest/savanna,C285,Q2M_iav_Tropical seasonal forest/savanna,Q2M,iav,5.402457403561318e-05
+default,Subtropical desert,C285,Q2M_mean_Subtropical desert,Q2M,mean,0.0019018151969590492
+default,Subtropical desert,C285,Q2M_iav_Subtropical desert,Q2M,iav,4.6139150090679556e-05
+default,Temperate rain forest,C285,Q2M_mean_Temperate rain forest,Q2M,mean,1.372491365044132e-05
+default,Temperate rain forest,C285,Q2M_iav_Temperate rain forest,Q2M,iav,2.1677811337123447e-07
+default,Temperate seasonal forest,C285,Q2M_mean_Temperate seasonal forest,Q2M,mean,0.0005384338793123551
+default,Temperate seasonal forest,C285,Q2M_iav_Temperate seasonal forest,Q2M,iav,8.383713522063852e-06
+default,Woodland/shrubland,C285,Q2M_mean_Woodland/shrubland,Q2M,mean,0.0008240406805403718
+default,Woodland/shrubland,C285,Q2M_iav_Woodland/shrubland,Q2M,iav,2.0953659262127376e-05
+default,Temperate grassland/desert,C285,Q2M_mean_Temperate grassland/desert,Q2M,mean,0.0003229978908192998
+default,Temperate grassland/desert,C285,Q2M_iav_Temperate grassland/desert,Q2M,iav,6.7761995367500075e-06
+default,Boreal forest,C285,Q2M_mean_Boreal forest,Q2M,mean,0.0003450153750562309
+default,Boreal forest,C285,Q2M_iav_Boreal forest,Q2M,iav,6.539786321698979e-06
+default,Tundra,C285,Q2M_mean_Tundra,Q2M,mean,0.0002145420825846179
+default,Tundra,C285,Q2M_iav_Tundra,Q2M,iav,5.257974790280546e-06
+default,Ice sheet,C285,U10_mean_Ice sheet,U10,mean,0.06480342427367128
+default,Ice sheet,C285,U10_iav_Ice sheet,U10,iav,0.0017921447918028063
+default,Tropical rain forest,C285,U10_mean_Tropical rain forest,U10,mean,0.05385903845542102
+default,Tropical rain forest,C285,U10_iav_Tropical rain forest,U10,iav,0.0018608696560018906
+default,Tropical seasonal forest/savanna,C285,U10_mean_Tropical seasonal forest/savanna,U10,mean,0.5057974931043877
+default,Tropical seasonal forest/savanna,C285,U10_iav_Tropical seasonal forest/savanna,U10,iav,0.005050079936087656
+default,Subtropical desert,C285,U10_mean_Subtropical desert,U10,mean,0.6339163361708091
+default,Subtropical desert,C285,U10_iav_Subtropical desert,U10,iav,0.003745147342835
+default,Temperate rain forest,C285,U10_mean_Temperate rain forest,U10,mean,0.006989676917007226
+default,Temperate rain forest,C285,U10_iav_Temperate rain forest,U10,iav,0.0005875691320806374
+default,Temperate seasonal forest,C285,U10_mean_Temperate seasonal forest,U10,mean,0.22841647064928106
+default,Temperate seasonal forest,C285,U10_iav_Temperate seasonal forest,U10,iav,0.002006601136876548
+default,Woodland/shrubland,C285,U10_mean_Woodland/shrubland,U10,mean,0.4152977102375549
+default,Woodland/shrubland,C285,U10_iav_Woodland/shrubland,U10,iav,0.004812854656061585
+default,Temperate grassland/desert,C285,U10_mean_Temperate grassland/desert,U10,mean,0.22756122986453337
+default,Temperate grassland/desert,C285,U10_iav_Temperate grassland/desert,U10,iav,0.003329182347896997
+default,Boreal forest,C285,U10_mean_Boreal forest,U10,mean,0.26642256679017995
+default,Boreal forest,C285,U10_iav_Boreal forest,U10,iav,0.003691014801320034
+default,Tundra,C285,U10_mean_Tundra,U10,mean,0.2645349819173436
+default,Tundra,C285,U10_iav_Tundra,U10,iav,0.0019212852033718814
+default,Ice sheet,C285,TAUX_mean_Ice sheet,TAUX,mean,-0.0005655627324751098
+default,Ice sheet,C285,TAUX_iav_Ice sheet,TAUX,iav,3.271755965714615e-05
+default,Tropical rain forest,C285,TAUX_mean_Tropical rain forest,TAUX,mean,-0.00334196532182986
+default,Tropical rain forest,C285,TAUX_iav_Tropical rain forest,TAUX,iav,0.00044763147047368696
+default,Tropical seasonal forest/savanna,C285,TAUX_mean_Tropical seasonal forest/savanna,TAUX,mean,-0.016515535999386533
+default,Tropical seasonal forest/savanna,C285,TAUX_iav_Tropical seasonal forest/savanna,TAUX,iav,0.0003414935944929402
+default,Subtropical desert,C285,TAUX_mean_Subtropical desert,TAUX,mean,-0.007568007971978522
+default,Subtropical desert,C285,TAUX_iav_Subtropical desert,TAUX,iav,0.0002298746571396304
+default,Temperate rain forest,C285,TAUX_mean_Temperate rain forest,TAUX,mean,-0.0005874870805299632
+default,Temperate rain forest,C285,TAUX_iav_Temperate rain forest,TAUX,iav,0.00011376322588587232
+default,Temperate seasonal forest,C285,TAUX_mean_Temperate seasonal forest,TAUX,mean,-0.011407766597885005
+default,Temperate seasonal forest,C285,TAUX_iav_Temperate seasonal forest,TAUX,iav,0.00027451292165926955
+default,Woodland/shrubland,C285,TAUX_mean_Woodland/shrubland,TAUX,mean,-0.010715971570995785
+default,Woodland/shrubland,C285,TAUX_iav_Woodland/shrubland,TAUX,iav,0.0005527750332582153
+default,Temperate grassland/desert,C285,TAUX_mean_Temperate grassland/desert,TAUX,mean,-0.0034418186935106882
+default,Temperate grassland/desert,C285,TAUX_iav_Temperate grassland/desert,TAUX,iav,0.0001372057106016554
+default,Boreal forest,C285,TAUX_mean_Boreal forest,TAUX,mean,-0.00936305710743245
+default,Boreal forest,C285,TAUX_iav_Boreal forest,TAUX,iav,0.00019288104031052464
+default,Tundra,C285,TAUX_mean_Tundra,TAUX,mean,-0.0034728627548803437
+default,Tundra,C285,TAUX_iav_Tundra,TAUX,iav,9.197697700785952e-05
+default,Ice sheet,C285,TAUY_mean_Ice sheet,TAUY,mean,-0.0005655627324751098
+default,Ice sheet,C285,TAUY_iav_Ice sheet,TAUY,iav,3.271755965714615e-05
+default,Tropical rain forest,C285,TAUY_mean_Tropical rain forest,TAUY,mean,-0.00334196532182986
+default,Tropical rain forest,C285,TAUY_iav_Tropical rain forest,TAUY,iav,0.00044763147047368696
+default,Tropical seasonal forest/savanna,C285,TAUY_mean_Tropical seasonal forest/savanna,TAUY,mean,-0.016515535999386533
+default,Tropical seasonal forest/savanna,C285,TAUY_iav_Tropical seasonal forest/savanna,TAUY,iav,0.0003414935944929402
+default,Subtropical desert,C285,TAUY_mean_Subtropical desert,TAUY,mean,-0.007568007971978522
+default,Subtropical desert,C285,TAUY_iav_Subtropical desert,TAUY,iav,0.0002298746571396304
+default,Temperate rain forest,C285,TAUY_mean_Temperate rain forest,TAUY,mean,-0.0005874870805299632
+default,Temperate rain forest,C285,TAUY_iav_Temperate rain forest,TAUY,iav,0.00011376322588587232
+default,Temperate seasonal forest,C285,TAUY_mean_Temperate seasonal forest,TAUY,mean,-0.011407766597885005
+default,Temperate seasonal forest,C285,TAUY_iav_Temperate seasonal forest,TAUY,iav,0.00027451292165926955
+default,Woodland/shrubland,C285,TAUY_mean_Woodland/shrubland,TAUY,mean,-0.010715971570995785
+default,Woodland/shrubland,C285,TAUY_iav_Woodland/shrubland,TAUY,iav,0.0005527750332582153
+default,Temperate grassland/desert,C285,TAUY_mean_Temperate grassland/desert,TAUY,mean,-0.0034418186935106882
+default,Temperate grassland/desert,C285,TAUY_iav_Temperate grassland/desert,TAUY,iav,0.0001372057106016554
+default,Boreal forest,C285,TAUY_mean_Boreal forest,TAUY,mean,-0.00936305710743245
+default,Boreal forest,C285,TAUY_iav_Boreal forest,TAUY,iav,0.00019288104031052464
+default,Tundra,C285,TAUY_mean_Tundra,TAUY,mean,-0.0034728627548803437
+default,Tundra,C285,TAUY_iav_Tundra,TAUY,iav,9.197697700785952e-05
+default,Ice sheet,C285,GPP_mean_Ice sheet,GPP,mean,0.0
+default,Ice sheet,C285,GPP_iav_Ice sheet,GPP,iav,0.0
+default,Tropical rain forest,C285,GPP_mean_Tropical rain forest,GPP,mean,2.598061914402799e-06
+default,Tropical rain forest,C285,GPP_iav_Tropical rain forest,GPP,iav,3.8062511016296445e-08
+default,Tropical seasonal forest/savanna,C285,GPP_mean_Tropical seasonal forest/savanna,GPP,mean,1.2992635466712812e-05
+default,Tropical seasonal forest/savanna,C285,GPP_iav_Tropical seasonal forest/savanna,GPP,iav,1.8059631199895956e-07
+default,Subtropical desert,C285,GPP_mean_Subtropical desert,GPP,mean,1.7254861337215895e-06
+default,Subtropical desert,C285,GPP_iav_Subtropical desert,GPP,iav,1.6744089851297498e-07
+default,Temperate rain forest,C285,GPP_mean_Temperate rain forest,GPP,mean,9.337444021374451e-08
+default,Temperate rain forest,C285,GPP_iav_Temperate rain forest,GPP,iav,1.652870849909434e-09
+default,Temperate seasonal forest,C285,GPP_mean_Temperate seasonal forest,GPP,mean,3.0131866783987373e-06
+default,Temperate seasonal forest,C285,GPP_iav_Temperate seasonal forest,GPP,iav,4.884207476765316e-08
+default,Woodland/shrubland,C285,GPP_mean_Woodland/shrubland,GPP,mean,3.409531883304527e-06
+default,Woodland/shrubland,C285,GPP_iav_Woodland/shrubland,GPP,iav,1.6217882815034538e-07
+default,Temperate grassland/desert,C285,GPP_mean_Temperate grassland/desert,GPP,mean,4.789290739976719e-07
+default,Temperate grassland/desert,C285,GPP_iav_Temperate grassland/desert,GPP,iav,5.089344107805456e-08
+default,Boreal forest,C285,GPP_mean_Boreal forest,GPP,mean,2.4688935850600446e-06
+default,Boreal forest,C285,GPP_iav_Boreal forest,GPP,iav,5.1597635717730446e-08
+default,Tundra,C285,GPP_mean_Tundra,GPP,mean,1.2249305527046444e-06
+default,Tundra,C285,GPP_iav_Tundra,GPP,iav,3.661209522843758e-08
+default,Ice sheet,C285,HR_mean_Ice sheet,HR,mean,5.318680946455937e-12
+default,Ice sheet,C285,HR_iav_Ice sheet,HR,iav,3.669941486545842e-12
+default,Tropical rain forest,C285,HR_mean_Tropical rain forest,HR,mean,1.0560985366011055e-06
+default,Tropical rain forest,C285,HR_iav_Tropical rain forest,HR,iav,2.849778268290613e-08
+default,Tropical seasonal forest/savanna,C285,HR_mean_Tropical seasonal forest/savanna,HR,mean,4.96385604312763e-06
+default,Tropical seasonal forest/savanna,C285,HR_iav_Tropical seasonal forest/savanna,HR,iav,5.736924314075756e-08
+default,Subtropical desert,C285,HR_mean_Subtropical desert,HR,mean,5.381090686286738e-07
+default,Subtropical desert,C285,HR_iav_Subtropical desert,HR,iav,3.6051462532847335e-08
+default,Temperate rain forest,C285,HR_mean_Temperate rain forest,HR,mean,4.0259397181904416e-08
+default,Temperate rain forest,C285,HR_iav_Temperate rain forest,HR,iav,6.459269577287844e-10
+default,Temperate seasonal forest,C285,HR_mean_Temperate seasonal forest,HR,mean,1.3148495039961717e-06
+default,Temperate seasonal forest,C285,HR_iav_Temperate seasonal forest,HR,iav,2.996192171325218e-08
+default,Woodland/shrubland,C285,HR_mean_Woodland/shrubland,HR,mean,1.3738262910384344e-06
+default,Woodland/shrubland,C285,HR_iav_Woodland/shrubland,HR,iav,5.304709380027432e-08
+default,Temperate grassland/desert,C285,HR_mean_Temperate grassland/desert,HR,mean,2.0253965681511898e-07
+default,Temperate grassland/desert,C285,HR_iav_Temperate grassland/desert,HR,iav,8.507576828891536e-09
+default,Boreal forest,C285,HR_mean_Boreal forest,HR,mean,1.2175188662116803e-06
+default,Boreal forest,C285,HR_iav_Boreal forest,HR,iav,4.027400152262304e-08
+default,Tundra,C285,HR_mean_Tundra,HR,mean,6.803265558815196e-07
+default,Tundra,C285,HR_iav_Tundra,HR,iav,4.391954593608628e-08
+default,Ice sheet,C285,AR_mean_Ice sheet,AR,mean,1.7563823327951648e-20
+default,Ice sheet,C285,AR_iav_Ice sheet,AR,iav,3.6037584266951176e-20
+default,Tropical rain forest,C285,AR_mean_Tropical rain forest,AR,mean,1.5413110378927809e-06
+default,Tropical rain forest,C285,AR_iav_Tropical rain forest,AR,iav,2.0709035971810514e-08
+default,Tropical seasonal forest/savanna,C285,AR_mean_Tropical seasonal forest/savanna,AR,mean,7.7951090557729e-06
+default,Tropical seasonal forest/savanna,C285,AR_iav_Tropical seasonal forest/savanna,AR,iav,1.0466636977251899e-07
+default,Subtropical desert,C285,AR_mean_Subtropical desert,AR,mean,1.1336974507198032e-06
+default,Subtropical desert,C285,AR_iav_Subtropical desert,AR,iav,1.0529900090596771e-07
+default,Temperate rain forest,C285,AR_mean_Temperate rain forest,AR,mean,5.293897793187611e-08
+default,Temperate rain forest,C285,AR_iav_Temperate rain forest,AR,iav,1.007490243068729e-09
+default,Temperate seasonal forest,C285,AR_mean_Temperate seasonal forest,AR,mean,1.6792716028069194e-06
+default,Temperate seasonal forest,C285,AR_iav_Temperate seasonal forest,AR,iav,3.934544550341674e-08
+default,Woodland/shrubland,C285,AR_mean_Woodland/shrubland,AR,mean,1.9762665160068213e-06
+default,Woodland/shrubland,C285,AR_iav_Woodland/shrubland,AR,iav,1.205978164617572e-07
+default,Temperate grassland/desert,C285,AR_mean_Temperate grassland/desert,AR,mean,2.6211140285055074e-07
+default,Temperate grassland/desert,C285,AR_iav_Temperate grassland/desert,AR,iav,2.7121293406711756e-08
+default,Boreal forest,C285,AR_mean_Boreal forest,AR,mean,1.2173376823821818e-06
+default,Boreal forest,C285,AR_iav_Boreal forest,AR,iav,2.7842453302807612e-08
+default,Tundra,C285,AR_mean_Tundra,AR,mean,5.320661840517126e-07
+default,Tundra,C285,AR_iav_Tundra,AR,iav,2.8429193815080864e-08
+default,Ice sheet,C285,ALBEDO_allSW_mean_Ice sheet,ALBEDO_allSW,mean,0.010451372792824579
+default,Ice sheet,C285,ALBEDO_allSW_iav_Ice sheet,ALBEDO_allSW,iav,6.341142644154431e-05
+default,Tropical rain forest,C285,ALBEDO_allSW_mean_Tropical rain forest,ALBEDO_allSW,mean,0.005472784222667378
+default,Tropical rain forest,C285,ALBEDO_allSW_iav_Tropical rain forest,ALBEDO_allSW,iav,4.035576306936888e-06
+default,Tropical seasonal forest/savanna,C285,ALBEDO_allSW_mean_Tropical seasonal forest/savanna,ALBEDO_allSW,mean,0.04235768194027397
+default,Tropical seasonal forest/savanna,C285,ALBEDO_allSW_iav_Tropical seasonal forest/savanna,ALBEDO_allSW,iav,6.89707941310092e-05
+default,Subtropical desert,C285,ALBEDO_allSW_mean_Subtropical desert,ALBEDO_allSW,mean,0.06326021761045109
+default,Subtropical desert,C285,ALBEDO_allSW_iav_Subtropical desert,ALBEDO_allSW,iav,0.00035302345211847737
+default,Temperate rain forest,C285,ALBEDO_allSW_mean_Temperate rain forest,ALBEDO_allSW,mean,0.00041762992725311694
+default,Temperate rain forest,C285,ALBEDO_allSW_iav_Temperate rain forest,ALBEDO_allSW,iav,1.5032552301710035e-05
+default,Temperate seasonal forest,C285,ALBEDO_allSW_mean_Temperate seasonal forest,ALBEDO_allSW,mean,0.016636891878047805
+default,Temperate seasonal forest,C285,ALBEDO_allSW_iav_Temperate seasonal forest,ALBEDO_allSW,iav,0.0003727279714727441
+default,Woodland/shrubland,C285,ALBEDO_allSW_mean_Woodland/shrubland,ALBEDO_allSW,mean,0.031051717008185487
+default,Woodland/shrubland,C285,ALBEDO_allSW_iav_Woodland/shrubland,ALBEDO_allSW,iav,0.0008249320404321657
+default,Temperate grassland/desert,C285,ALBEDO_allSW_mean_Temperate grassland/desert,ALBEDO_allSW,mean,0.016422256262381862
+default,Temperate grassland/desert,C285,ALBEDO_allSW_iav_Temperate grassland/desert,ALBEDO_allSW,iav,0.0002801659297743786
+default,Boreal forest,C285,ALBEDO_allSW_mean_Boreal forest,ALBEDO_allSW,mean,0.027312947839203332
+default,Boreal forest,C285,ALBEDO_allSW_iav_Boreal forest,ALBEDO_allSW,iav,0.00036183310964210084
+default,Tundra,C285,ALBEDO_allSW_mean_Tundra,ALBEDO_allSW,mean,0.03745953431311709
+default,Tundra,C285,ALBEDO_allSW_iav_Tundra,ALBEDO_allSW,iav,0.0002773552337492904
+default,Ice sheet,C285,ET_mean_Ice sheet,ET,mean,-5.185007361608367e-09
+default,Ice sheet,C285,ET_iav_Ice sheet,ET,iav,3.314825942307435e-09
+default,Tropical rain forest,C285,ET_mean_Tropical rain forest,ET,mean,1.2793494982073305e-06
+default,Tropical rain forest,C285,ET_iav_Tropical rain forest,ET,iav,3.707514907012426e-08
+default,Tropical seasonal forest/savanna,C285,ET_mean_Tropical seasonal forest/savanna,ET,mean,7.5267763434315175e-06
+default,Tropical seasonal forest/savanna,C285,ET_iav_Tropical seasonal forest/savanna,ET,iav,9.596277900569872e-08
+default,Subtropical desert,C285,ET_mean_Subtropical desert,ET,mean,1.5859814614395624e-06
+default,Subtropical desert,C285,ET_iav_Subtropical desert,ET,iav,1.2376796031518714e-07
+default,Temperate rain forest,C285,ET_mean_Temperate rain forest,ET,mean,2.9359467267557325e-08
+default,Temperate rain forest,C285,ET_iav_Temperate rain forest,ET,iav,7.941784375306491e-10
+default,Temperate seasonal forest,C285,ET_mean_Temperate seasonal forest,ET,mean,1.2797182942628878e-06
+default,Temperate seasonal forest,C285,ET_iav_Temperate seasonal forest,ET,iav,2.435171494644491e-08
+default,Woodland/shrubland,C285,ET_mean_Woodland/shrubland,ET,mean,1.9613870125560186e-06
+default,Woodland/shrubland,C285,ET_iav_Woodland/shrubland,ET,iav,5.0208409072841727e-08
+default,Temperate grassland/desert,C285,ET_mean_Temperate grassland/desert,ET,mean,4.816656901089384e-07
+default,Temperate grassland/desert,C285,ET_iav_Temperate grassland/desert,ET,iav,2.6061038691829664e-08
+default,Boreal forest,C285,ET_mean_Boreal forest,ET,mean,9.487904551556572e-07
+default,Boreal forest,C285,ET_iav_Boreal forest,ET,iav,2.506543317374503e-08
+default,Tundra,C285,ET_mean_Tundra,ET,mean,5.579338932329474e-07
+default,Tundra,C285,ET_iav_Tundra,ET,iav,1.943560528381036e-08
+default,Ice sheet,C867,EFLX_LH_TOT_mean_Ice sheet,EFLX_LH_TOT,mean,-0.015443462524464196
+default,Ice sheet,C867,EFLX_LH_TOT_iav_Ice sheet,EFLX_LH_TOT,iav,0.009267661607769973
+default,Tropical rain forest,C867,EFLX_LH_TOT_mean_Tropical rain forest,EFLX_LH_TOT,mean,3.2557742982612536
+default,Tropical rain forest,C867,EFLX_LH_TOT_iav_Tropical rain forest,EFLX_LH_TOT,iav,0.12087539874362879
+default,Tropical seasonal forest/savanna,C867,EFLX_LH_TOT_mean_Tropical seasonal forest/savanna,EFLX_LH_TOT,mean,18.232562863350246
+default,Tropical seasonal forest/savanna,C867,EFLX_LH_TOT_iav_Tropical seasonal forest/savanna,EFLX_LH_TOT,iav,0.23215055941708895
+default,Subtropical desert,C867,EFLX_LH_TOT_mean_Subtropical desert,EFLX_LH_TOT,mean,3.897846717544252
+default,Subtropical desert,C867,EFLX_LH_TOT_iav_Subtropical desert,EFLX_LH_TOT,iav,0.3145127603055009
+default,Temperate rain forest,C867,EFLX_LH_TOT_mean_Temperate rain forest,EFLX_LH_TOT,mean,0.0654668029874034
+default,Temperate rain forest,C867,EFLX_LH_TOT_iav_Temperate rain forest,EFLX_LH_TOT,iav,0.0021527230855305133
+default,Temperate seasonal forest,C867,EFLX_LH_TOT_mean_Temperate seasonal forest,EFLX_LH_TOT,mean,2.766113735753834
+default,Temperate seasonal forest,C867,EFLX_LH_TOT_iav_Temperate seasonal forest,EFLX_LH_TOT,iav,0.05046899412579329
+default,Woodland/shrubland,C867,EFLX_LH_TOT_mean_Woodland/shrubland,EFLX_LH_TOT,mean,4.725582334550679
+default,Woodland/shrubland,C867,EFLX_LH_TOT_iav_Woodland/shrubland,EFLX_LH_TOT,iav,0.098962668102032
+default,Temperate grassland/desert,C867,EFLX_LH_TOT_mean_Temperate grassland/desert,EFLX_LH_TOT,mean,1.206200763063784
+default,Temperate grassland/desert,C867,EFLX_LH_TOT_iav_Temperate grassland/desert,EFLX_LH_TOT,iav,0.06829909267919496
+default,Boreal forest,C867,EFLX_LH_TOT_mean_Boreal forest,EFLX_LH_TOT,mean,1.9465483961024705
+default,Boreal forest,C867,EFLX_LH_TOT_iav_Boreal forest,EFLX_LH_TOT,iav,0.05524796891425225
+default,Tundra,C867,EFLX_LH_TOT_mean_Tundra,EFLX_LH_TOT,mean,1.219812297042478
+default,Tundra,C867,EFLX_LH_TOT_iav_Tundra,EFLX_LH_TOT,iav,0.03877744566791341
+default,Ice sheet,C867,FSH_mean_Ice sheet,FSH,mean,-0.2353955795031133
+default,Ice sheet,C867,FSH_iav_Ice sheet,FSH,iav,0.03222668858351819
+default,Tropical rain forest,C867,FSH_mean_Tropical rain forest,FSH,mean,0.6296739580172259
+default,Tropical rain forest,C867,FSH_iav_Tropical rain forest,FSH,iav,0.08938931283823327
+default,Tropical seasonal forest/savanna,C867,FSH_mean_Tropical seasonal forest/savanna,FSH,mean,10.86603137479422
+default,Tropical seasonal forest/savanna,C867,FSH_iav_Tropical seasonal forest/savanna,FSH,iav,0.16809265884396418
+default,Subtropical desert,C867,FSH_mean_Subtropical desert,FSH,mean,11.86647310482841
+default,Subtropical desert,C867,FSH_iav_Subtropical desert,FSH,iav,0.11265157476765666
+default,Temperate rain forest,C867,FSH_mean_Temperate rain forest,FSH,mean,0.03519782304408921
+default,Temperate rain forest,C867,FSH_iav_Temperate rain forest,FSH,iav,0.004164486330001469
+default,Temperate seasonal forest,C867,FSH_mean_Temperate seasonal forest,FSH,mean,1.9936385847276685
+default,Temperate seasonal forest,C867,FSH_iav_Temperate seasonal forest,FSH,iav,0.06783848293414076
+default,Woodland/shrubland,C867,FSH_mean_Woodland/shrubland,FSH,mean,4.4222982395348875
+default,Woodland/shrubland,C867,FSH_iav_Woodland/shrubland,FSH,iav,0.09989742582263812
+default,Temperate grassland/desert,C867,FSH_mean_Temperate grassland/desert,FSH,mean,3.229312061205067
+default,Temperate grassland/desert,C867,FSH_iav_Temperate grassland/desert,FSH,iav,0.04648172288669443
+default,Boreal forest,C867,FSH_mean_Boreal forest,FSH,mean,2.266717974375674
+default,Boreal forest,C867,FSH_iav_Boreal forest,FSH,iav,0.07008526372611527
+default,Tundra,C867,FSH_mean_Tundra,FSH,mean,0.9820297542194524
+default,Tundra,C867,FSH_iav_Tundra,FSH,iav,0.1280785222372921
+default,Ice sheet,C867,QVEGT_mean_Ice sheet,QVEGT,mean,8.805528164864614e-17
+default,Ice sheet,C867,QVEGT_iav_Ice sheet,QVEGT,iav,1.113319359387616e-16
+default,Tropical rain forest,C867,QVEGT_mean_Tropical rain forest,QVEGT,mean,5.312766801643503e-07
+default,Tropical rain forest,C867,QVEGT_iav_Tropical rain forest,QVEGT,iav,9.459093237510434e-09
+default,Tropical seasonal forest/savanna,C867,QVEGT_mean_Tropical seasonal forest/savanna,QVEGT,mean,3.6797329998783127e-06
+default,Tropical seasonal forest/savanna,C867,QVEGT_iav_Tropical seasonal forest/savanna,QVEGT,iav,3.2140430576494535e-08
+default,Subtropical desert,C867,QVEGT_mean_Subtropical desert,QVEGT,mean,7.326023461132399e-07
+default,Subtropical desert,C867,QVEGT_iav_Subtropical desert,QVEGT,iav,7.351148608601758e-08
+default,Temperate rain forest,C867,QVEGT_mean_Temperate rain forest,QVEGT,mean,7.935366597581839e-09
+default,Temperate rain forest,C867,QVEGT_iav_Temperate rain forest,QVEGT,iav,2.291707367652819e-10
+default,Temperate seasonal forest,C867,QVEGT_mean_Temperate seasonal forest,QVEGT,mean,5.661612439294394e-07
+default,Temperate seasonal forest,C867,QVEGT_iav_Temperate seasonal forest,QVEGT,iav,1.604644062145701e-08
+default,Woodland/shrubland,C867,QVEGT_mean_Woodland/shrubland,QVEGT,mean,1.1137478535773318e-06
+default,Woodland/shrubland,C867,QVEGT_iav_Woodland/shrubland,QVEGT,iav,4.1604048831479346e-08
+default,Temperate grassland/desert,C867,QVEGT_mean_Temperate grassland/desert,QVEGT,mean,2.2655622004229208e-07
+default,Temperate grassland/desert,C867,QVEGT_iav_Temperate grassland/desert,QVEGT,iav,2.4187696528140577e-08
+default,Boreal forest,C867,QVEGT_mean_Boreal forest,QVEGT,mean,4.003601435437669e-07
+default,Boreal forest,C867,QVEGT_iav_Boreal forest,QVEGT,iav,1.67076234335093e-08
+default,Tundra,C867,QVEGT_mean_Tundra,QVEGT,mean,2.2416278400897326e-07
+default,Tundra,C867,QVEGT_iav_Tundra,QVEGT,iav,8.394249534907539e-09
+default,Ice sheet,C867,QVEGE_mean_Ice sheet,QVEGE,mean,-4.075985022571129e-11
+default,Ice sheet,C867,QVEGE_iav_Ice sheet,QVEGE,iav,1.4271588711545413e-11
+default,Tropical rain forest,C867,QVEGE_mean_Tropical rain forest,QVEGE,mean,7.033572782109486e-07
+default,Tropical rain forest,C867,QVEGE_iav_Tropical rain forest,QVEGE,iav,4.721649344778935e-08
+default,Tropical seasonal forest/savanna,C867,QVEGE_mean_Tropical seasonal forest/savanna,QVEGE,mean,2.2568924365757186e-06
+default,Tropical seasonal forest/savanna,C867,QVEGE_iav_Tropical seasonal forest/savanna,QVEGE,iav,7.481675204020449e-08
+default,Subtropical desert,C867,QVEGE_mean_Subtropical desert,QVEGE,mean,1.1840230572437657e-07
+default,Subtropical desert,C867,QVEGE_iav_Subtropical desert,QVEGE,iav,1.5208919085887313e-08
+default,Temperate rain forest,C867,QVEGE_mean_Temperate rain forest,QVEGE,mean,1.5062022701921665e-08
+default,Temperate rain forest,C867,QVEGE_iav_Temperate rain forest,QVEGE,iav,8.919041618854378e-10
+default,Temperate seasonal forest,C867,QVEGE_mean_Temperate seasonal forest,QVEGE,mean,3.3254226955709993e-07
+default,Temperate seasonal forest,C867,QVEGE_iav_Temperate seasonal forest,QVEGE,iav,1.6319071396427008e-08
+default,Woodland/shrubland,C867,QVEGE_mean_Woodland/shrubland,QVEGE,mean,3.698824803289928e-07
+default,Woodland/shrubland,C867,QVEGE_iav_Woodland/shrubland,QVEGE,iav,1.328440520636684e-08
+default,Temperate grassland/desert,C867,QVEGE_mean_Temperate grassland/desert,QVEGE,mean,2.9362391018219974e-08
+default,Temperate grassland/desert,C867,QVEGE_iav_Temperate grassland/desert,QVEGE,iav,3.6976314779495356e-09
+default,Boreal forest,C867,QVEGE_mean_Boreal forest,QVEGE,mean,1.8870121390060714e-07
+default,Boreal forest,C867,QVEGE_iav_Boreal forest,QVEGE,iav,5.514983208007366e-09
+default,Tundra,C867,QVEGE_mean_Tundra,QVEGE,mean,5.7113120649964805e-08
+default,Tundra,C867,QVEGE_iav_Tundra,QVEGE,iav,2.9108823835068356e-09
+default,Ice sheet,C867,QSOIL_mean_Ice sheet,QSOIL,mean,-5.147970048280358e-09
+default,Ice sheet,C867,QSOIL_iav_Ice sheet,QSOIL,iav,3.3166569035607808e-09
+default,Tropical rain forest,C867,QSOIL_mean_Tropical rain forest,QSOIL,mean,6.715504526483564e-08
+default,Tropical rain forest,C867,QSOIL_iav_Tropical rain forest,QSOIL,iav,1.5142638907911516e-09
+default,Tropical seasonal forest/savanna,C867,QSOIL_mean_Tropical seasonal forest/savanna,QSOIL,mean,1.3534836722736252e-06
+default,Tropical seasonal forest/savanna,C867,QSOIL_iav_Tropical seasonal forest/savanna,QSOIL,iav,3.570822261019168e-08
+default,Subtropical desert,C867,QSOIL_mean_Subtropical desert,QSOIL,mean,7.074995457983084e-07
+default,Subtropical desert,C867,QSOIL_iav_Subtropical desert,QSOIL,iav,4.525331658353123e-08
+default,Temperate rain forest,C867,QSOIL_mean_Temperate rain forest,QSOIL,mean,3.1675990483897244e-09
+default,Temperate rain forest,C867,QSOIL_iav_Temperate rain forest,QSOIL,iav,1.6506984577461443e-10
+default,Temperate seasonal forest,C867,QSOIL_mean_Temperate seasonal forest,QSOIL,mean,2.0663234513522942e-07
+default,Temperate seasonal forest,C867,QSOIL_iav_Temperate seasonal forest,QSOIL,iav,5.032133479050758e-09
+default,Woodland/shrubland,C867,QSOIL_mean_Woodland/shrubland,QSOIL,mean,4.05575187972635e-07
+default,Woodland/shrubland,C867,QSOIL_iav_Woodland/shrubland,QSOIL,iav,1.5444572644362315e-08
+default,Temperate grassland/desert,C867,QSOIL_mean_Temperate grassland/desert,QSOIL,mean,2.2603344662226127e-07
+default,Temperate grassland/desert,C867,QSOIL_iav_Temperate grassland/desert,QSOIL,iav,6.4351900974962786e-09
+default,Boreal forest,C867,QSOIL_mean_Boreal forest,QSOIL,mean,1.8892808639558e-07
+default,Boreal forest,C867,QSOIL_iav_Boreal forest,QSOIL,iav,7.132803397047933e-09
+default,Tundra,C867,QSOIL_mean_Tundra,QSOIL,mean,2.0651805043279407e-07
+default,Tundra,C867,QSOIL_iav_Tundra,QSOIL,iav,1.1702963393295e-08
+default,Ice sheet,C867,FSR_mean_Ice sheet,FSR,mean,1.3713407517033291
+default,Ice sheet,C867,FSR_iav_Ice sheet,FSR,iav,0.01920528833082231
+default,Tropical rain forest,C867,FSR_mean_Tropical rain forest,FSR,mean,1.132603526016295
+default,Tropical rain forest,C867,FSR_iav_Tropical rain forest,FSR,iav,0.010130534829366109
+default,Tropical seasonal forest/savanna,C867,FSR_mean_Tropical seasonal forest/savanna,FSR,mean,9.424089125257128
+default,Tropical seasonal forest/savanna,C867,FSR_iav_Tropical seasonal forest/savanna,FSR,iav,0.049368228134601226
+default,Subtropical desert,C867,FSR_mean_Subtropical desert,FSR,mean,15.587911116011373
+default,Subtropical desert,C867,FSR_iav_Subtropical desert,FSR,iav,0.08287249950308333
+default,Temperate rain forest,C867,FSR_mean_Temperate rain forest,FSR,mean,0.047772456050777214
+default,Temperate rain forest,C867,FSR_iav_Temperate rain forest,FSR,iav,0.0014367866689378593
+default,Temperate seasonal forest,C867,FSR_mean_Temperate seasonal forest,FSR,mean,2.1201524550786273
+default,Temperate seasonal forest,C867,FSR_iav_Temperate seasonal forest,FSR,iav,0.05073341057144501
+default,Woodland/shrubland,C867,FSR_mean_Woodland/shrubland,FSR,mean,4.309652050802236
+default,Woodland/shrubland,C867,FSR_iav_Woodland/shrubland,FSR,iav,0.09111868479353478
+default,Temperate grassland/desert,C867,FSR_mean_Temperate grassland/desert,FSR,mean,2.933098765612862
+default,Temperate grassland/desert,C867,FSR_iav_Temperate grassland/desert,FSR,iav,0.03823869704303334
+default,Boreal forest,C867,FSR_mean_Boreal forest,FSR,mean,2.887251300065626
+default,Boreal forest,C867,FSR_iav_Boreal forest,FSR,iav,0.06558006154455868
+default,Tundra,C867,FSR_mean_Tundra,FSR,mean,3.2533434202640037
+default,Tundra,C867,FSR_iav_Tundra,FSR,iav,0.038613084203906106
+default,Ice sheet,C867,FSDS_mean_Ice sheet,FSDS,mean,1.7874442545929097
+default,Ice sheet,C867,FSDS_iav_Ice sheet,FSDS,iav,0.017722274294217237
+default,Tropical rain forest,C867,FSDS_mean_Tropical rain forest,FSDS,mean,6.387212760375864
+default,Tropical rain forest,C867,FSDS_iav_Tropical rain forest,FSDS,iav,0.058541423081682746
+default,Tropical seasonal forest/savanna,C867,FSDS_mean_Tropical seasonal forest/savanna,FSDS,mean,55.627565076488544
+default,Tropical seasonal forest/savanna,C867,FSDS_iav_Tropical seasonal forest/savanna,FSDS,iav,0.23376980317805682
+default,Subtropical desert,C867,FSDS_mean_Subtropical desert,FSDS,mean,55.09169128918647
+default,Subtropical desert,C867,FSDS_iav_Subtropical desert,FSDS,iav,0.22618730450410962
+default,Temperate rain forest,C867,FSDS_mean_Temperate rain forest,FSDS,mean,0.2573822705127758
+default,Temperate rain forest,C867,FSDS_iav_Temperate rain forest,FSDS,iav,0.004147689285532838
+default,Temperate seasonal forest,C867,FSDS_mean_Temperate seasonal forest,FSDS,mean,11.152129970597706
+default,Temperate seasonal forest,C867,FSDS_iav_Temperate seasonal forest,FSDS,iav,0.05485945496206571
+default,Woodland/shrubland,C867,FSDS_mean_Woodland/shrubland,FSDS,mean,21.868370748376584
+default,Woodland/shrubland,C867,FSDS_iav_Woodland/shrubland,FSDS,iav,0.07189349835009333
+default,Temperate grassland/desert,C867,FSDS_mean_Temperate grassland/desert,FSDS,mean,13.70082291885384
+default,Temperate grassland/desert,C867,FSDS_iav_Temperate grassland/desert,FSDS,iav,0.029106657743329576
+default,Boreal forest,C867,FSDS_mean_Boreal forest,FSDS,mean,11.963304212352957
+default,Boreal forest,C867,FSDS_iav_Boreal forest,FSDS,iav,0.10179433238168006
+default,Tundra,C867,FSDS_mean_Tundra,FSDS,mean,9.167105405868535
+default,Tundra,C867,FSDS_iav_Tundra,FSDS,iav,0.06045900820248317
+default,Ice sheet,C867,TSA_mean_Ice sheet,TSA,mean,4.216670474523421
+default,Ice sheet,C867,TSA_iav_Ice sheet,TSA,iav,0.008203728827910858
+default,Tropical rain forest,C867,TSA_mean_Tropical rain forest,TSA,mean,9.554069691033021
+default,Tropical rain forest,C867,TSA_iav_Tropical rain forest,TSA,iav,0.0049621097172305485
+default,Tropical seasonal forest/savanna,C867,TSA_mean_Tropical seasonal forest/savanna,TSA,mean,76.36594353835329
+default,Tropical seasonal forest/savanna,C867,TSA_iav_Tropical seasonal forest/savanna,TSA,iav,0.03732777512385972
+default,Subtropical desert,C867,TSA_mean_Subtropical desert,TSA,mean,67.99378419478202
+default,Subtropical desert,C867,TSA_iav_Subtropical desert,TSA,iav,0.043846712927988196
+default,Temperate rain forest,C867,TSA_mean_Temperate rain forest,TSA,mean,0.5783260057909428
+default,Temperate rain forest,C867,TSA_iav_Temperate rain forest,TSA,iav,0.0005317083948133013
+default,Temperate seasonal forest,C867,TSA_mean_Temperate seasonal forest,TSA,mean,21.750252737365493
+default,Temperate seasonal forest,C867,TSA_iav_Temperate seasonal forest,TSA,iav,0.014665484219241265
+default,Woodland/shrubland,C867,TSA_mean_Woodland/shrubland,TSA,mean,38.36408948783304
+default,Woodland/shrubland,C867,TSA_iav_Woodland/shrubland,TSA,iav,0.025378907605835853
+default,Temperate grassland/desert,C867,TSA_mean_Temperate grassland/desert,TSA,mean,20.297220463384203
+default,Temperate grassland/desert,C867,TSA_iav_Temperate grassland/desert,TSA,iav,0.014970445064470273
+default,Boreal forest,C867,TSA_mean_Boreal forest,TSA,mean,25.00051756003284
+default,Boreal forest,C867,TSA_iav_Boreal forest,TSA,iav,0.03481401960517871
+default,Tundra,C867,TSA_mean_Tundra,TSA,mean,22.90645841605306
+default,Tundra,C867,TSA_iav_Tundra,TSA,iav,0.03404777774415934
+default,Ice sheet,C867,TSKIN_mean_Ice sheet,TSKIN,mean,4.192270595299528
+default,Ice sheet,C867,TSKIN_iav_Ice sheet,TSKIN,iav,0.010619482679773244
+default,Tropical rain forest,C867,TSKIN_mean_Tropical rain forest,TSKIN,mean,9.557024535014914
+default,Tropical rain forest,C867,TSKIN_iav_Tropical rain forest,TSKIN,iav,0.004538878141177377
+default,Tropical seasonal forest/savanna,C867,TSKIN_mean_Tropical seasonal forest/savanna,TSKIN,mean,76.61200593231841
+default,Tropical seasonal forest/savanna,C867,TSKIN_iav_Tropical seasonal forest/savanna,TSKIN,iav,0.03683624495546312
+default,Subtropical desert,C867,TSKIN_mean_Subtropical desert,TSKIN,mean,68.42853697359487
+default,Subtropical desert,C867,TSKIN_iav_Subtropical desert,TSKIN,iav,0.06896278566862821
+default,Temperate rain forest,C867,TSKIN_mean_Temperate rain forest,TSKIN,mean,0.5781070185159425
+default,Temperate rain forest,C867,TSKIN_iav_Temperate rain forest,TSKIN,iav,0.0005519317536110382
+default,Temperate seasonal forest,C867,TSKIN_mean_Temperate seasonal forest,TSKIN,mean,21.748093668136228
+default,Temperate seasonal forest,C867,TSKIN_iav_Temperate seasonal forest,TSKIN,iav,0.014846796984166029
+default,Woodland/shrubland,C867,TSKIN_mean_Woodland/shrubland,TSKIN,mean,38.439159286383486
+default,Woodland/shrubland,C867,TSKIN_iav_Woodland/shrubland,TSKIN,iav,0.02765959792158384
+default,Temperate grassland/desert,C867,TSKIN_mean_Temperate grassland/desert,TSKIN,mean,20.434075812295642
+default,Temperate grassland/desert,C867,TSKIN_iav_Temperate grassland/desert,TSKIN,iav,0.016217556940993902
+default,Boreal forest,C867,TSKIN_mean_Boreal forest,TSKIN,mean,25.015908892552353
+default,Boreal forest,C867,TSKIN_iav_Boreal forest,TSKIN,iav,0.03396735622833157
+default,Tundra,C867,TSKIN_mean_Tundra,TSKIN,mean,22.891081704227574
+default,Tundra,C867,TSKIN_iav_Tundra,TSKIN,iav,0.03888009092483099
+default,Ice sheet,C867,Q2M_mean_Ice sheet,Q2M,mean,2.3261630961690718e-05
+default,Ice sheet,C867,Q2M_iav_Ice sheet,Q2M,iav,6.549883357825528e-07
+default,Tropical rain forest,C867,Q2M_mean_Tropical rain forest,Q2M,mean,0.0006219289343145185
+default,Tropical rain forest,C867,Q2M_iav_Tropical rain forest,Q2M,iav,7.931786818822975e-06
+default,Tropical seasonal forest/savanna,C867,Q2M_mean_Tropical seasonal forest/savanna,Q2M,mean,0.0039005244726129686
+default,Tropical seasonal forest/savanna,C867,Q2M_iav_Tropical seasonal forest/savanna,Q2M,iav,5.401457906032687e-05
+default,Subtropical desert,C867,Q2M_mean_Subtropical desert,Q2M,mean,0.0019055243970988206
+default,Subtropical desert,C867,Q2M_iav_Subtropical desert,Q2M,iav,4.6411249619525584e-05
+default,Temperate rain forest,C867,Q2M_mean_Temperate rain forest,Q2M,mean,1.3666417494506852e-05
+default,Temperate rain forest,C867,Q2M_iav_Temperate rain forest,Q2M,iav,2.1454568611544503e-07
+default,Temperate seasonal forest,C867,Q2M_mean_Temperate seasonal forest,Q2M,mean,0.0005349795286590732
+default,Temperate seasonal forest,C867,Q2M_iav_Temperate seasonal forest,Q2M,iav,8.533447178301932e-06
+default,Woodland/shrubland,C867,Q2M_mean_Woodland/shrubland,Q2M,mean,0.0008210653493356989
+default,Woodland/shrubland,C867,Q2M_iav_Woodland/shrubland,Q2M,iav,2.0758057546328024e-05
+default,Temperate grassland/desert,C867,Q2M_mean_Temperate grassland/desert,Q2M,mean,0.0003208472631541302
+default,Temperate grassland/desert,C867,Q2M_iav_Temperate grassland/desert,Q2M,iav,6.880905458742205e-06
+default,Boreal forest,C867,Q2M_mean_Boreal forest,Q2M,mean,0.0003414345369082057
+default,Boreal forest,C867,Q2M_iav_Boreal forest,Q2M,iav,6.474139127963526e-06
+default,Tundra,C867,Q2M_mean_Tundra,Q2M,mean,0.00021368253706639662
+default,Tundra,C867,Q2M_iav_Tundra,Q2M,iav,5.409638614694956e-06
+default,Ice sheet,C867,U10_mean_Ice sheet,U10,mean,0.0648034424945465
+default,Ice sheet,C867,U10_iav_Ice sheet,U10,iav,0.0017919948497749929
+default,Tropical rain forest,C867,U10_mean_Tropical rain forest,U10,mean,0.05354930225764929
+default,Tropical rain forest,C867,U10_iav_Tropical rain forest,U10,iav,0.0018515642149951495
+default,Tropical seasonal forest/savanna,C867,U10_mean_Tropical seasonal forest/savanna,U10,mean,0.5033054787721809
+default,Tropical seasonal forest/savanna,C867,U10_iav_Tropical seasonal forest/savanna,U10,iav,0.005323061558877279
+default,Subtropical desert,C867,U10_mean_Subtropical desert,U10,mean,0.6307817626725358
+default,Subtropical desert,C867,U10_iav_Subtropical desert,U10,iav,0.0037194531209760726
+default,Temperate rain forest,C867,U10_mean_Temperate rain forest,U10,mean,0.007011374656081114
+default,Temperate rain forest,C867,U10_iav_Temperate rain forest,U10,iav,0.0005832731613546755
+default,Temperate seasonal forest,C867,U10_mean_Temperate seasonal forest,U10,mean,0.2259341465424511
+default,Temperate seasonal forest,C867,U10_iav_Temperate seasonal forest,U10,iav,0.0019007158593031075
+default,Woodland/shrubland,C867,U10_mean_Woodland/shrubland,U10,mean,0.41132823496923415
+default,Woodland/shrubland,C867,U10_iav_Woodland/shrubland,U10,iav,0.004419627388190536
+default,Temperate grassland/desert,C867,U10_mean_Temperate grassland/desert,U10,mean,0.22642469935777396
+default,Temperate grassland/desert,C867,U10_iav_Temperate grassland/desert,U10,iav,0.003509379905420615
+default,Boreal forest,C867,U10_mean_Boreal forest,U10,mean,0.26670756589837585
+default,Boreal forest,C867,U10_iav_Boreal forest,U10,iav,0.003735760708739258
+default,Tundra,C867,U10_mean_Tundra,U10,mean,0.2632392938998628
+default,Tundra,C867,U10_iav_Tundra,U10,iav,0.0018971237167493358
+default,Ice sheet,C867,TAUX_mean_Ice sheet,TAUX,mean,-0.0005654858960552581
+default,Ice sheet,C867,TAUX_iav_Ice sheet,TAUX,iav,3.269456576600247e-05
+default,Tropical rain forest,C867,TAUX_mean_Tropical rain forest,TAUX,mean,-0.003787962473252725
+default,Tropical rain forest,C867,TAUX_iav_Tropical rain forest,TAUX,iav,0.0005575337644251271
+default,Tropical seasonal forest/savanna,C867,TAUX_mean_Tropical seasonal forest/savanna,TAUX,mean,-0.0197924210849988
+default,Tropical seasonal forest/savanna,C867,TAUX_iav_Tropical seasonal forest/savanna,TAUX,iav,0.0004578553614666371
+default,Subtropical desert,C867,TAUX_mean_Subtropical desert,TAUX,mean,-0.008419034581062152
+default,Subtropical desert,C867,TAUX_iav_Subtropical desert,TAUX,iav,0.00033578166359911257
+default,Temperate rain forest,C867,TAUX_mean_Temperate rain forest,TAUX,mean,-0.0006182732778681386
+default,Temperate rain forest,C867,TAUX_iav_Temperate rain forest,TAUX,iav,0.00011970006642347208
+default,Temperate seasonal forest,C867,TAUX_mean_Temperate seasonal forest,TAUX,mean,-0.013810808217638424
+default,Temperate seasonal forest,C867,TAUX_iav_Temperate seasonal forest,TAUX,iav,0.000284584499414079
+default,Woodland/shrubland,C867,TAUX_mean_Woodland/shrubland,TAUX,mean,-0.012836879225871794
+default,Woodland/shrubland,C867,TAUX_iav_Woodland/shrubland,TAUX,iav,0.0006434497841805116
+default,Temperate grassland/desert,C867,TAUX_mean_Temperate grassland/desert,TAUX,mean,-0.003801510966447992
+default,Temperate grassland/desert,C867,TAUX_iav_Temperate grassland/desert,TAUX,iav,0.00017162874945532333
+default,Boreal forest,C867,TAUX_mean_Boreal forest,TAUX,mean,-0.010554489491745025
+default,Boreal forest,C867,TAUX_iav_Boreal forest,TAUX,iav,0.0002053119356886382
+default,Tundra,C867,TAUX_mean_Tundra,TAUX,mean,-0.0038779586585937407
+default,Tundra,C867,TAUX_iav_Tundra,TAUX,iav,9.608498176120114e-05
+default,Ice sheet,C867,TAUY_mean_Ice sheet,TAUY,mean,-0.0005654858960552581
+default,Ice sheet,C867,TAUY_iav_Ice sheet,TAUY,iav,3.269456576600247e-05
+default,Tropical rain forest,C867,TAUY_mean_Tropical rain forest,TAUY,mean,-0.003787962473252725
+default,Tropical rain forest,C867,TAUY_iav_Tropical rain forest,TAUY,iav,0.0005575337644251271
+default,Tropical seasonal forest/savanna,C867,TAUY_mean_Tropical seasonal forest/savanna,TAUY,mean,-0.0197924210849988
+default,Tropical seasonal forest/savanna,C867,TAUY_iav_Tropical seasonal forest/savanna,TAUY,iav,0.0004578553614666371
+default,Subtropical desert,C867,TAUY_mean_Subtropical desert,TAUY,mean,-0.008419034581062152
+default,Subtropical desert,C867,TAUY_iav_Subtropical desert,TAUY,iav,0.00033578166359911257
+default,Temperate rain forest,C867,TAUY_mean_Temperate rain forest,TAUY,mean,-0.0006182732778681386
+default,Temperate rain forest,C867,TAUY_iav_Temperate rain forest,TAUY,iav,0.00011970006642347208
+default,Temperate seasonal forest,C867,TAUY_mean_Temperate seasonal forest,TAUY,mean,-0.013810808217638424
+default,Temperate seasonal forest,C867,TAUY_iav_Temperate seasonal forest,TAUY,iav,0.000284584499414079
+default,Woodland/shrubland,C867,TAUY_mean_Woodland/shrubland,TAUY,mean,-0.012836879225871794
+default,Woodland/shrubland,C867,TAUY_iav_Woodland/shrubland,TAUY,iav,0.0006434497841805116
+default,Temperate grassland/desert,C867,TAUY_mean_Temperate grassland/desert,TAUY,mean,-0.003801510966447992
+default,Temperate grassland/desert,C867,TAUY_iav_Temperate grassland/desert,TAUY,iav,0.00017162874945532333
+default,Boreal forest,C867,TAUY_mean_Boreal forest,TAUY,mean,-0.010554489491745025
+default,Boreal forest,C867,TAUY_iav_Boreal forest,TAUY,iav,0.0002053119356886382
+default,Tundra,C867,TAUY_mean_Tundra,TAUY,mean,-0.0038779586585937407
+default,Tundra,C867,TAUY_iav_Tundra,TAUY,iav,9.608498176120114e-05
+default,Ice sheet,C867,GPP_mean_Ice sheet,GPP,mean,1.7197487288202197e-15
+default,Ice sheet,C867,GPP_iav_Ice sheet,GPP,iav,2.14201577517781e-15
+default,Tropical rain forest,C867,GPP_mean_Tropical rain forest,GPP,mean,4.611511549710739e-06
+default,Tropical rain forest,C867,GPP_iav_Tropical rain forest,GPP,iav,5.078588826079015e-08
+default,Tropical seasonal forest/savanna,C867,GPP_mean_Tropical seasonal forest/savanna,GPP,mean,2.333975483323468e-05
+default,Tropical seasonal forest/savanna,C867,GPP_iav_Tropical seasonal forest/savanna,GPP,iav,2.3812898785686632e-07
+default,Subtropical desert,C867,GPP_mean_Subtropical desert,GPP,mean,2.9945696227844366e-06
+default,Subtropical desert,C867,GPP_iav_Subtropical desert,GPP,iav,3.4038903826949015e-07
+default,Temperate rain forest,C867,GPP_mean_Temperate rain forest,GPP,mean,1.2232465896889326e-07
+default,Temperate rain forest,C867,GPP_iav_Temperate rain forest,GPP,iav,1.892250362841157e-09
+default,Temperate seasonal forest,C867,GPP_mean_Temperate seasonal forest,GPP,mean,4.7044190116278876e-06
+default,Temperate seasonal forest,C867,GPP_iav_Temperate seasonal forest,GPP,iav,4.1120140483443894e-08
+default,Woodland/shrubland,C867,GPP_mean_Woodland/shrubland,GPP,mean,6.485373228605669e-06
+default,Woodland/shrubland,C867,GPP_iav_Woodland/shrubland,GPP,iav,2.428967919936325e-07
+default,Temperate grassland/desert,C867,GPP_mean_Temperate grassland/desert,GPP,mean,9.924727438143488e-07
+default,Temperate grassland/desert,C867,GPP_iav_Temperate grassland/desert,GPP,iav,9.960190858965961e-08
+default,Boreal forest,C867,GPP_mean_Boreal forest,GPP,mean,3.788918178404336e-06
+default,Boreal forest,C867,GPP_iav_Boreal forest,GPP,iav,8.779754365195644e-08
+default,Tundra,C867,GPP_mean_Tundra,GPP,mean,2.029068692117208e-06
+default,Tundra,C867,GPP_iav_Tundra,GPP,iav,5.789963301939822e-08
+default,Ice sheet,C867,HR_mean_Ice sheet,HR,mean,8.842148441779022e-12
+default,Ice sheet,C867,HR_iav_Ice sheet,HR,iav,4.147827171488216e-12
+default,Tropical rain forest,C867,HR_mean_Tropical rain forest,HR,mean,2.1098416896256008e-06
+default,Tropical rain forest,C867,HR_iav_Tropical rain forest,HR,iav,6.905478170380208e-08
+default,Tropical seasonal forest/savanna,C867,HR_mean_Tropical seasonal forest/savanna,HR,mean,1.0002942013585467e-05
+default,Tropical seasonal forest/savanna,C867,HR_iav_Tropical seasonal forest/savanna,HR,iav,1.1619941757316812e-07
+default,Subtropical desert,C867,HR_mean_Subtropical desert,HR,mean,9.668900990278227e-07
+default,Subtropical desert,C867,HR_iav_Subtropical desert,HR,iav,5.5093927188072665e-08
+default,Temperate rain forest,C867,HR_mean_Temperate rain forest,HR,mean,5.566786884889358e-08
+default,Temperate rain forest,C867,HR_iav_Temperate rain forest,HR,iav,8.065758998120676e-10
+default,Temperate seasonal forest,C867,HR_mean_Temperate seasonal forest,HR,mean,2.136966425428158e-06
+default,Temperate seasonal forest,C867,HR_iav_Temperate seasonal forest,HR,iav,3.237772269766124e-08
+default,Woodland/shrubland,C867,HR_mean_Woodland/shrubland,HR,mean,2.6147627863231264e-06
+default,Woodland/shrubland,C867,HR_iav_Woodland/shrubland,HR,iav,9.986400505263678e-08
+default,Temperate grassland/desert,C867,HR_mean_Temperate grassland/desert,HR,mean,4.1086563754419784e-07
+default,Temperate grassland/desert,C867,HR_iav_Temperate grassland/desert,HR,iav,2.0529793097816714e-08
+default,Boreal forest,C867,HR_mean_Boreal forest,HR,mean,1.904002004658741e-06
+default,Boreal forest,C867,HR_iav_Boreal forest,HR,iav,6.140955427186861e-08
+default,Tundra,C867,HR_mean_Tundra,HR,mean,1.0524678532909425e-06
+default,Tundra,C867,HR_iav_Tundra,HR,iav,3.22792985552124e-08
+default,Ice sheet,C867,AR_mean_Ice sheet,AR,mean,1.286944566444524e-15
+default,Ice sheet,C867,AR_iav_Ice sheet,AR,iav,1.6572614412151548e-15
+default,Tropical rain forest,C867,AR_mean_Tropical rain forest,AR,mean,2.498406959305196e-06
+default,Tropical rain forest,C867,AR_iav_Tropical rain forest,AR,iav,3.5607857520838284e-08
+default,Tropical seasonal forest/savanna,C867,AR_mean_Tropical seasonal forest/savanna,AR,mean,1.2895057695025492e-05
+default,Tropical seasonal forest/savanna,C867,AR_iav_Tropical seasonal forest/savanna,AR,iav,1.203652487283282e-07
+default,Subtropical desert,C867,AR_mean_Subtropical desert,AR,mean,1.7826175525654676e-06
+default,Subtropical desert,C867,AR_iav_Subtropical desert,AR,iav,2.1461629633796083e-07
+default,Temperate rain forest,C867,AR_mean_Temperate rain forest,AR,mean,6.655728416714978e-08
+default,Temperate rain forest,C867,AR_iav_Temperate rain forest,AR,iav,1.1326045976678724e-09
+default,Temperate seasonal forest,C867,AR_mean_Temperate seasonal forest,AR,mean,2.5526498183429293e-06
+default,Temperate seasonal forest,C867,AR_iav_Temperate seasonal forest,AR,iav,3.5611636841598746e-08
+default,Woodland/shrubland,C867,AR_mean_Woodland/shrubland,AR,mean,3.763427509605327e-06
+default,Woodland/shrubland,C867,AR_iav_Woodland/shrubland,AR,iav,1.8804847399855665e-07
+default,Temperate grassland/desert,C867,AR_mean_Temperate grassland/desert,AR,mean,5.372463004853175e-07
+default,Temperate grassland/desert,C867,AR_iav_Temperate grassland/desert,AR,iav,5.5311470726211025e-08
+default,Boreal forest,C867,AR_mean_Boreal forest,AR,mean,1.8551759936892204e-06
+default,Boreal forest,C867,AR_iav_Boreal forest,AR,iav,5.540118499923409e-08
+default,Tundra,C867,AR_mean_Tundra,AR,mean,9.686008528168168e-07
+default,Tundra,C867,AR_iav_Tundra,AR,iav,3.786476217208791e-08
+default,Ice sheet,C867,ALBEDO_allSW_mean_Ice sheet,ALBEDO_allSW,mean,0.010451388308044022
+default,Ice sheet,C867,ALBEDO_allSW_iav_Ice sheet,ALBEDO_allSW,iav,6.341683614561614e-05
+default,Tropical rain forest,C867,ALBEDO_allSW_mean_Tropical rain forest,ALBEDO_allSW,mean,0.0056528459383270654
+default,Tropical rain forest,C867,ALBEDO_allSW_iav_Tropical rain forest,ALBEDO_allSW,iav,2.5544816348532865e-06
+default,Tropical seasonal forest/savanna,C867,ALBEDO_allSW_mean_Tropical seasonal forest/savanna,ALBEDO_allSW,mean,0.0434936197082683
+default,Tropical seasonal forest/savanna,C867,ALBEDO_allSW_iav_Tropical seasonal forest/savanna,ALBEDO_allSW,iav,7.486072830277833e-05
+default,Subtropical desert,C867,ALBEDO_allSW_mean_Subtropical desert,ALBEDO_allSW,mean,0.06360640381132758
+default,Subtropical desert,C867,ALBEDO_allSW_iav_Subtropical desert,ALBEDO_allSW,iav,0.0001822820404214313
+default,Temperate rain forest,C867,ALBEDO_allSW_mean_Temperate rain forest,ALBEDO_allSW,mean,0.0004207923176608373
+default,Temperate rain forest,C867,ALBEDO_allSW_iav_Temperate rain forest,ALBEDO_allSW,iav,1.5167667442319723e-05
+default,Temperate seasonal forest,C867,ALBEDO_allSW_mean_Temperate seasonal forest,ALBEDO_allSW,mean,0.016309104713414034
+default,Temperate seasonal forest,C867,ALBEDO_allSW_iav_Temperate seasonal forest,ALBEDO_allSW,iav,0.0003828594318177585
+default,Woodland/shrubland,C867,ALBEDO_allSW_mean_Woodland/shrubland,ALBEDO_allSW,mean,0.030404454937319934
+default,Woodland/shrubland,C867,ALBEDO_allSW_iav_Woodland/shrubland,ALBEDO_allSW,iav,0.0007493860760657446
+default,Temperate grassland/desert,C867,ALBEDO_allSW_mean_Temperate grassland/desert,ALBEDO_allSW,mean,0.016313294439298093
+default,Temperate grassland/desert,C867,ALBEDO_allSW_iav_Temperate grassland/desert,ALBEDO_allSW,iav,0.00030638052862139343
+default,Boreal forest,C867,ALBEDO_allSW_mean_Boreal forest,ALBEDO_allSW,mean,0.02707738301415121
+default,Boreal forest,C867,ALBEDO_allSW_iav_Boreal forest,ALBEDO_allSW,iav,0.0003711256676550308
+default,Tundra,C867,ALBEDO_allSW_mean_Tundra,ALBEDO_allSW,mean,0.036671458444162044
+default,Tundra,C867,ALBEDO_allSW_iav_Tundra,ALBEDO_allSW,iav,0.00025833259960746584
+default,Ice sheet,C867,ET_mean_Ice sheet,ET,mean,-5.188729820354899e-09
+default,Ice sheet,C867,ET_iav_Ice sheet,ET,iav,3.3140185927618227e-09
+default,Tropical rain forest,C867,ET_mean_Tropical rain forest,ET,mean,1.3017890019754535e-06
+default,Tropical rain forest,C867,ET_iav_Tropical rain forest,ET,iav,4.833083209603246e-08
+default,Tropical seasonal forest/savanna,C867,ET_mean_Tropical seasonal forest/savanna,ET,mean,7.290109106465461e-06
+default,Tropical seasonal forest/savanna,C867,ET_iav_Tropical seasonal forest/savanna,ET,iav,9.282307831936721e-08
+default,Subtropical desert,C867,ET_mean_Subtropical desert,ET,mean,1.5585041974030175e-06
+default,Subtropical desert,C867,ET_iav_Subtropical desert,ET,iav,1.2576066263868458e-07
+default,Temperate rain forest,C867,ET_mean_Temperate rain forest,ET,mean,2.616498839853857e-08
+default,Temperate rain forest,C867,ET_iav_Temperate rain forest,ET,iav,8.59532731770857e-10
+default,Temperate seasonal forest,C867,ET_mean_Temperate seasonal forest,ET,mean,1.1053358581765425e-06
+default,Temperate seasonal forest,C867,ET_iav_Temperate seasonal forest,ET,iav,2.0272681339122998e-08
+default,Woodland/shrubland,C867,ET_mean_Woodland/shrubland,ET,mean,1.8892055219977704e-06
+default,Woodland/shrubland,C867,ET_iav_Woodland/shrubland,ET,iav,3.953320132435795e-08
+default,Temperate grassland/desert,C867,ET_mean_Temperate grassland/desert,ET,mean,4.819520577687873e-07
+default,Temperate grassland/desert,C867,ET_iav_Temperate grassland/desert,ET,iav,2.729473770974712e-08
+default,Boreal forest,C867,ET_mean_Boreal forest,ET,mean,7.779894435625321e-07
+default,Boreal forest,C867,ET_iav_Boreal forest,ET,iav,2.200522322183573e-08
+default,Tundra,C867,ET_mean_Tundra,ET,mean,4.87793955485431e-07
+default,Tundra,C867,ET_iav_Tundra,ET,iav,1.533524461216386e-08
+default,Ice sheet,AF1855,EFLX_LH_TOT_mean_Ice sheet,EFLX_LH_TOT,mean,-0.027204125738097718
+default,Ice sheet,AF1855,EFLX_LH_TOT_iav_Ice sheet,EFLX_LH_TOT,iav,0.007560703735316786
+default,Tropical rain forest,AF1855,EFLX_LH_TOT_mean_Tropical rain forest,EFLX_LH_TOT,mean,3.2453363078467503
+default,Tropical rain forest,AF1855,EFLX_LH_TOT_iav_Tropical rain forest,EFLX_LH_TOT,iav,0.0976297105873226
+default,Tropical seasonal forest/savanna,AF1855,EFLX_LH_TOT_mean_Tropical seasonal forest/savanna,EFLX_LH_TOT,mean,18.687622073008495
+default,Tropical seasonal forest/savanna,AF1855,EFLX_LH_TOT_iav_Tropical seasonal forest/savanna,EFLX_LH_TOT,iav,0.23817770934720017
+default,Subtropical desert,AF1855,EFLX_LH_TOT_mean_Subtropical desert,EFLX_LH_TOT,mean,3.880135289304325
+default,Subtropical desert,AF1855,EFLX_LH_TOT_iav_Subtropical desert,EFLX_LH_TOT,iav,0.323549717707671
+default,Temperate rain forest,AF1855,EFLX_LH_TOT_mean_Temperate rain forest,EFLX_LH_TOT,mean,0.07245105865673715
+default,Temperate rain forest,AF1855,EFLX_LH_TOT_iav_Temperate rain forest,EFLX_LH_TOT,iav,0.0018992583824404992
+default,Temperate seasonal forest,AF1855,EFLX_LH_TOT_mean_Temperate seasonal forest,EFLX_LH_TOT,mean,3.120886642848056
+default,Temperate seasonal forest,AF1855,EFLX_LH_TOT_iav_Temperate seasonal forest,EFLX_LH_TOT,iav,0.06211268638462797
+default,Woodland/shrubland,AF1855,EFLX_LH_TOT_mean_Woodland/shrubland,EFLX_LH_TOT,mean,4.938783911548439
+default,Woodland/shrubland,AF1855,EFLX_LH_TOT_iav_Woodland/shrubland,EFLX_LH_TOT,iav,0.13500800983482655
+default,Temperate grassland/desert,AF1855,EFLX_LH_TOT_mean_Temperate grassland/desert,EFLX_LH_TOT,mean,1.1829878671209964
+default,Temperate grassland/desert,AF1855,EFLX_LH_TOT_iav_Temperate grassland/desert,EFLX_LH_TOT,iav,0.06779933257741198
+default,Boreal forest,AF1855,EFLX_LH_TOT_mean_Boreal forest,EFLX_LH_TOT,mean,2.125738114092291
+default,Boreal forest,AF1855,EFLX_LH_TOT_iav_Boreal forest,EFLX_LH_TOT,iav,0.05861380438733842
+default,Tundra,AF1855,EFLX_LH_TOT_mean_Tundra,EFLX_LH_TOT,mean,1.2547984266919472
+default,Tundra,AF1855,EFLX_LH_TOT_iav_Tundra,EFLX_LH_TOT,iav,0.04356070633285186
+default,Ice sheet,AF1855,FSH_mean_Ice sheet,FSH,mean,-0.2738314101111558
+default,Ice sheet,AF1855,FSH_iav_Ice sheet,FSH,iav,0.030593661560896834
+default,Tropical rain forest,AF1855,FSH_mean_Tropical rain forest,FSH,mean,0.6669134622136242
+default,Tropical rain forest,AF1855,FSH_iav_Tropical rain forest,FSH,iav,0.06298315124681632
+default,Tropical seasonal forest/savanna,AF1855,FSH_mean_Tropical seasonal forest/savanna,FSH,mean,10.797799921553969
+default,Tropical seasonal forest/savanna,AF1855,FSH_iav_Tropical seasonal forest/savanna,FSH,iav,0.14961212698082504
+default,Subtropical desert,AF1855,FSH_mean_Subtropical desert,FSH,mean,12.029243761455952
+default,Subtropical desert,AF1855,FSH_iav_Subtropical desert,FSH,iav,0.12904237984316697
+default,Temperate rain forest,AF1855,FSH_mean_Temperate rain forest,FSH,mean,0.035608315263447626
+default,Temperate rain forest,AF1855,FSH_iav_Temperate rain forest,FSH,iav,0.003801198263979727
+default,Temperate seasonal forest,AF1855,FSH_mean_Temperate seasonal forest,FSH,mean,1.7731874918387232
+default,Temperate seasonal forest,AF1855,FSH_iav_Temperate seasonal forest,FSH,iav,0.06913632123189507
+default,Woodland/shrubland,AF1855,FSH_mean_Woodland/shrubland,FSH,mean,4.18600618974862
+default,Woodland/shrubland,AF1855,FSH_iav_Woodland/shrubland,FSH,iav,0.12050955730042966
+default,Temperate grassland/desert,AF1855,FSH_mean_Temperate grassland/desert,FSH,mean,3.1795664479929044
+default,Temperate grassland/desert,AF1855,FSH_iav_Temperate grassland/desert,FSH,iav,0.04354297405199644
+default,Boreal forest,AF1855,FSH_mean_Boreal forest,FSH,mean,2.110768539248352
+default,Boreal forest,AF1855,FSH_iav_Boreal forest,FSH,iav,0.060698014254073195
+default,Tundra,AF1855,FSH_mean_Tundra,FSH,mean,0.8668951377668538
+default,Tundra,AF1855,FSH_iav_Tundra,FSH,iav,0.1110449515420551
+default,Ice sheet,AF1855,QVEGT_mean_Ice sheet,QVEGT,mean,7.611868683198021e-21
+default,Ice sheet,AF1855,QVEGT_iav_Ice sheet,QVEGT,iav,4.22542950088247e-21
+default,Tropical rain forest,AF1855,QVEGT_mean_Tropical rain forest,QVEGT,mean,7.556279235388014e-07
+default,Tropical rain forest,AF1855,QVEGT_iav_Tropical rain forest,QVEGT,iav,1.1958290261088973e-08
+default,Tropical seasonal forest/savanna,AF1855,QVEGT_mean_Tropical seasonal forest/savanna,QVEGT,mean,4.6214156555219e-06
+default,Tropical seasonal forest/savanna,AF1855,QVEGT_iav_Tropical seasonal forest/savanna,QVEGT,iav,4.0629584193405766e-08
+default,Subtropical desert,AF1855,QVEGT_mean_Subtropical desert,QVEGT,mean,8.047744120813095e-07
+default,Subtropical desert,AF1855,QVEGT_iav_Subtropical desert,QVEGT,iav,7.76596032333635e-08
+default,Temperate rain forest,AF1855,QVEGT_mean_Temperate rain forest,QVEGT,mean,1.3611143683127833e-08
+default,Temperate rain forest,AF1855,QVEGT_iav_Temperate rain forest,QVEGT,iav,2.6230348391257573e-10
+default,Temperate seasonal forest,AF1855,QVEGT_mean_Temperate seasonal forest,QVEGT,mean,7.905219478854471e-07
+default,Temperate seasonal forest,AF1855,QVEGT_iav_Temperate seasonal forest,QVEGT,iav,1.8902897073050197e-08
+default,Woodland/shrubland,AF1855,QVEGT_mean_Woodland/shrubland,QVEGT,mean,1.2599699777397328e-06
+default,Woodland/shrubland,AF1855,QVEGT_iav_Woodland/shrubland,QVEGT,iav,5.180403358229914e-08
+default,Temperate grassland/desert,AF1855,QVEGT_mean_Temperate grassland/desert,QVEGT,mean,2.288902022836052e-07
+default,Temperate grassland/desert,AF1855,QVEGT_iav_Temperate grassland/desert,QVEGT,iav,2.286662402262194e-08
+default,Boreal forest,AF1855,QVEGT_mean_Boreal forest,QVEGT,mean,5.199971872460507e-07
+default,Boreal forest,AF1855,QVEGT_iav_Boreal forest,QVEGT,iav,1.7818834052728703e-08
+default,Tundra,AF1855,QVEGT_mean_Tundra,QVEGT,mean,2.572629629497747e-07
+default,Tundra,AF1855,QVEGT_iav_Tundra,QVEGT,iav,1.0950375654425056e-08
+default,Ice sheet,AF1855,QVEGE_mean_Ice sheet,QVEGE,mean,-3.806750480093701e-11
+default,Ice sheet,AF1855,QVEGE_iav_Ice sheet,QVEGE,iav,1.3219802070398768e-11
+default,Tropical rain forest,AF1855,QVEGE_mean_Tropical rain forest,QVEGE,mean,4.6702319291922694e-07
+default,Tropical rain forest,AF1855,QVEGE_iav_Tropical rain forest,QVEGE,iav,3.17157518952334e-08
+default,Tropical seasonal forest/savanna,AF1855,QVEGE_mean_Tropical seasonal forest/savanna,QVEGE,mean,1.5116878957918463e-06
+default,Tropical seasonal forest/savanna,AF1855,QVEGE_iav_Tropical seasonal forest/savanna,QVEGE,iav,5.288522333615078e-08
+default,Subtropical desert,AF1855,QVEGE_mean_Subtropical desert,QVEGE,mean,9.264130221833362e-08
+default,Subtropical desert,AF1855,QVEGE_iav_Subtropical desert,QVEGE,iav,1.1411488910182578e-08
+default,Temperate rain forest,AF1855,QVEGE_mean_Temperate rain forest,QVEGE,mean,1.2041344010064845e-08
+default,Temperate rain forest,AF1855,QVEGE_iav_Temperate rain forest,QVEGE,iav,6.466585841594524e-10
+default,Temperate seasonal forest,AF1855,QVEGE_mean_Temperate seasonal forest,QVEGE,mean,2.3912012823708286e-07
+default,Temperate seasonal forest,AF1855,QVEGE_iav_Temperate seasonal forest,QVEGE,iav,1.2501274217372661e-08
+default,Woodland/shrubland,AF1855,QVEGE_mean_Woodland/shrubland,QVEGE,mean,2.714620415117167e-07
+default,Woodland/shrubland,AF1855,QVEGE_iav_Woodland/shrubland,QVEGE,iav,1.1247188765889201e-08
+default,Temperate grassland/desert,AF1855,QVEGE_mean_Temperate grassland/desert,QVEGE,mean,1.8883940783682817e-08
+default,Temperate grassland/desert,AF1855,QVEGE_iav_Temperate grassland/desert,QVEGE,iav,2.438256836394216e-09
+default,Boreal forest,AF1855,QVEGE_mean_Boreal forest,QVEGE,mean,1.127015455264004e-07
+default,Boreal forest,AF1855,QVEGE_iav_Boreal forest,QVEGE,iav,5.134908287331725e-09
+default,Tundra,AF1855,QVEGE_mean_Tundra,QVEGE,mean,3.8349823171102894e-08
+default,Tundra,AF1855,QVEGE_iav_Tundra,QVEGE,iav,2.009651300536532e-09
+default,Ice sheet,AF1855,QSOIL_mean_Ice sheet,QSOIL,mean,-9.352649592616866e-09
+default,Ice sheet,AF1855,QSOIL_iav_Ice sheet,QSOIL,iav,2.6903164961239305e-09
+default,Tropical rain forest,AF1855,QSOIL_mean_Tropical rain forest,QSOIL,mean,7.496435980832978e-08
+default,Tropical rain forest,AF1855,QSOIL_iav_Tropical rain forest,QSOIL,iav,1.868837410693813e-09
+default,Tropical seasonal forest/savanna,AF1855,QSOIL_mean_Tropical seasonal forest/savanna,QSOIL,mean,1.3389563892432224e-06
+default,Tropical seasonal forest/savanna,AF1855,QSOIL_iav_Tropical seasonal forest/savanna,QSOIL,iav,3.891738734886057e-08
+default,Subtropical desert,AF1855,QSOIL_mean_Subtropical desert,QSOIL,mean,6.540003241392581e-07
+default,Subtropical desert,AF1855,QSOIL_iav_Subtropical desert,QSOIL,iav,4.462901858788781e-08
+default,Temperate rain forest,AF1855,QSOIL_mean_Temperate rain forest,QSOIL,mean,3.30305450695058e-09
+default,Temperate rain forest,AF1855,QSOIL_iav_Temperate rain forest,QSOIL,iav,2.0009337956630713e-10
+default,Temperate seasonal forest,AF1855,QSOIL_mean_Temperate seasonal forest,QSOIL,mean,2.1758472632943812e-07
+default,Temperate seasonal forest,AF1855,QSOIL_iav_Temperate seasonal forest,QSOIL,iav,4.821159698461466e-09
+default,Woodland/shrubland,AF1855,QSOIL_mean_Woodland/shrubland,QSOIL,mean,4.4343343937877183e-07
+default,Woodland/shrubland,AF1855,QSOIL_iav_Woodland/shrubland,QSOIL,iav,1.370618220567331e-08
+default,Temperate grassland/desert,AF1855,QSOIL_mean_Temperate grassland/desert,QSOIL,mean,2.2490986000856286e-07
+default,Temperate grassland/desert,AF1855,QSOIL_iav_Temperate grassland/desert,QSOIL,iav,4.984984110314536e-09
+default,Boreal forest,AF1855,QSOIL_mean_Boreal forest,QSOIL,mean,2.1690307617372215e-07
+default,Boreal forest,AF1855,QSOIL_iav_Boreal forest,QSOIL,iav,7.91531105293959e-09
+default,Tundra,AF1855,QSOIL_mean_Tundra,QSOIL,mean,2.0644501819577862e-07
+default,Tundra,AF1855,QSOIL_iav_Tundra,QSOIL,iav,1.0072393380822155e-08
+default,Ice sheet,AF1855,FSR_mean_Ice sheet,FSR,mean,1.4530471886940741
+default,Ice sheet,AF1855,FSR_iav_Ice sheet,FSR,iav,0.01914014022212325
+default,Tropical rain forest,AF1855,FSR_mean_Tropical rain forest,FSR,mean,1.1226610773805041
+default,Tropical rain forest,AF1855,FSR_iav_Tropical rain forest,FSR,iav,0.009818048991541027
+default,Tropical seasonal forest/savanna,AF1855,FSR_mean_Tropical seasonal forest/savanna,FSR,mean,9.560418903932026
+default,Tropical seasonal forest/savanna,AF1855,FSR_iav_Tropical seasonal forest/savanna,FSR,iav,0.053244942953217834
+default,Subtropical desert,AF1855,FSR_mean_Subtropical desert,FSR,mean,15.953982424024218
+default,Subtropical desert,AF1855,FSR_iav_Subtropical desert,FSR,iav,0.10805731851975957
+default,Temperate rain forest,AF1855,FSR_mean_Temperate rain forest,FSR,mean,0.0514501603387314
+default,Temperate rain forest,AF1855,FSR_iav_Temperate rain forest,FSR,iav,0.0014898201877375557
+default,Temperate seasonal forest,AF1855,FSR_mean_Temperate seasonal forest,FSR,mean,2.3049519133363994
+default,Temperate seasonal forest,AF1855,FSR_iav_Temperate seasonal forest,FSR,iav,0.055801485817497234
+default,Woodland/shrubland,AF1855,FSR_mean_Woodland/shrubland,FSR,mean,4.671801703237521
+default,Woodland/shrubland,AF1855,FSR_iav_Woodland/shrubland,FSR,iav,0.10418926419949
+default,Temperate grassland/desert,AF1855,FSR_mean_Temperate grassland/desert,FSR,mean,3.081463797456902
+default,Temperate grassland/desert,AF1855,FSR_iav_Temperate grassland/desert,FSR,iav,0.033316507455530484
+default,Boreal forest,AF1855,FSR_mean_Boreal forest,FSR,mean,3.188718763240087
+default,Boreal forest,AF1855,FSR_iav_Boreal forest,FSR,iav,0.0732642054302786
+default,Tundra,AF1855,FSR_mean_Tundra,FSR,mean,3.702547374269863
+default,Tundra,AF1855,FSR_iav_Tundra,FSR,iav,0.04126701989862246
+default,Ice sheet,AF1855,FSDS_mean_Ice sheet,FSDS,mean,1.8670721910679617
+default,Ice sheet,AF1855,FSDS_iav_Ice sheet,FSDS,iav,0.018377515040630253
+default,Tropical rain forest,AF1855,FSDS_mean_Tropical rain forest,FSDS,mean,6.441326141927971
+default,Tropical rain forest,AF1855,FSDS_iav_Tropical rain forest,FSDS,iav,0.05854489607469824
+default,Tropical seasonal forest/savanna,AF1855,FSDS_mean_Tropical seasonal forest/savanna,FSDS,mean,56.90116571632719
+default,Tropical seasonal forest/savanna,AF1855,FSDS_iav_Tropical seasonal forest/savanna,FSDS,iav,0.23900606603724056
+default,Subtropical desert,AF1855,FSDS_mean_Subtropical desert,FSDS,mean,56.38906527031626
+default,Subtropical desert,AF1855,FSDS_iav_Subtropical desert,FSDS,iav,0.23207315683017912
+default,Temperate rain forest,AF1855,FSDS_mean_Temperate rain forest,FSDS,mean,0.27213465136872644
+default,Temperate rain forest,AF1855,FSDS_iav_Temperate rain forest,FSDS,iav,0.004366276833581793
+default,Temperate seasonal forest,AF1855,FSDS_mean_Temperate seasonal forest,FSDS,mean,11.677348176098977
+default,Temperate seasonal forest,AF1855,FSDS_iav_Temperate seasonal forest,FSDS,iav,0.05790468422381585
+default,Woodland/shrubland,AF1855,FSDS_mean_Woodland/shrubland,FSDS,mean,22.72858816248067
+default,Woodland/shrubland,AF1855,FSDS_iav_Woodland/shrubland,FSDS,iav,0.07560663981797766
+default,Temperate grassland/desert,AF1855,FSDS_mean_Temperate grassland/desert,FSDS,mean,14.037096939044318
+default,Temperate grassland/desert,AF1855,FSDS_iav_Temperate grassland/desert,FSDS,iav,0.030057061617263316
+default,Boreal forest,AF1855,FSDS_mean_Boreal forest,FSDS,mean,12.521525963750886
+default,Boreal forest,AF1855,FSDS_iav_Boreal forest,FSDS,iav,0.10751335287961958
+default,Tundra,AF1855,FSDS_mean_Tundra,FSDS,mean,9.772841569289042
+default,Tundra,AF1855,FSDS_iav_Tundra,FSDS,iav,0.0647243919606306
+default,Ice sheet,AF1855,TSA_mean_Ice sheet,TSA,mean,4.180644104402662
+default,Ice sheet,AF1855,TSA_iav_Ice sheet,TSA,iav,0.008193958436324615
+default,Tropical rain forest,AF1855,TSA_mean_Tropical rain forest,TSA,mean,9.536217964521988
+default,Tropical rain forest,AF1855,TSA_iav_Tropical rain forest,TSA,iav,0.005148095007951923
+default,Tropical seasonal forest/savanna,AF1855,TSA_mean_Tropical seasonal forest/savanna,TSA,mean,76.13452808788149
+default,Tropical seasonal forest/savanna,AF1855,TSA_iav_Tropical seasonal forest/savanna,TSA,iav,0.03724677503310025
+default,Subtropical desert,AF1855,TSA_mean_Subtropical desert,TSA,mean,67.71832118811216
+default,Subtropical desert,AF1855,TSA_iav_Subtropical desert,TSA,iav,0.04385038698532723
+default,Temperate rain forest,AF1855,TSA_mean_Temperate rain forest,TSA,mean,0.5768584868530009
+default,Temperate rain forest,AF1855,TSA_iav_Temperate rain forest,TSA,iav,0.0005472641715857326
+default,Temperate seasonal forest,AF1855,TSA_mean_Temperate seasonal forest,TSA,mean,21.658565067086393
+default,Temperate seasonal forest,AF1855,TSA_iav_Temperate seasonal forest,TSA,iav,0.015474088442887592
+default,Woodland/shrubland,AF1855,TSA_mean_Woodland/shrubland,TSA,mean,38.209617375743804
+default,Woodland/shrubland,AF1855,TSA_iav_Woodland/shrubland,TSA,iav,0.023826018009893292
+default,Temperate grassland/desert,AF1855,TSA_mean_Temperate grassland/desert,TSA,mean,20.20108687546165
+default,Temperate grassland/desert,AF1855,TSA_iav_Temperate grassland/desert,TSA,iav,0.015052835851405488
+default,Boreal forest,AF1855,TSA_mean_Boreal forest,TSA,mean,24.817353506985057
+default,Boreal forest,AF1855,TSA_iav_Boreal forest,TSA,iav,0.03473945973134843
+default,Tundra,AF1855,TSA_mean_Tundra,TSA,mean,22.606699817013038
+default,Tundra,AF1855,TSA_iav_Tundra,TSA,iav,0.033320597810734966
+default,Ice sheet,AF1855,TSKIN_mean_Ice sheet,TSKIN,mean,4.152071058152961
+default,Ice sheet,AF1855,TSKIN_iav_Ice sheet,TSKIN,iav,0.01046904483033447
+default,Tropical rain forest,AF1855,TSKIN_mean_Tropical rain forest,TSKIN,mean,9.538355850182196
+default,Tropical rain forest,AF1855,TSKIN_iav_Tropical rain forest,TSKIN,iav,0.004583393980108978
+default,Tropical seasonal forest/savanna,AF1855,TSKIN_mean_Tropical seasonal forest/savanna,TSKIN,mean,76.39822908261189
+default,Tropical seasonal forest/savanna,AF1855,TSKIN_iav_Tropical seasonal forest/savanna,TSKIN,iav,0.03598800475490462
+default,Subtropical desert,AF1855,TSKIN_mean_Subtropical desert,TSKIN,mean,68.17122791971521
+default,Subtropical desert,AF1855,TSKIN_iav_Subtropical desert,TSKIN,iav,0.049850108975117796
+default,Temperate rain forest,AF1855,TSKIN_mean_Temperate rain forest,TSKIN,mean,0.5765710304611614
+default,Temperate rain forest,AF1855,TSKIN_iav_Temperate rain forest,TSKIN,iav,0.0005605395796208117
+default,Temperate seasonal forest,AF1855,TSKIN_mean_Temperate seasonal forest,TSKIN,mean,21.65580755086311
+default,Temperate seasonal forest,AF1855,TSKIN_iav_Temperate seasonal forest,TSKIN,iav,0.016487500550484126
+default,Woodland/shrubland,AF1855,TSKIN_mean_Woodland/shrubland,TSKIN,mean,38.30021132464748
+default,Woodland/shrubland,AF1855,TSKIN_iav_Woodland/shrubland,TSKIN,iav,0.025154900623573465
+default,Temperate grassland/desert,AF1855,TSKIN_mean_Temperate grassland/desert,TSKIN,mean,20.340374341116767
+default,Temperate grassland/desert,AF1855,TSKIN_iav_Temperate grassland/desert,TSKIN,iav,0.013223544659444544
+default,Boreal forest,AF1855,TSKIN_mean_Boreal forest,TSKIN,mean,24.830626630732134
+default,Boreal forest,AF1855,TSKIN_iav_Boreal forest,TSKIN,iav,0.03460098418405624
+default,Tundra,AF1855,TSKIN_mean_Tundra,TSKIN,mean,22.556897395639336
+default,Tundra,AF1855,TSKIN_iav_Tundra,TSKIN,iav,0.03814028634827816
+default,Ice sheet,AF1855,Q2M_mean_Ice sheet,Q2M,mean,2.004695661340008e-05
+default,Ice sheet,AF1855,Q2M_iav_Ice sheet,Q2M,iav,6.081434196961785e-07
+default,Tropical rain forest,AF1855,Q2M_mean_Tropical rain forest,Q2M,mean,0.0006003251454380222
+default,Tropical rain forest,AF1855,Q2M_iav_Tropical rain forest,Q2M,iav,7.751469728457097e-06
+default,Tropical seasonal forest/savanna,AF1855,Q2M_mean_Tropical seasonal forest/savanna,Q2M,mean,0.003722173775690455
+default,Tropical seasonal forest/savanna,AF1855,Q2M_iav_Tropical seasonal forest/savanna,Q2M,iav,5.346247991174013e-05
+default,Subtropical desert,AF1855,Q2M_mean_Subtropical desert,Q2M,mean,0.0017643131950126963
+default,Subtropical desert,AF1855,Q2M_iav_Subtropical desert,Q2M,iav,4.61123436767258e-05
+default,Temperate rain forest,AF1855,Q2M_mean_Temperate rain forest,Q2M,mean,1.3024718845355024e-05
+default,Temperate rain forest,AF1855,Q2M_iav_Temperate rain forest,Q2M,iav,2.1556045374060242e-07
+default,Temperate seasonal forest,AF1855,Q2M_mean_Temperate seasonal forest,Q2M,mean,0.000498492095707475
+default,Temperate seasonal forest,AF1855,Q2M_iav_Temperate seasonal forest,Q2M,iav,8.44190205789853e-06
+default,Woodland/shrubland,AF1855,Q2M_mean_Woodland/shrubland,Q2M,mean,0.0007586287019207376
+default,Woodland/shrubland,AF1855,Q2M_iav_Woodland/shrubland,Q2M,iav,2.0870980556419473e-05
+default,Temperate grassland/desert,AF1855,Q2M_mean_Temperate grassland/desert,Q2M,mean,0.0002934002452481445
+default,Temperate grassland/desert,AF1855,Q2M_iav_Temperate grassland/desert,Q2M,iav,6.645840369775796e-06
+default,Boreal forest,AF1855,Q2M_mean_Boreal forest,Q2M,mean,0.00030915120751116463
+default,Boreal forest,AF1855,Q2M_iav_Boreal forest,Q2M,iav,6.20197639458359e-06
+default,Tundra,AF1855,Q2M_mean_Tundra,Q2M,mean,0.00018396463389156413
+default,Tundra,AF1855,Q2M_iav_Tundra,Q2M,iav,5.209752597546031e-06
+default,Ice sheet,AF1855,U10_mean_Ice sheet,U10,mean,0.06534296408146753
+default,Ice sheet,AF1855,U10_iav_Ice sheet,U10,iav,0.001820368447775486
+default,Tropical rain forest,AF1855,U10_mean_Tropical rain forest,U10,mean,0.05466252679279575
+default,Tropical rain forest,AF1855,U10_iav_Tropical rain forest,U10,iav,0.0018856310844212387
+default,Tropical seasonal forest/savanna,AF1855,U10_mean_Tropical seasonal forest/savanna,U10,mean,0.4989254338002252
+default,Tropical seasonal forest/savanna,AF1855,U10_iav_Tropical seasonal forest/savanna,U10,iav,0.00504898765660875
+default,Subtropical desert,AF1855,U10_mean_Subtropical desert,U10,mean,0.6381338556012628
+default,Subtropical desert,AF1855,U10_iav_Subtropical desert,U10,iav,0.00368743165195944
+default,Temperate rain forest,AF1855,U10_mean_Temperate rain forest,U10,mean,0.0070693826611673465
+default,Temperate rain forest,AF1855,U10_iav_Temperate rain forest,U10,iav,0.0005889875028123966
+default,Temperate seasonal forest,AF1855,U10_mean_Temperate seasonal forest,U10,mean,0.2296998279918026
+default,Temperate seasonal forest,AF1855,U10_iav_Temperate seasonal forest,U10,iav,0.002230254615748083
+default,Woodland/shrubland,AF1855,U10_mean_Woodland/shrubland,U10,mean,0.41613423902283275
+default,Woodland/shrubland,AF1855,U10_iav_Woodland/shrubland,U10,iav,0.004571102214227544
+default,Temperate grassland/desert,AF1855,U10_mean_Temperate grassland/desert,U10,mean,0.23192750706821488
+default,Temperate grassland/desert,AF1855,U10_iav_Temperate grassland/desert,U10,iav,0.0034210860689093455
+default,Boreal forest,AF1855,U10_mean_Boreal forest,U10,mean,0.2693945826014069
+default,Boreal forest,AF1855,U10_iav_Boreal forest,U10,iav,0.0037594939642151804
+default,Tundra,AF1855,U10_mean_Tundra,U10,mean,0.26242879234636074
+default,Tundra,AF1855,U10_iav_Tundra,U10,iav,0.002035903021383711
+default,Ice sheet,AF1855,TAUX_mean_Ice sheet,TAUX,mean,-0.0005696892790260567
+default,Ice sheet,AF1855,TAUX_iav_Ice sheet,TAUX,iav,3.4028341731870435e-05
+default,Tropical rain forest,AF1855,TAUX_mean_Tropical rain forest,TAUX,mean,-0.0034631895299909107
+default,Tropical rain forest,AF1855,TAUX_iav_Tropical rain forest,TAUX,iav,0.0004788514356573863
+default,Tropical seasonal forest/savanna,AF1855,TAUX_mean_Tropical seasonal forest/savanna,TAUX,mean,-0.017119816128604845
+default,Tropical seasonal forest/savanna,AF1855,TAUX_iav_Tropical seasonal forest/savanna,TAUX,iav,0.00038728700823899796
+default,Subtropical desert,AF1855,TAUX_mean_Subtropical desert,TAUX,mean,-0.007929105988478461
+default,Subtropical desert,AF1855,TAUX_iav_Subtropical desert,TAUX,iav,0.00025545834920902077
+default,Temperate rain forest,AF1855,TAUX_mean_Temperate rain forest,TAUX,mean,-0.0005874533904915572
+default,Temperate rain forest,AF1855,TAUX_iav_Temperate rain forest,TAUX,iav,0.00010629042751178305
+default,Temperate seasonal forest,AF1855,TAUX_mean_Temperate seasonal forest,TAUX,mean,-0.0122842593818706
+default,Temperate seasonal forest,AF1855,TAUX_iav_Temperate seasonal forest,TAUX,iav,0.00024598192419728314
+default,Woodland/shrubland,AF1855,TAUX_mean_Woodland/shrubland,TAUX,mean,-0.011246184485754714
+default,Woodland/shrubland,AF1855,TAUX_iav_Woodland/shrubland,TAUX,iav,0.0005901961423931821
+default,Temperate grassland/desert,AF1855,TAUX_mean_Temperate grassland/desert,TAUX,mean,-0.003594592658718708
+default,Temperate grassland/desert,AF1855,TAUX_iav_Temperate grassland/desert,TAUX,iav,0.0001521948728383229
+default,Boreal forest,AF1855,TAUX_mean_Boreal forest,TAUX,mean,-0.009886281827563997
+default,Boreal forest,AF1855,TAUX_iav_Boreal forest,TAUX,iav,0.00018368057520189098
+default,Tundra,AF1855,TAUX_mean_Tundra,TAUX,mean,-0.003326681562137021
+default,Tundra,AF1855,TAUX_iav_Tundra,TAUX,iav,7.539658802706028e-05
+default,Ice sheet,AF1855,TAUY_mean_Ice sheet,TAUY,mean,-0.0005696892790260567
+default,Ice sheet,AF1855,TAUY_iav_Ice sheet,TAUY,iav,3.4028341731870435e-05
+default,Tropical rain forest,AF1855,TAUY_mean_Tropical rain forest,TAUY,mean,-0.0034631895299909107
+default,Tropical rain forest,AF1855,TAUY_iav_Tropical rain forest,TAUY,iav,0.0004788514356573863
+default,Tropical seasonal forest/savanna,AF1855,TAUY_mean_Tropical seasonal forest/savanna,TAUY,mean,-0.017119816128604845
+default,Tropical seasonal forest/savanna,AF1855,TAUY_iav_Tropical seasonal forest/savanna,TAUY,iav,0.00038728700823899796
+default,Subtropical desert,AF1855,TAUY_mean_Subtropical desert,TAUY,mean,-0.007929105988478461
+default,Subtropical desert,AF1855,TAUY_iav_Subtropical desert,TAUY,iav,0.00025545834920902077
+default,Temperate rain forest,AF1855,TAUY_mean_Temperate rain forest,TAUY,mean,-0.0005874533904915572
+default,Temperate rain forest,AF1855,TAUY_iav_Temperate rain forest,TAUY,iav,0.00010629042751178305
+default,Temperate seasonal forest,AF1855,TAUY_mean_Temperate seasonal forest,TAUY,mean,-0.0122842593818706
+default,Temperate seasonal forest,AF1855,TAUY_iav_Temperate seasonal forest,TAUY,iav,0.00024598192419728314
+default,Woodland/shrubland,AF1855,TAUY_mean_Woodland/shrubland,TAUY,mean,-0.011246184485754714
+default,Woodland/shrubland,AF1855,TAUY_iav_Woodland/shrubland,TAUY,iav,0.0005901961423931821
+default,Temperate grassland/desert,AF1855,TAUY_mean_Temperate grassland/desert,TAUY,mean,-0.003594592658718708
+default,Temperate grassland/desert,AF1855,TAUY_iav_Temperate grassland/desert,TAUY,iav,0.0001521948728383229
+default,Boreal forest,AF1855,TAUY_mean_Boreal forest,TAUY,mean,-0.009886281827563997
+default,Boreal forest,AF1855,TAUY_iav_Boreal forest,TAUY,iav,0.00018368057520189098
+default,Tundra,AF1855,TAUY_mean_Tundra,TAUY,mean,-0.003326681562137021
+default,Tundra,AF1855,TAUY_iav_Tundra,TAUY,iav,7.539658802706028e-05
+default,Ice sheet,AF1855,GPP_mean_Ice sheet,GPP,mean,1.2408828800148505e-19
+default,Ice sheet,AF1855,GPP_iav_Ice sheet,GPP,iav,5.629651489875437e-20
+default,Tropical rain forest,AF1855,GPP_mean_Tropical rain forest,GPP,mean,3.15197686308161e-06
+default,Tropical rain forest,AF1855,GPP_iav_Tropical rain forest,GPP,iav,4.4067550384085955e-08
+default,Tropical seasonal forest/savanna,AF1855,GPP_mean_Tropical seasonal forest/savanna,GPP,mean,1.5783512591916153e-05
+default,Tropical seasonal forest/savanna,AF1855,GPP_iav_Tropical seasonal forest/savanna,GPP,iav,2.0320979520607007e-07
+default,Subtropical desert,AF1855,GPP_mean_Subtropical desert,GPP,mean,1.927962066447569e-06
+default,Subtropical desert,AF1855,GPP_iav_Subtropical desert,GPP,iav,2.1517871210057432e-07
+default,Temperate rain forest,AF1855,GPP_mean_Temperate rain forest,GPP,mean,1.0243595918826553e-07
+default,Temperate rain forest,AF1855,GPP_iav_Temperate rain forest,GPP,iav,1.7000657733288278e-09
+default,Temperate seasonal forest,AF1855,GPP_mean_Temperate seasonal forest,GPP,mean,3.4742771190961323e-06
+default,Temperate seasonal forest,AF1855,GPP_iav_Temperate seasonal forest,GPP,iav,4.174301618290235e-08
+default,Woodland/shrubland,AF1855,GPP_mean_Woodland/shrubland,GPP,mean,4.049019219732288e-06
+default,Woodland/shrubland,AF1855,GPP_iav_Woodland/shrubland,GPP,iav,2.0179661942701595e-07
+default,Temperate grassland/desert,AF1855,GPP_mean_Temperate grassland/desert,GPP,mean,5.645824753852785e-07
+default,Temperate grassland/desert,AF1855,GPP_iav_Temperate grassland/desert,GPP,iav,5.494534893745784e-08
+default,Boreal forest,AF1855,GPP_mean_Boreal forest,GPP,mean,2.6051414664695465e-06
+default,Boreal forest,AF1855,GPP_iav_Boreal forest,GPP,iav,5.49185060546496e-08
+default,Tundra,AF1855,GPP_mean_Tundra,GPP,mean,1.2296036290171408e-06
+default,Tundra,AF1855,GPP_iav_Tundra,GPP,iav,4.678091854678885e-08
+default,Ice sheet,AF1855,HR_mean_Ice sheet,HR,mean,3.132025987607613e-11
+default,Ice sheet,AF1855,HR_iav_Ice sheet,HR,iav,1.9596511476799508e-11
+default,Tropical rain forest,AF1855,HR_mean_Tropical rain forest,HR,mean,1.346186982647865e-06
+default,Tropical rain forest,AF1855,HR_iav_Tropical rain forest,HR,iav,3.265786883346798e-08
+default,Tropical seasonal forest/savanna,AF1855,HR_mean_Tropical seasonal forest/savanna,HR,mean,6.396368080865917e-06
+default,Tropical seasonal forest/savanna,AF1855,HR_iav_Tropical seasonal forest/savanna,HR,iav,7.731490051060063e-08
+default,Subtropical desert,AF1855,HR_mean_Subtropical desert,HR,mean,6.015200000676913e-07
+default,Subtropical desert,AF1855,HR_iav_Subtropical desert,HR,iav,3.886311244522688e-08
+default,Temperate rain forest,AF1855,HR_mean_Temperate rain forest,HR,mean,4.5558909239422384e-08
+default,Temperate rain forest,AF1855,HR_iav_Temperate rain forest,HR,iav,7.325616227088081e-10
+default,Temperate seasonal forest,AF1855,HR_mean_Temperate seasonal forest,HR,mean,1.5693633311468571e-06
+default,Temperate seasonal forest,AF1855,HR_iav_Temperate seasonal forest,HR,iav,3.6612972376241715e-08
+default,Woodland/shrubland,AF1855,HR_mean_Woodland/shrubland,HR,mean,1.657856980779135e-06
+default,Woodland/shrubland,AF1855,HR_iav_Woodland/shrubland,HR,iav,5.004180006515918e-08
+default,Temperate grassland/desert,AF1855,HR_mean_Temperate grassland/desert,HR,mean,2.3828442199225961e-07
+default,Temperate grassland/desert,AF1855,HR_iav_Temperate grassland/desert,HR,iav,1.0672716625636431e-08
+default,Boreal forest,AF1855,HR_mean_Boreal forest,HR,mean,1.3135295566874344e-06
+default,Boreal forest,AF1855,HR_iav_Boreal forest,HR,iav,4.683216671561313e-08
+default,Tundra,AF1855,HR_mean_Tundra,HR,mean,6.732743239733157e-07
+default,Tundra,AF1855,HR_iav_Tundra,HR,iav,5.037073066595491e-08
+default,Ice sheet,AF1855,AR_mean_Ice sheet,AR,mean,7.32409004253578e-18
+default,Ice sheet,AF1855,AR_iav_Ice sheet,AR,iav,4.0015655780763445e-19
+default,Tropical rain forest,AF1855,AR_mean_Tropical rain forest,AR,mean,1.804834428199674e-06
+default,Tropical rain forest,AF1855,AR_iav_Tropical rain forest,AR,iav,2.2580011794157446e-08
+default,Tropical seasonal forest/savanna,AF1855,AR_mean_Tropical seasonal forest/savanna,AR,mean,9.041461359882776e-06
+default,Tropical seasonal forest/savanna,AF1855,AR_iav_Tropical seasonal forest/savanna,AR,iav,1.0874091185636091e-07
+default,Subtropical desert,AF1855,AR_mean_Subtropical desert,AR,mean,1.224523054046351e-06
+default,Subtropical desert,AF1855,AR_iav_Subtropical desert,AR,iav,1.389062827377609e-07
+default,Temperate rain forest,AF1855,AR_mean_Temperate rain forest,AR,mean,5.65519092327798e-08
+default,Temperate rain forest,AF1855,AR_iav_Temperate rain forest,AR,iav,9.5030545317029e-10
+default,Temperate seasonal forest,AF1855,AR_mean_Temperate seasonal forest,AR,mean,1.8788700376169093e-06
+default,Temperate seasonal forest,AF1855,AR_iav_Temperate seasonal forest,AR,iav,3.5567180778742446e-08
+default,Woodland/shrubland,AF1855,AR_mean_Woodland/shrubland,AR,mean,2.3035176113687216e-06
+default,Woodland/shrubland,AF1855,AR_iav_Woodland/shrubland,AR,iav,1.4577671909143317e-07
+default,Temperate grassland/desert,AF1855,AR_mean_Temperate grassland/desert,AR,mean,3.043556427942027e-07
+default,Temperate grassland/desert,AF1855,AR_iav_Temperate grassland/desert,AR,iav,2.8500834849842898e-08
+default,Boreal forest,AF1855,AR_mean_Boreal forest,AR,mean,1.2517100752159149e-06
+default,Boreal forest,AF1855,AR_iav_Boreal forest,AR,iav,3.533442066712474e-08
+default,Tundra,AF1855,AR_mean_Tundra,AR,mean,5.448308654540677e-07
+default,Tundra,AF1855,AR_iav_Tundra,AR,iav,3.207028045898593e-08
+default,Ice sheet,AF1855,ALBEDO_allSW_mean_Ice sheet,ALBEDO_allSW,mean,0.010619456070329705
+default,Ice sheet,AF1855,ALBEDO_allSW_iav_Ice sheet,ALBEDO_allSW,iav,5.4189685860591024e-05
+default,Tropical rain forest,AF1855,ALBEDO_allSW_mean_Tropical rain forest,ALBEDO_allSW,mean,0.0055550531947980595
+default,Tropical rain forest,AF1855,ALBEDO_allSW_iav_Tropical rain forest,ALBEDO_allSW,iav,3.6046931084667825e-06
+default,Tropical seasonal forest/savanna,AF1855,ALBEDO_allSW_mean_Tropical seasonal forest/savanna,ALBEDO_allSW,mean,0.043095450502559134
+default,Tropical seasonal forest/savanna,AF1855,ALBEDO_allSW_iav_Tropical seasonal forest/savanna,ALBEDO_allSW,iav,8.47432139085547e-05
+default,Subtropical desert,AF1855,ALBEDO_allSW_mean_Subtropical desert,ALBEDO_allSW,mean,0.06356844354596056
+default,Subtropical desert,AF1855,ALBEDO_allSW_iav_Subtropical desert,ALBEDO_allSW,iav,0.0002801958450347638
+default,Temperate rain forest,AF1855,ALBEDO_allSW_mean_Temperate rain forest,ALBEDO_allSW,mean,0.0004430453820903255
+default,Temperate rain forest,AF1855,ALBEDO_allSW_iav_Temperate rain forest,ALBEDO_allSW,iav,1.4096447949949019e-05
+default,Temperate seasonal forest,AF1855,ALBEDO_allSW_mean_Temperate seasonal forest,ALBEDO_allSW,mean,0.01721551986413889
+default,Temperate seasonal forest,AF1855,ALBEDO_allSW_iav_Temperate seasonal forest,ALBEDO_allSW,iav,0.00033912096587694667
+default,Woodland/shrubland,AF1855,ALBEDO_allSW_mean_Woodland/shrubland,ALBEDO_allSW,mean,0.032247991419137055
+default,Woodland/shrubland,AF1855,ALBEDO_allSW_iav_Woodland/shrubland,ALBEDO_allSW,iav,0.0008762466514748188
+default,Temperate grassland/desert,AF1855,ALBEDO_allSW_mean_Temperate grassland/desert,ALBEDO_allSW,mean,0.016867086383784903
+default,Temperate grassland/desert,AF1855,ALBEDO_allSW_iav_Temperate grassland/desert,ALBEDO_allSW,iav,0.00026312794190089646
+default,Boreal forest,AF1855,ALBEDO_allSW_mean_Boreal forest,ALBEDO_allSW,mean,0.02837520377036959
+default,Boreal forest,AF1855,ALBEDO_allSW_iav_Boreal forest,ALBEDO_allSW,iav,0.0003743725129494657
+default,Tundra,AF1855,ALBEDO_allSW_mean_Tundra,ALBEDO_allSW,mean,0.03848564688718541
+default,Tundra,AF1855,ALBEDO_allSW_iav_Tundra,ALBEDO_allSW,iav,0.0003038537889536274
+default,Ice sheet,AF1855,ET_mean_Ice sheet,ET,mean,-9.39071708161078e-09
+default,Ice sheet,AF1855,ET_iav_Ice sheet,ET,iav,2.6877804028273618e-09
+default,Tropical rain forest,AF1855,ET_mean_Tropical rain forest,ET,mean,1.297615475202795e-06
+default,Tropical rain forest,AF1855,ET_iav_Tropical rain forest,ET,iav,3.9036270978209287e-08
+default,Tropical seasonal forest/savanna,AF1855,ET_mean_Tropical seasonal forest/savanna,ET,mean,7.472059934253175e-06
+default,Tropical seasonal forest/savanna,AF1855,ET_iav_Tropical seasonal forest/savanna,ET,iav,9.523291095001277e-08
+default,Subtropical desert,AF1855,ET_mean_Subtropical desert,ET,mean,1.5514160384806141e-06
+default,Subtropical desert,AF1855,ET_iav_Subtropical desert,ET,iav,1.293737230937458e-07
+default,Temperate rain forest,AF1855,ET_mean_Temperate rain forest,ET,mean,2.8955542191529897e-08
+default,Temperate rain forest,AF1855,ET_iav_Temperate rain forest,ET,iav,7.576483309344258e-10
+default,Temperate seasonal forest,AF1855,ET_mean_Temperate seasonal forest,ET,mean,1.2472268024303422e-06
+default,Temperate seasonal forest,AF1855,ET_iav_Temperate seasonal forest,ET,iav,2.4921094243277205e-08
+default,Woodland/shrubland,AF1855,ET_mean_Woodland/shrubland,ET,mean,1.97486545966483e-06
+default,Woodland/shrubland,AF1855,ET_iav_Woodland/shrubland,ET,iav,5.3967749121908555e-08
+default,Temperate grassland/desert,AF1855,ET_mean_Temperate grassland/desert,ET,mean,4.726840024382713e-07
+default,Temperate grassland/desert,AF1855,ET_iav_Temperate grassland/desert,ET,iav,2.7101382727957686e-08
+default,Boreal forest,AF1855,ET_mean_Boreal forest,ET,mean,8.496018087109555e-07
+default,Boreal forest,AF1855,ET_iav_Boreal forest,ET,iav,2.33806213544929e-08
+default,Tundra,AF1855,ET_mean_Tundra,ET,mean,5.020578036174501e-07
+default,Tundra,AF1855,ET_iav_Tundra,ET,iav,1.736834891012503e-08
+default,Ice sheet,AF2095,EFLX_LH_TOT_mean_Ice sheet,EFLX_LH_TOT,mean,0.0008009967937603451
+default,Ice sheet,AF2095,EFLX_LH_TOT_iav_Ice sheet,EFLX_LH_TOT,iav,0.011750444944274956
+default,Tropical rain forest,AF2095,EFLX_LH_TOT_mean_Tropical rain forest,EFLX_LH_TOT,mean,3.53762251697093
+default,Tropical rain forest,AF2095,EFLX_LH_TOT_iav_Tropical rain forest,EFLX_LH_TOT,iav,0.11015166388052358
+default,Tropical seasonal forest/savanna,AF2095,EFLX_LH_TOT_mean_Tropical seasonal forest/savanna,EFLX_LH_TOT,mean,20.311138440356757
+default,Tropical seasonal forest/savanna,AF2095,EFLX_LH_TOT_iav_Tropical seasonal forest/savanna,EFLX_LH_TOT,iav,0.28134325715093716
+default,Subtropical desert,AF2095,EFLX_LH_TOT_mean_Subtropical desert,EFLX_LH_TOT,mean,4.222037238739894
+default,Subtropical desert,AF2095,EFLX_LH_TOT_iav_Subtropical desert,EFLX_LH_TOT,iav,0.3240890222685321
+default,Temperate rain forest,AF2095,EFLX_LH_TOT_mean_Temperate rain forest,EFLX_LH_TOT,mean,0.08828751815720855
+default,Temperate rain forest,AF2095,EFLX_LH_TOT_iav_Temperate rain forest,EFLX_LH_TOT,iav,0.0022724844088068364
+default,Temperate seasonal forest,AF2095,EFLX_LH_TOT_mean_Temperate seasonal forest,EFLX_LH_TOT,mean,3.7289228874398974
+default,Temperate seasonal forest,AF2095,EFLX_LH_TOT_iav_Temperate seasonal forest,EFLX_LH_TOT,iav,0.0473599885267219
+default,Woodland/shrubland,AF2095,EFLX_LH_TOT_mean_Woodland/shrubland,EFLX_LH_TOT,mean,5.247068969621923
+default,Woodland/shrubland,AF2095,EFLX_LH_TOT_iav_Woodland/shrubland,EFLX_LH_TOT,iav,0.1547685496451948
+default,Temperate grassland/desert,AF2095,EFLX_LH_TOT_mean_Temperate grassland/desert,EFLX_LH_TOT,mean,1.3041419534544352
+default,Temperate grassland/desert,AF2095,EFLX_LH_TOT_iav_Temperate grassland/desert,EFLX_LH_TOT,iav,0.07129058896744224
+default,Boreal forest,AF2095,EFLX_LH_TOT_mean_Boreal forest,EFLX_LH_TOT,mean,2.6525191239705177
+default,Boreal forest,AF2095,EFLX_LH_TOT_iav_Boreal forest,EFLX_LH_TOT,iav,0.09029243576532349
+default,Tundra,AF2095,EFLX_LH_TOT_mean_Tundra,EFLX_LH_TOT,mean,1.5675775246595751
+default,Tundra,AF2095,EFLX_LH_TOT_iav_Tundra,EFLX_LH_TOT,iav,0.05259813696610785
+default,Ice sheet,AF2095,FSH_mean_Ice sheet,FSH,mean,-0.18861522162153374
+default,Ice sheet,AF2095,FSH_iav_Ice sheet,FSH,iav,0.036840620623943734
+default,Tropical rain forest,AF2095,FSH_mean_Tropical rain forest,FSH,mean,0.5887513288409563
+default,Tropical rain forest,AF2095,FSH_iav_Tropical rain forest,FSH,iav,0.0734774403170839
+default,Tropical seasonal forest/savanna,AF2095,FSH_mean_Tropical seasonal forest/savanna,FSH,mean,10.201546530318641
+default,Tropical seasonal forest/savanna,AF2095,FSH_iav_Tropical seasonal forest/savanna,FSH,iav,0.20117994400291378
+default,Subtropical desert,AF2095,FSH_mean_Subtropical desert,FSH,mean,12.129478286645103
+default,Subtropical desert,AF2095,FSH_iav_Subtropical desert,FSH,iav,0.12237308993451779
+default,Temperate rain forest,AF2095,FSH_mean_Temperate rain forest,FSH,mean,0.019037057794412282
+default,Temperate rain forest,AF2095,FSH_iav_Temperate rain forest,FSH,iav,0.004619002190053451
+default,Temperate seasonal forest,AF2095,FSH_mean_Temperate seasonal forest,FSH,mean,1.589453120010818
+default,Temperate seasonal forest,AF2095,FSH_iav_Temperate seasonal forest,FSH,iav,0.06185995266212811
+default,Woodland/shrubland,AF2095,FSH_mean_Woodland/shrubland,FSH,mean,4.302504108610152
+default,Woodland/shrubland,AF2095,FSH_iav_Woodland/shrubland,FSH,iav,0.16264526264972262
+default,Temperate grassland/desert,AF2095,FSH_mean_Temperate grassland/desert,FSH,mean,3.2959712621555104
+default,Temperate grassland/desert,AF2095,FSH_iav_Temperate grassland/desert,FSH,iav,0.05050741922862183
+default,Boreal forest,AF2095,FSH_mean_Boreal forest,FSH,mean,2.100526186651333
+default,Boreal forest,AF2095,FSH_iav_Boreal forest,FSH,iav,0.06868300714208704
+default,Tundra,AF2095,FSH_mean_Tundra,FSH,mean,0.940432896906896
+default,Tundra,AF2095,FSH_iav_Tundra,FSH,iav,0.13770064761063402
+default,Ice sheet,AF2095,QVEGT_mean_Ice sheet,QVEGT,mean,4.880825704928314e-10
+default,Ice sheet,AF2095,QVEGT_iav_Ice sheet,QVEGT,iav,9.551434277794837e-11
+default,Tropical rain forest,AF2095,QVEGT_mean_Tropical rain forest,QVEGT,mean,8.077467991824904e-07
+default,Tropical rain forest,AF2095,QVEGT_iav_Tropical rain forest,QVEGT,iav,1.268304739484156e-08
+default,Tropical seasonal forest/savanna,AF2095,QVEGT_mean_Tropical seasonal forest/savanna,QVEGT,mean,4.569933200772975e-06
+default,Tropical seasonal forest/savanna,AF2095,QVEGT_iav_Tropical seasonal forest/savanna,QVEGT,iav,3.150693432988752e-08
+default,Subtropical desert,AF2095,QVEGT_mean_Subtropical desert,QVEGT,mean,7.602119740914496e-07
+default,Subtropical desert,AF2095,QVEGT_iav_Subtropical desert,QVEGT,iav,5.849406741529556e-08
+default,Temperate rain forest,AF2095,QVEGT_mean_Temperate rain forest,QVEGT,mean,1.5680080597774455e-08
+default,Temperate rain forest,AF2095,QVEGT_iav_Temperate rain forest,QVEGT,iav,2.959071449504585e-10
+default,Temperate seasonal forest,AF2095,QVEGT_mean_Temperate seasonal forest,QVEGT,mean,9.065558229328826e-07
+default,Temperate seasonal forest,AF2095,QVEGT_iav_Temperate seasonal forest,QVEGT,iav,2.0449076579772368e-08
+default,Woodland/shrubland,AF2095,QVEGT_mean_Woodland/shrubland,QVEGT,mean,1.2673701460371062e-06
+default,Woodland/shrubland,AF2095,QVEGT_iav_Woodland/shrubland,QVEGT,iav,5.8625206967326095e-08
+default,Temperate grassland/desert,AF2095,QVEGT_mean_Temperate grassland/desert,QVEGT,mean,2.367597679244525e-07
+default,Temperate grassland/desert,AF2095,QVEGT_iav_Temperate grassland/desert,QVEGT,iav,2.3340095419922956e-08
+default,Boreal forest,AF2095,QVEGT_mean_Boreal forest,QVEGT,mean,7.545500186367202e-07
+default,Boreal forest,AF2095,QVEGT_iav_Boreal forest,QVEGT,iav,1.3571921094327889e-08
+default,Tundra,AF2095,QVEGT_mean_Tundra,QVEGT,mean,4.6273218875624987e-07
+default,Tundra,AF2095,QVEGT_iav_Tundra,QVEGT,iav,1.2803554460069367e-08
+default,Ice sheet,AF2095,QVEGE_mean_Ice sheet,QVEGE,mean,1.226970971854448e-12
+default,Ice sheet,AF2095,QVEGE_iav_Ice sheet,QVEGE,iav,3.453188192109767e-11
+default,Tropical rain forest,AF2095,QVEGE_mean_Tropical rain forest,QVEGE,mean,5.075669767491303e-07
+default,Tropical rain forest,AF2095,QVEGE_iav_Tropical rain forest,QVEGE,iav,3.7191197497783236e-08
+default,Tropical seasonal forest/savanna,AF2095,QVEGE_mean_Tropical seasonal forest/savanna,QVEGE,mean,1.7826514553533363e-06
+default,Tropical seasonal forest/savanna,AF2095,QVEGE_iav_Tropical seasonal forest/savanna,QVEGE,iav,6.468292384647087e-08
+default,Subtropical desert,AF2095,QVEGE_mean_Subtropical desert,QVEGE,mean,1.1718363799899714e-07
+default,Subtropical desert,AF2095,QVEGE_iav_Subtropical desert,QVEGE,iav,1.3467934456462674e-08
+default,Temperate rain forest,AF2095,QVEGE_mean_Temperate rain forest,QVEGE,mean,1.5562482998366883e-08
+default,Temperate rain forest,AF2095,QVEGE_iav_Temperate rain forest,QVEGE,iav,8.551763691908991e-10
+default,Temperate seasonal forest,AF2095,QVEGE_mean_Temperate seasonal forest,QVEGE,mean,2.88195687865167e-07
+default,Temperate seasonal forest,AF2095,QVEGE_iav_Temperate seasonal forest,QVEGE,iav,1.042682920751945e-08
+default,Woodland/shrubland,AF2095,QVEGE_mean_Woodland/shrubland,QVEGE,mean,2.9409431604488983e-07
+default,Woodland/shrubland,AF2095,QVEGE_iav_Woodland/shrubland,QVEGE,iav,1.60088548124588e-08
+default,Temperate grassland/desert,AF2095,QVEGE_mean_Temperate grassland/desert,QVEGE,mean,2.641075934598604e-08
+default,Temperate grassland/desert,AF2095,QVEGE_iav_Temperate grassland/desert,QVEGE,iav,2.722494634757926e-09
+default,Boreal forest,AF2095,QVEGE_mean_Boreal forest,QVEGE,mean,9.132572798279294e-08
+default,Boreal forest,AF2095,QVEGE_iav_Boreal forest,QVEGE,iav,2.0888175233569204e-08
+default,Tundra,AF2095,QVEGE_mean_Tundra,QVEGE,mean,5.96755892229151e-08
+default,Tundra,AF2095,QVEGE_iav_Tundra,QVEGE,iav,3.781762204602876e-09
+default,Ice sheet,AF2095,QSOIL_mean_Ice sheet,QSOIL,mean,9.124332236060744e-10
+default,Ice sheet,AF2095,QSOIL_iav_Ice sheet,QSOIL,iav,4.217724648785395e-09
+default,Tropical rain forest,AF2095,QSOIL_mean_Tropical rain forest,QSOIL,mean,9.916943792264873e-08
+default,Tropical rain forest,AF2095,QSOIL_iav_Tropical rain forest,QSOIL,iav,1.6959374990467582e-09
+default,Tropical seasonal forest/savanna,AF2095,QSOIL_mean_Tropical seasonal forest/savanna,QSOIL,mean,1.7686222302585471e-06
+default,Tropical seasonal forest/savanna,AF2095,QSOIL_iav_Tropical seasonal forest/savanna,QSOIL,iav,5.0039868420147785e-08
+default,Subtropical desert,AF2095,QSOIL_mean_Subtropical desert,QSOIL,mean,8.107401150669576e-07
+default,Subtropical desert,AF2095,QSOIL_iav_Subtropical desert,QSOIL,iav,6.620539803913933e-08
+default,Temperate rain forest,AF2095,QSOIL_mean_Temperate rain forest,QSOIL,mean,4.056786656926647e-09
+default,Temperate rain forest,AF2095,QSOIL_iav_Temperate rain forest,QSOIL,iav,1.9420136607475064e-10
+default,Temperate seasonal forest,AF2095,QSOIL_mean_Temperate seasonal forest,QSOIL,mean,2.9582929102949077e-07
+default,Temperate seasonal forest,AF2095,QSOIL_iav_Temperate seasonal forest,QSOIL,iav,6.089758321120467e-09
+default,Woodland/shrubland,AF2095,QSOIL_mean_Woodland/shrubland,QSOIL,mean,5.36611174155994e-07
+default,Woodland/shrubland,AF2095,QSOIL_iav_Woodland/shrubland,QSOIL,iav,2.0692049113016407e-08
+default,Temperate grassland/desert,AF2095,QSOIL_mean_Temperate grassland/desert,QSOIL,mean,2.58162539412083e-07
+default,Temperate grassland/desert,AF2095,QSOIL_iav_Temperate grassland/desert,QSOIL,iav,9.165706650999483e-09
+default,Boreal forest,AF2095,QSOIL_mean_Boreal forest,QSOIL,mean,2.156003918792222e-07
+default,Boreal forest,AF2095,QSOIL_iav_Boreal forest,QSOIL,iav,8.468959010664145e-09
+default,Tundra,AF2095,QSOIL_mean_Tundra,QSOIL,mean,1.0947902248669437e-07
+default,Tundra,AF2095,QSOIL_iav_Tundra,QSOIL,iav,9.71411338074901e-09
+default,Ice sheet,AF2095,FSR_mean_Ice sheet,FSR,mean,1.2076826347877578
+default,Ice sheet,AF2095,FSR_iav_Ice sheet,FSR,iav,0.020578523788221725
+default,Tropical rain forest,AF2095,FSR_mean_Tropical rain forest,FSR,mean,1.131357540278771
+default,Tropical rain forest,AF2095,FSR_iav_Tropical rain forest,FSR,iav,0.010025169616484121
+default,Tropical seasonal forest/savanna,AF2095,FSR_mean_Tropical seasonal forest/savanna,FSR,mean,9.315711868196889
+default,Tropical seasonal forest/savanna,AF2095,FSR_iav_Tropical seasonal forest/savanna,FSR,iav,0.05507111294744175
+default,Subtropical desert,AF2095,FSR_mean_Subtropical desert,FSR,mean,15.312496482815021
+default,Subtropical desert,AF2095,FSR_iav_Subtropical desert,FSR,iav,0.10474975190765846
+default,Temperate rain forest,AF2095,FSR_mean_Temperate rain forest,FSR,mean,0.04601059030959714
+default,Temperate rain forest,AF2095,FSR_iav_Temperate rain forest,FSR,iav,0.0008521038421078304
+default,Temperate seasonal forest,AF2095,FSR_mean_Temperate seasonal forest,FSR,mean,2.0028556171579077
+default,Temperate seasonal forest,AF2095,FSR_iav_Temperate seasonal forest,FSR,iav,0.031540678659278266
+default,Woodland/shrubland,AF2095,FSR_mean_Woodland/shrubland,FSR,mean,4.1524653312428565
+default,Woodland/shrubland,AF2095,FSR_iav_Woodland/shrubland,FSR,iav,0.06862332569986739
+default,Temperate grassland/desert,AF2095,FSR_mean_Temperate grassland/desert,FSR,mean,2.816929481201438
+default,Temperate grassland/desert,AF2095,FSR_iav_Temperate grassland/desert,FSR,iav,0.03826955877856876
+default,Boreal forest,AF2095,FSR_mean_Boreal forest,FSR,mean,2.6680476368141357
+default,Boreal forest,AF2095,FSR_iav_Boreal forest,FSR,iav,0.06211772140267879
+default,Tundra,AF2095,FSR_mean_Tundra,FSR,mean,2.844323824475151
+default,Tundra,AF2095,FSR_iav_Tundra,FSR,iav,0.03747521692394174
+default,Ice sheet,AF2095,FSDS_mean_Ice sheet,FSDS,mean,1.6796124108109098
+default,Ice sheet,AF2095,FSDS_iav_Ice sheet,FSDS,iav,0.016213864953382756
+default,Tropical rain forest,AF2095,FSDS_mean_Tropical rain forest,FSDS,mean,6.528550689778591
+default,Tropical rain forest,AF2095,FSDS_iav_Tropical rain forest,FSDS,iav,0.059760301720031016
+default,Tropical seasonal forest/savanna,AF2095,FSDS_mean_Tropical seasonal forest/savanna,FSDS,mean,55.71318907506353
+default,Tropical seasonal forest/savanna,AF2095,FSDS_iav_Tropical seasonal forest/savanna,FSDS,iav,0.23354457119852798
+default,Subtropical desert,AF2095,FSDS_mean_Subtropical desert,FSDS,mean,54.21483178469934
+default,Subtropical desert,AF2095,FSDS_iav_Subtropical desert,FSDS,iav,0.22271529788452957
+default,Temperate rain forest,AF2095,FSDS_mean_Temperate rain forest,FSDS,mean,0.25904870191409013
+default,Temperate rain forest,AF2095,FSDS_iav_Temperate rain forest,FSDS,iav,0.004168229441299157
+default,Temperate seasonal forest,AF2095,FSDS_mean_Temperate seasonal forest,FSDS,mean,11.465965436821241
+default,Temperate seasonal forest,AF2095,FSDS_iav_Temperate seasonal forest,FSDS,iav,0.056590114535446816
+default,Woodland/shrubland,AF2095,FSDS_mean_Woodland/shrubland,FSDS,mean,22.130473647475803
+default,Woodland/shrubland,AF2095,FSDS_iav_Woodland/shrubland,FSDS,iav,0.07315952630238859
+default,Temperate grassland/desert,AF2095,FSDS_mean_Temperate grassland/desert,FSDS,mean,13.551238646197081
+default,Temperate grassland/desert,AF2095,FSDS_iav_Temperate grassland/desert,FSDS,iav,0.028633699443580796
+default,Boreal forest,AF2095,FSDS_mean_Boreal forest,FSDS,mean,12.311737104918766
+default,Boreal forest,AF2095,FSDS_iav_Boreal forest,FSDS,iav,0.10630092486551704
+default,Tundra,AF2095,FSDS_mean_Tundra,FSDS,mean,9.077587756368917
+default,Tundra,AF2095,FSDS_iav_Tundra,FSDS,iav,0.06021805776614973
+default,Ice sheet,AF2095,TSA_mean_Ice sheet,TSA,mean,4.282253160205969
+default,Ice sheet,AF2095,TSA_iav_Ice sheet,TSA,iav,0.00817669461379711
+default,Tropical rain forest,AF2095,TSA_mean_Tropical rain forest,TSA,mean,9.635792694785502
+default,Tropical rain forest,AF2095,TSA_iav_Tropical rain forest,TSA,iav,0.004947385908319177
+default,Tropical seasonal forest/savanna,AF2095,TSA_mean_Tropical seasonal forest/savanna,TSA,mean,77.39497914294402
+default,Tropical seasonal forest/savanna,AF2095,TSA_iav_Tropical seasonal forest/savanna,TSA,iav,0.03790896462960292
+default,Subtropical desert,AF2095,TSA_mean_Subtropical desert,TSA,mean,68.97666816366487
+default,Subtropical desert,AF2095,TSA_iav_Subtropical desert,TSA,iav,0.04389153225319164
+default,Temperate rain forest,AF2095,TSA_mean_Temperate rain forest,TSA,mean,0.5849469792263454
+default,Temperate rain forest,AF2095,TSA_iav_Temperate rain forest,TSA,iav,0.0005147408801172643
+default,Temperate seasonal forest,AF2095,TSA_mean_Temperate seasonal forest,TSA,mean,22.06287981860849
+default,Temperate seasonal forest,AF2095,TSA_iav_Temperate seasonal forest,TSA,iav,0.01509262644345979
+default,Woodland/shrubland,AF2095,TSA_mean_Woodland/shrubland,TSA,mean,38.923193089245345
+default,Woodland/shrubland,AF2095,TSA_iav_Woodland/shrubland,TSA,iav,0.025563614422453043
+default,Temperate grassland/desert,AF2095,TSA_mean_Temperate grassland/desert,TSA,mean,20.60475602612835
+default,Temperate grassland/desert,AF2095,TSA_iav_Temperate grassland/desert,TSA,iav,0.015281743376099161
+default,Boreal forest,AF2095,TSA_mean_Boreal forest,TSA,mean,25.450052649179764
+default,Boreal forest,AF2095,TSA_iav_Boreal forest,TSA,iav,0.03490269576617791
+default,Tundra,AF2095,TSA_mean_Tundra,TSA,mean,23.41111366900281
+default,Tundra,AF2095,TSA_iav_Tundra,TSA,iav,0.03372393508478379
+default,Ice sheet,AF2095,TSKIN_mean_Ice sheet,TSKIN,mean,4.261667958292757
+default,Ice sheet,AF2095,TSKIN_iav_Ice sheet,TSKIN,iav,0.01079064308254994
+default,Tropical rain forest,AF2095,TSKIN_mean_Tropical rain forest,TSKIN,mean,9.637237730833757
+default,Tropical rain forest,AF2095,TSKIN_iav_Tropical rain forest,TSKIN,iav,0.004369642846708275
+default,Tropical seasonal forest/savanna,AF2095,TSKIN_mean_Tropical seasonal forest/savanna,TSKIN,mean,77.68514720908067
+default,Tropical seasonal forest/savanna,AF2095,TSKIN_iav_Tropical seasonal forest/savanna,TSKIN,iav,0.037448972248602476
+default,Subtropical desert,AF2095,TSKIN_mean_Subtropical desert,TSKIN,mean,69.49496130412828
+default,Subtropical desert,AF2095,TSKIN_iav_Subtropical desert,TSKIN,iav,0.0550036718214471
+default,Temperate rain forest,AF2095,TSKIN_mean_Temperate rain forest,TSKIN,mean,0.5845827843543453
+default,Temperate rain forest,AF2095,TSKIN_iav_Temperate rain forest,TSKIN,iav,0.0005192984996038753
+default,Temperate seasonal forest,AF2095,TSKIN_mean_Temperate seasonal forest,TSKIN,mean,22.06040851403685
+default,Temperate seasonal forest,AF2095,TSKIN_iav_Temperate seasonal forest,TSKIN,iav,0.016219690733412496
+default,Woodland/shrubland,AF2095,TSKIN_mean_Woodland/shrubland,TSKIN,mean,39.033307761377685
+default,Woodland/shrubland,AF2095,TSKIN_iav_Woodland/shrubland,TSKIN,iav,0.02784265781035611
+default,Temperate grassland/desert,AF2095,TSKIN_mean_Temperate grassland/desert,TSKIN,mean,20.75561054616285
+default,Temperate grassland/desert,AF2095,TSKIN_iav_Temperate grassland/desert,TSKIN,iav,0.015260611938523582
+default,Boreal forest,AF2095,TSKIN_mean_Boreal forest,TSKIN,mean,25.46452194672453
+default,Boreal forest,AF2095,TSKIN_iav_Boreal forest,TSKIN,iav,0.03456984744480745
+default,Tundra,AF2095,TSKIN_mean_Tundra,TSKIN,mean,23.409118720308456
+default,Tundra,AF2095,TSKIN_iav_Tundra,TSKIN,iav,0.038337167585753104
+default,Ice sheet,AF2095,Q2M_mean_Ice sheet,Q2M,mean,3.143750226798643e-05
+default,Ice sheet,AF2095,Q2M_iav_Ice sheet,Q2M,iav,7.271980802356104e-07
+default,Tropical rain forest,AF2095,Q2M_mean_Tropical rain forest,Q2M,mean,0.0007044455775244588
+default,Tropical rain forest,AF2095,Q2M_iav_Tropical rain forest,Q2M,iav,7.889263801264203e-06
+default,Tropical seasonal forest/savanna,AF2095,Q2M_mean_Tropical seasonal forest/savanna,Q2M,mean,0.00465833309343691
+default,Tropical seasonal forest/savanna,AF2095,Q2M_iav_Tropical seasonal forest/savanna,Q2M,iav,5.60992860420272e-05
+default,Subtropical desert,AF2095,Q2M_mean_Subtropical desert,Q2M,mean,0.002326996820869367
+default,Subtropical desert,AF2095,Q2M_iav_Subtropical desert,Q2M,iav,4.725152933763363e-05
+default,Temperate rain forest,AF2095,Q2M_mean_Temperate rain forest,Q2M,mean,1.6869738780130598e-05
+default,Temperate rain forest,AF2095,Q2M_iav_Temperate rain forest,Q2M,iav,2.2711579872851312e-07
+default,Temperate seasonal forest,AF2095,Q2M_mean_Temperate seasonal forest,Q2M,mean,0.0006647293213292096
+default,Temperate seasonal forest,AF2095,Q2M_iav_Temperate seasonal forest,Q2M,iav,8.590792425987429e-06
+default,Woodland/shrubland,AF2095,Q2M_mean_Woodland/shrubland,Q2M,mean,0.0010041578218348177
+default,Woodland/shrubland,AF2095,Q2M_iav_Woodland/shrubland,Q2M,iav,2.200876949795403e-05
+default,Temperate grassland/desert,AF2095,Q2M_mean_Temperate grassland/desert,Q2M,mean,0.0004121714080427709
+default,Temperate grassland/desert,AF2095,Q2M_iav_Temperate grassland/desert,Q2M,iav,6.985040505346528e-06
+default,Boreal forest,AF2095,Q2M_mean_Boreal forest,Q2M,mean,0.00045980860023287027
+default,Boreal forest,AF2095,Q2M_iav_Boreal forest,Q2M,iav,7.212586756984875e-06
+default,Tundra,AF2095,Q2M_mean_Tundra,Q2M,mean,0.00030877722221155405
+default,Tundra,AF2095,Q2M_iav_Tundra,Q2M,iav,5.728929464759209e-06
+default,Ice sheet,AF2095,U10_mean_Ice sheet,U10,mean,0.06459170077282353
+default,Ice sheet,AF2095,U10_iav_Ice sheet,U10,iav,0.0017153236665322104
+default,Tropical rain forest,AF2095,U10_mean_Tropical rain forest,U10,mean,0.054417626642268825
+default,Tropical rain forest,AF2095,U10_iav_Tropical rain forest,U10,iav,0.001907176166026587
+default,Tropical seasonal forest/savanna,AF2095,U10_mean_Tropical seasonal forest/savanna,U10,mean,0.5171804343857744
+default,Tropical seasonal forest/savanna,AF2095,U10_iav_Tropical seasonal forest/savanna,U10,iav,0.005339665326333866
+default,Subtropical desert,AF2095,U10_mean_Subtropical desert,U10,mean,0.6386792872441733
+default,Subtropical desert,AF2095,U10_iav_Subtropical desert,U10,iav,0.0035342889961393984
+default,Temperate rain forest,AF2095,U10_mean_Temperate rain forest,U10,mean,0.006814818111691675
+default,Temperate rain forest,AF2095,U10_iav_Temperate rain forest,U10,iav,0.0005825674166211002
+default,Temperate seasonal forest,AF2095,U10_mean_Temperate seasonal forest,U10,mean,0.22205057870333147
+default,Temperate seasonal forest,AF2095,U10_iav_Temperate seasonal forest,U10,iav,0.0019469517377520506
+default,Woodland/shrubland,AF2095,U10_mean_Woodland/shrubland,U10,mean,0.40259760573545156
+default,Woodland/shrubland,AF2095,U10_iav_Woodland/shrubland,U10,iav,0.00467338878255452
+default,Temperate grassland/desert,AF2095,U10_mean_Temperate grassland/desert,U10,mean,0.2235087916796516
+default,Temperate grassland/desert,AF2095,U10_iav_Temperate grassland/desert,U10,iav,0.003399580664980851
+default,Boreal forest,AF2095,U10_mean_Boreal forest,U10,mean,0.26096878017182573
+default,Boreal forest,AF2095,U10_iav_Boreal forest,U10,iav,0.0038976252923100495
+default,Tundra,AF2095,U10_mean_Tundra,U10,mean,0.270506406504122
+default,Tundra,AF2095,U10_iav_Tundra,U10,iav,0.001953931800038517
+default,Ice sheet,AF2095,TAUX_mean_Ice sheet,TAUX,mean,-0.0005806999365792053
+default,Ice sheet,AF2095,TAUX_iav_Ice sheet,TAUX,iav,3.1413233123495875e-05
+default,Tropical rain forest,AF2095,TAUX_mean_Tropical rain forest,TAUX,mean,-0.00344994408931895
+default,Tropical rain forest,AF2095,TAUX_iav_Tropical rain forest,TAUX,iav,0.0004814374968619696
+default,Tropical seasonal forest/savanna,AF2095,TAUX_mean_Tropical seasonal forest/savanna,TAUX,mean,-0.017409200027915312
+default,Tropical seasonal forest/savanna,AF2095,TAUX_iav_Tropical seasonal forest/savanna,TAUX,iav,0.00029587608948097687
+default,Subtropical desert,AF2095,TAUX_mean_Subtropical desert,TAUX,mean,-0.007900685440786663
+default,Subtropical desert,AF2095,TAUX_iav_Subtropical desert,TAUX,iav,0.00022458805564022272
+default,Temperate rain forest,AF2095,TAUX_mean_Temperate rain forest,TAUX,mean,-0.0005839783277130541
+default,Temperate rain forest,AF2095,TAUX_iav_Temperate rain forest,TAUX,iav,0.00011865992684874842
+default,Temperate seasonal forest,AF2095,TAUX_mean_Temperate seasonal forest,TAUX,mean,-0.011145374151077206
+default,Temperate seasonal forest,AF2095,TAUX_iav_Temperate seasonal forest,TAUX,iav,0.0002560732260879216
+default,Woodland/shrubland,AF2095,TAUX_mean_Woodland/shrubland,TAUX,mean,-0.010352703334918976
+default,Woodland/shrubland,AF2095,TAUX_iav_Woodland/shrubland,TAUX,iav,0.0005907628004985047
+default,Temperate grassland/desert,AF2095,TAUX_mean_Temperate grassland/desert,TAUX,mean,-0.0033559650143409328
+default,Temperate grassland/desert,AF2095,TAUX_iav_Temperate grassland/desert,TAUX,iav,0.00014059884670825787
+default,Boreal forest,AF2095,TAUX_mean_Boreal forest,TAUX,mean,-0.009102246614586772
+default,Boreal forest,AF2095,TAUX_iav_Boreal forest,TAUX,iav,0.00024806724319998894
+default,Tundra,AF2095,TAUX_mean_Tundra,TAUX,mean,-0.004088498279084385
+default,Tundra,AF2095,TAUX_iav_Tundra,TAUX,iav,0.00011127433140550134
+default,Ice sheet,AF2095,TAUY_mean_Ice sheet,TAUY,mean,-0.0005806999365792053
+default,Ice sheet,AF2095,TAUY_iav_Ice sheet,TAUY,iav,3.1413233123495875e-05
+default,Tropical rain forest,AF2095,TAUY_mean_Tropical rain forest,TAUY,mean,-0.00344994408931895
+default,Tropical rain forest,AF2095,TAUY_iav_Tropical rain forest,TAUY,iav,0.0004814374968619696
+default,Tropical seasonal forest/savanna,AF2095,TAUY_mean_Tropical seasonal forest/savanna,TAUY,mean,-0.017409200027915312
+default,Tropical seasonal forest/savanna,AF2095,TAUY_iav_Tropical seasonal forest/savanna,TAUY,iav,0.00029587608948097687
+default,Subtropical desert,AF2095,TAUY_mean_Subtropical desert,TAUY,mean,-0.007900685440786663
+default,Subtropical desert,AF2095,TAUY_iav_Subtropical desert,TAUY,iav,0.00022458805564022272
+default,Temperate rain forest,AF2095,TAUY_mean_Temperate rain forest,TAUY,mean,-0.0005839783277130541
+default,Temperate rain forest,AF2095,TAUY_iav_Temperate rain forest,TAUY,iav,0.00011865992684874842
+default,Temperate seasonal forest,AF2095,TAUY_mean_Temperate seasonal forest,TAUY,mean,-0.011145374151077206
+default,Temperate seasonal forest,AF2095,TAUY_iav_Temperate seasonal forest,TAUY,iav,0.0002560732260879216
+default,Woodland/shrubland,AF2095,TAUY_mean_Woodland/shrubland,TAUY,mean,-0.010352703334918976
+default,Woodland/shrubland,AF2095,TAUY_iav_Woodland/shrubland,TAUY,iav,0.0005907628004985047
+default,Temperate grassland/desert,AF2095,TAUY_mean_Temperate grassland/desert,TAUY,mean,-0.0033559650143409328
+default,Temperate grassland/desert,AF2095,TAUY_iav_Temperate grassland/desert,TAUY,iav,0.00014059884670825787
+default,Boreal forest,AF2095,TAUY_mean_Boreal forest,TAUY,mean,-0.009102246614586772
+default,Boreal forest,AF2095,TAUY_iav_Boreal forest,TAUY,iav,0.00024806724319998894
+default,Tundra,AF2095,TAUY_mean_Tundra,TAUY,mean,-0.004088498279084385
+default,Tundra,AF2095,TAUY_iav_Tundra,TAUY,iav,0.00011127433140550134
+default,Ice sheet,AF2095,GPP_mean_Ice sheet,GPP,mean,5.281083740404859e-09
+default,Ice sheet,AF2095,GPP_iav_Ice sheet,GPP,iav,8.512152944230294e-10
+default,Tropical rain forest,AF2095,GPP_mean_Tropical rain forest,GPP,mean,2.8809600502404427e-06
+default,Tropical rain forest,AF2095,GPP_iav_Tropical rain forest,GPP,iav,4.4065270449276246e-08
+default,Tropical seasonal forest/savanna,AF2095,GPP_mean_Tropical seasonal forest/savanna,GPP,mean,1.298990947732376e-05
+default,Tropical seasonal forest/savanna,AF2095,GPP_iav_Tropical seasonal forest/savanna,GPP,iav,1.5358068458738645e-07
+default,Subtropical desert,AF2095,GPP_mean_Subtropical desert,GPP,mean,1.7853197468655096e-06
+default,Subtropical desert,AF2095,GPP_iav_Subtropical desert,GPP,iav,1.455643792450748e-07
+default,Temperate rain forest,AF2095,GPP_mean_Temperate rain forest,GPP,mean,1.1251198293857006e-07
+default,Temperate rain forest,AF2095,GPP_iav_Temperate rain forest,GPP,iav,7.178041475196429e-10
+default,Temperate seasonal forest,AF2095,GPP_mean_Temperate seasonal forest,GPP,mean,3.484195248363143e-06
+default,Temperate seasonal forest,AF2095,GPP_iav_Temperate seasonal forest,GPP,iav,6.726621951618514e-08
+default,Woodland/shrubland,AF2095,GPP_mean_Woodland/shrubland,GPP,mean,3.7719570436279807e-06
+default,Woodland/shrubland,AF2095,GPP_iav_Woodland/shrubland,GPP,iav,1.8476419627545146e-07
+default,Temperate grassland/desert,AF2095,GPP_mean_Temperate grassland/desert,GPP,mean,5.692368443906592e-07
+default,Temperate grassland/desert,AF2095,GPP_iav_Temperate grassland/desert,GPP,iav,5.487888497758365e-08
+default,Boreal forest,AF2095,GPP_mean_Boreal forest,GPP,mean,3.296744895063858e-06
+default,Boreal forest,AF2095,GPP_iav_Boreal forest,GPP,iav,5.3400817833301796e-08
+default,Tundra,AF2095,GPP_mean_Tundra,GPP,mean,2.035157033036965e-06
+default,Tundra,AF2095,GPP_iav_Tundra,GPP,iav,4.5708797279151024e-08
+default,Ice sheet,AF2095,HR_mean_Ice sheet,HR,mean,3.5524001282981266e-09
+default,Ice sheet,AF2095,HR_iav_Ice sheet,HR,iav,4.6441161373628336e-10
+default,Tropical rain forest,AF2095,HR_mean_Tropical rain forest,HR,mean,1.1849457337858514e-06
+default,Tropical rain forest,AF2095,HR_iav_Tropical rain forest,HR,iav,3.065643092534087e-08
+default,Tropical seasonal forest/savanna,AF2095,HR_mean_Tropical seasonal forest/savanna,HR,mean,4.933687101115537e-06
+default,Tropical seasonal forest/savanna,AF2095,HR_iav_Tropical seasonal forest/savanna,HR,iav,6.363732331111594e-08
+default,Subtropical desert,AF2095,HR_mean_Subtropical desert,HR,mean,5.567628956411667e-07
+default,Subtropical desert,AF2095,HR_iav_Subtropical desert,HR,iav,3.036618236788864e-08
+default,Temperate rain forest,AF2095,HR_mean_Temperate rain forest,HR,mean,4.7606790786257437e-08
+default,Temperate rain forest,AF2095,HR_iav_Temperate rain forest,HR,iav,6.326871122792644e-10
+default,Temperate seasonal forest,AF2095,HR_mean_Temperate seasonal forest,HR,mean,1.453596785337406e-06
+default,Temperate seasonal forest,AF2095,HR_iav_Temperate seasonal forest,HR,iav,3.9951333953950874e-08
+default,Woodland/shrubland,AF2095,HR_mean_Woodland/shrubland,HR,mean,1.4860020342659751e-06
+default,Woodland/shrubland,AF2095,HR_iav_Woodland/shrubland,HR,iav,6.591429347663062e-08
+default,Temperate grassland/desert,AF2095,HR_mean_Temperate grassland/desert,HR,mean,2.3730552459218076e-07
+default,Temperate grassland/desert,AF2095,HR_iav_Temperate grassland/desert,HR,iav,1.572666297657042e-08
+default,Boreal forest,AF2095,HR_mean_Boreal forest,HR,mean,1.5316027167079978e-06
+default,Boreal forest,AF2095,HR_iav_Boreal forest,HR,iav,4.661178935692781e-08
+default,Tundra,AF2095,HR_mean_Tundra,HR,mean,1.0927509146157878e-06
+default,Tundra,AF2095,HR_iav_Tundra,HR,iav,5.316975907987622e-08
+default,Ice sheet,AF2095,AR_mean_Ice sheet,AR,mean,1.7448156558609734e-09
+default,Ice sheet,AF2095,AR_iav_Ice sheet,AR,iav,2.1416121965342915e-10
+default,Tropical rain forest,AF2095,AR_mean_Tropical rain forest,AR,mean,1.6971982551780253e-06
+default,Tropical rain forest,AF2095,AR_iav_Tropical rain forest,AR,iav,1.5759298529889295e-08
+default,Tropical seasonal forest/savanna,AF2095,AR_mean_Tropical seasonal forest/savanna,AR,mean,7.811177478849502e-06
+default,Tropical seasonal forest/savanna,AF2095,AR_iav_Tropical seasonal forest/savanna,AR,iav,7.765191781312256e-08
+default,Subtropical desert,AF2095,AR_mean_Subtropical desert,AR,mean,1.1692261903072516e-06
+default,Subtropical desert,AF2095,AR_iav_Subtropical desert,AR,iav,8.521273716153425e-08
+default,Temperate rain forest,AF2095,AR_mean_Temperate rain forest,AR,mean,6.486327731194522e-08
+default,Temperate rain forest,AF2095,AR_iav_Temperate rain forest,AR,iav,4.4218425708144285e-10
+default,Temperate seasonal forest,AF2095,AR_mean_Temperate seasonal forest,AR,mean,1.9815183891296025e-06
+default,Temperate seasonal forest,AF2095,AR_iav_Temperate seasonal forest,AR,iav,4.427823897148718e-08
+default,Woodland/shrubland,AF2095,AR_mean_Woodland/shrubland,AR,mean,2.2178542753856827e-06
+default,Woodland/shrubland,AF2095,AR_iav_Woodland/shrubland,AR,iav,1.2145101886204034e-07
+default,Temperate grassland/desert,AF2095,AR_mean_Temperate grassland/desert,AR,mean,3.18828652669031e-07
+default,Temperate grassland/desert,AF2095,AR_iav_Temperate grassland/desert,AR,iav,3.072818116268548e-08
+default,Boreal forest,AF2095,AR_mean_Boreal forest,AR,mean,1.6999969492023529e-06
+default,Boreal forest,AF2095,AR_iav_Boreal forest,AR,iav,2.7195985509439694e-08
+default,Tundra,AF2095,AR_mean_Tundra,AR,mean,9.337608396485923e-07
+default,Tundra,AF2095,AR_iav_Tundra,AR,iav,2.6712719486179378e-08
+default,Ice sheet,AF2095,ALBEDO_allSW_mean_Ice sheet,ALBEDO_allSW,mean,0.009757936503357633
+default,Ice sheet,AF2095,ALBEDO_allSW_iav_Ice sheet,ALBEDO_allSW,iav,0.00011142395708945093
+default,Tropical rain forest,AF2095,ALBEDO_allSW_mean_Tropical rain forest,ALBEDO_allSW,mean,0.0055222019315480896
+default,Tropical rain forest,AF2095,ALBEDO_allSW_iav_Tropical rain forest,ALBEDO_allSW,iav,3.896431505024904e-06
+default,Tropical seasonal forest/savanna,AF2095,ALBEDO_allSW_mean_Tropical seasonal forest/savanna,ALBEDO_allSW,mean,0.04286323277985425
+default,Tropical seasonal forest/savanna,AF2095,ALBEDO_allSW_iav_Tropical seasonal forest/savanna,ALBEDO_allSW,iav,7.81382045325342e-05
+default,Subtropical desert,AF2095,ALBEDO_allSW_mean_Subtropical desert,ALBEDO_allSW,mean,0.06355030913712525
+default,Subtropical desert,AF2095,ALBEDO_allSW_iav_Subtropical desert,ALBEDO_allSW,iav,0.0003212459133508532
+default,Temperate rain forest,AF2095,ALBEDO_allSW_mean_Temperate rain forest,ALBEDO_allSW,mean,0.00039087495860522584
+default,Temperate rain forest,AF2095,ALBEDO_allSW_iav_Temperate rain forest,ALBEDO_allSW,iav,2.2699379529751065e-06
+default,Temperate seasonal forest,AF2095,ALBEDO_allSW_mean_Temperate seasonal forest,ALBEDO_allSW,mean,0.014921347722651288
+default,Temperate seasonal forest,AF2095,ALBEDO_allSW_iav_Temperate seasonal forest,ALBEDO_allSW,iav,0.0002243705192641595
+default,Woodland/shrubland,AF2095,ALBEDO_allSW_mean_Woodland/shrubland,ALBEDO_allSW,mean,0.028580557174188836
+default,Woodland/shrubland,AF2095,ALBEDO_allSW_iav_Woodland/shrubland,ALBEDO_allSW,iav,0.000633531370434218
+default,Temperate grassland/desert,AF2095,ALBEDO_allSW_mean_Temperate grassland/desert,ALBEDO_allSW,mean,0.015327140128076438
+default,Temperate grassland/desert,AF2095,ALBEDO_allSW_iav_Temperate grassland/desert,ALBEDO_allSW,iav,0.00031485221618295865
+default,Boreal forest,AF2095,ALBEDO_allSW_mean_Boreal forest,ALBEDO_allSW,mean,0.025179875531027112
+default,Boreal forest,AF2095,ALBEDO_allSW_iav_Boreal forest,ALBEDO_allSW,iav,0.00033780203405238467
+default,Tundra,AF2095,ALBEDO_allSW_mean_Tundra,ALBEDO_allSW,mean,0.034191788703552876
+default,Tundra,AF2095,ALBEDO_allSW_iav_Tundra,ALBEDO_allSW,iav,0.00036113497727887224
+default,Ice sheet,AF2095,ET_mean_Ice sheet,ET,mean,1.4017427495151913e-09
+default,Ice sheet,AF2095,ET_iav_Ice sheet,ET,iav,4.273359647122617e-09
+default,Tropical rain forest,AF2095,ET_mean_Tropical rain forest,ET,mean,1.4144832112247131e-06
+default,Tropical rain forest,AF2095,ET_iav_Tropical rain forest,ET,iav,4.404305075055841e-08
+default,Tropical seasonal forest/savanna,AF2095,ET_mean_Tropical seasonal forest/savanna,ET,mean,8.121206890784622e-06
+default,Tropical seasonal forest/savanna,AF2095,ET_iav_Tropical seasonal forest/savanna,ET,iav,1.1249231105363201e-07
+default,Subtropical desert,AF2095,ET_mean_Subtropical desert,ET,mean,1.688135725714004e-06
+default,Subtropical desert,AF2095,ET_iav_Subtropical desert,ET,iav,1.2958726178396055e-07
+default,Temperate rain forest,AF2095,ET_mean_Temperate rain forest,ET,mean,3.5299350227586844e-08
+default,Temperate rain forest,AF2095,ET_iav_Temperate rain forest,ET,iav,9.087113986904699e-10
+default,Temperate seasonal forest,AF2095,ET_mean_Temperate seasonal forest,ET,mean,1.4905808041427179e-06
+default,Temperate seasonal forest,AF2095,ET_iav_Temperate seasonal forest,ET,iav,1.889370960783981e-08
+default,Woodland/shrubland,AF2095,ET_mean_Woodland/shrubland,ET,mean,2.0980756404430495e-06
+default,Woodland/shrubland,AF2095,ET_iav_Woodland/shrubland,ET,iav,6.177818984560919e-08
+default,Temperate grassland/desert,AF2095,ET_mean_Temperate grassland/desert,ET,mean,5.213330669226455e-07
+default,Temperate grassland/desert,AF2095,ET_iav_Temperate grassland/desert,ET,iav,2.8480626776999276e-08
+default,Boreal forest,AF2095,ET_mean_Boreal forest,ET,mean,1.0614761372420029e-06
+default,Boreal forest,AF2095,ET_iav_Boreal forest,ET,iav,3.600129526984515e-08
+default,Tundra,AF2095,ET_mean_Tundra,ET,mean,6.318867999587182e-07
+default,Tundra,AF2095,ET_iav_Tundra,ET,iav,2.0889819715792328e-08

@@ -1,0 +1,87 @@
+'''
+Add docstring
+'''
+
+import csv
+import json
+import pickle
+from dask_jobqueue import PBSCluster
+from dask.distributed import Client
+
+################
+##### Dask #####
+################
+
+def get_ClusterClient(
+        ncores=1,
+        nmem='25GB',
+        walltime='01:00:00',
+        account='UWAS0155'):
+    """
+    Code from Daniel Kennedy
+    More info about Dask on HPC - https://ncar.github.io/dask-tutorial/notebooks/05-dask-hpc.html
+    """
+    cluster = PBSCluster(
+        cores=ncores,              # The number of cores you want
+        memory=nmem,               # Amount of memory
+        processes=ncores,          # How many processes
+        queue='casper',            # Queue name
+        resource_spec='select=1:ncpus=' +\
+        str(ncores)+':mem='+nmem,  # Specify resources
+        account=account,           # Input your project ID here
+        walltime=walltime,         # Amount of wall time
+        interface='ext',           # Interface to use
+    )
+
+    client = Client(cluster)
+    return cluster, client
+
+###################
+##### General #####
+###################
+
+def save_dict(d, fname):
+    '''
+    Add docstring
+    '''
+    if fname.split('.')[-1] == 'csv':
+        with open(fname, 'w', newline='', encoding='utf-8') as f:
+            writer = csv.writer(f)
+            for key, value in d.items():
+                writer.writerow([key, value])
+
+    elif fname.split('.')[-1] == 'json':
+        with open(fname, 'w', encoding='utf-8') as f:
+            json.dump(d, f, indent=4)
+
+    elif fname.split('.')[-1] == 'pickle' or fname.split('.')[-1] == 'pkl':
+        with open(fname, 'wb') as f:
+            pickle.dump(d, f)
+
+    print('saved', fname)
+
+
+def load_dict(fname):
+    '''
+    Add docstring
+    '''
+    loaded_data = None
+    if fname.split('.')[-1] == 'csv':
+        with open(fname, 'r', encoding='utf-8') as f:
+            reader = csv.reader(f)
+            loaded_data = {rows[0]: rows[1] for rows in reader}
+
+    elif fname.split('.')[-1] == 'json':
+        with open(fname, 'r', encoding='utf-8') as f:
+            loaded_data = json.load(f)
+
+    elif fname.split('.')[-1] == 'pickle' or fname.split('.')[-1] == 'pkl':
+        with open(fname, 'rb') as f:
+            loaded_data = pickle.load(f)
+
+    # print('loaded', fname)
+    return loaded_data
+
+###########################################
+##### Parameter Ranking and Selection #####
+###########################################
