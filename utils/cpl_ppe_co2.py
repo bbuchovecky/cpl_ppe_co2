@@ -8,6 +8,9 @@ import pickle
 from dask_jobqueue import PBSCluster
 from dask.distributed import Client
 
+import numpy as np
+import matplotlib.pyplot as plt
+
 ################
 ##### Dask #####
 ################
@@ -81,6 +84,42 @@ def load_dict(fname):
 
     # print('loaded', fname)
     return loaded_data
+
+
+####################
+##### Plotting #####
+####################
+
+def get_discrete_colors(cmap_name, n, trim=0.15):
+    ''' Get n discrete colors from a colormap '''
+    cmap = plt.get_cmap(cmap_name)
+    colors = [cmap(i) for i in np.linspace(trim, 1-trim, n)]
+    return colors
+
+
+def match_axlim(axs, xy):
+    ''' Match x or y limits of multiple axes '''
+    lims = []
+    for ax in axs:
+        lims.append(ax.get_xlim() if xy == 'x' else ax.get_ylim())
+    lims = np.array(lims)
+    lims = [lims.min(), lims.max()]
+    for ax in axs:
+        if xy == 'x':
+            ax.set_xlim(lims)
+        else:
+            ax.set_ylim(lims)
+
+
+def symmetric_axlim(ax, xy):
+    ''' Set x or y limits symmetrically '''
+    lim = ax.get_xlim() if xy == 'x' else ax.get_ylim()
+    lim = np.abs(lim).max()
+    if xy == 'x':
+        ax.set_xlim(-lim, lim)
+    else:
+        ax.set_ylim(-lim, lim)
+
 
 ###########################################
 ##### Parameter Ranking and Selection #####
