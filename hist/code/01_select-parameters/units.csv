@@ -1,1 +1,5 @@
 EFLX_LH_TOT,W/m^2
+FCTR,W/m^2
+FCEV,W/m^2
+FGEV,W/m^2
+LH_TOT_derived,W/m^2

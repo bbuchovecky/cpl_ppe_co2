@@ -1,0 +1,15 @@
+,param_name
+35,csol_sand
+37,d_max
+53,fff
+75,jmaxb0
+76,jmaxb1
+84,kmax
+89,krmax
+94,liq_canopy_storage_scalar
+103,maximum_leaf_wetted_fraction
+105,medlynintercept
+106,medlynslope
+144,slopebeta
+171,tpu25ratio
+174,tpuse_sf
