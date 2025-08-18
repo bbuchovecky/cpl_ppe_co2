@@ -1,0 +1,18 @@
+
+Currently Loaded Modules:
+  1) ncarenv/24.12 (S)   2) craype/2.7.31   3) intel/2024.2.1   4) ncarcompilers/1.0.0   5) libfabric/1.15.2.0   6) cray-mpich/8.1.29   7) hdf5/1.12.3   8) netcdf/4.9.2   9) ncl/6.6.2  10) nco/5.3.1
+
+  Where:
+   S:  Module is Sticky, requires --force to unload or purge
+
+ 
+
+case: f.e22.FHIST_BGC.f19_f17_mg17.coupPPE-hist.000
+pwd: /glade/derecho/scratch/bbuchovecky/postp/f.e22.FHIST_BGC.f19_f17_mg17.coupPPE-hist.000
+source: read /.singularity.d/env/01-base.sh: stale NFS file handle
+source: read /.singularity.d/env/10-docker2singularity.sh: stale NFS file handle
+source: read /.singularity.d/env/90-environment.sh: stale NFS file handle
+source: read /.singularity.d/env/94-appsbase.sh: stale NFS file handle
+source: read /.singularity.d/env/95-apps.sh: stale NFS file handle
+source: read /.singularity.d/env/99-base.sh: stale NFS file handle
+FATAL:   while reading /.singularity.d/runscript: read /.singularity.d/runscript: stale NFS file handle

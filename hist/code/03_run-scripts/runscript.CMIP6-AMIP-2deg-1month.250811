@@ -1,0 +1,229 @@
+#!/bin/bash
+
+# 25-08-11
+# bbuchovecky
+
+# default parameter file from this CMIP6 CLM5.0 version
+# no CAM sourcemods for uIVT, vIVT
+# no special CLM variables
+
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# Define directories and user settings
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# Case name and directory for the simulation
+export CESM_CASE_NAME="f.e21.FHIST_BGC.f19_f19_mg17.CMIP6-AMIP-2deg-1month"
+export CESM_CASE_DIR="/glade/u/home/bbuchovecky/cesm_runs/cases/coupPPE-hist/coupled_simulations"
+
+# Project number to charge for the simulation
+export PROJECT_NUM="UWAS0155"
+
+# CESM source code directory
+export CESM_SRC_DIR="/glade/u/home/bbuchovecky/cesm_source/cesm2.1.2-rc.02-derecho"
+
+# Resolution and compset
+export CESM_CASE_RES="f19_f19_mg17"
+export CESM_COMPSET="HIST_CAM60_CLM50%BGC-CROP_CICE%PRES_DOCN%DOM_MOSART_CISM2%NOEVOLVE_SWAV"  # (approx. alias: FHIST_BGC)
+
+# Simulation to branch from
+export BASECASE_NAME="b.e21.BHIST.f19_g17.CMIP6-historical-2deg.001"
+export RESTART_DIR="/glade/derecho/scratch/bbuchovecky/coupPPE-hist/init/b.e21.BHIST.f19_g17.CMIP6-historical-2deg.001/1950-01-01"
+
+# Output storage
+export ARCHIVE_DIR="/glade/derecho/scratch/bbuchovecky/archive/coupPPE-hist/coupled_simulations"
+export RUN_DIR="/glade/derecho/scratch/bbuchovecky"
+
+# This run script
+export FILENAME="/glade/u/home/bbuchovecky/projects/cpl_ppe_co2/hist/code/03_run-scripts/runscript.CMIP6-AMIP-2deg-1month.250811"
+
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# Redirect all output from this run script to a log file
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+exec > >(tee -a "${FILENAME}.log") 2>&1
+echo "${0}"
+echo "${USER}"
+date +%y-%m-%dT%H:%M:%S
+
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# Clean up workspace (only if necessary)
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# echo ; echo "!! Removing old case and run directories" ; echo
+
+# Delete old case
+rm -rf "${CESM_CASE_DIR}/${CESM_CASE_NAME:?}"
+
+# Delete old run directory
+rm -rf "${RUN_DIR}/${CESM_CASE_NAME:?}"
+
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# Make case
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# Change to directory to make case
+cd "${CESM_SRC_DIR}/cime/scripts" || exit
+
+# Create new case
+echo ; echo "!! Creating new case in the directory: $(pwd)" ; echo
+./create_newcase --case "${CESM_CASE_DIR}/${CESM_CASE_NAME}" --res "${CESM_CASE_RES}" --compset "${CESM_COMPSET}" --project "${PROJECT_NUM}" --machine derecho --run-unsupported
+
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# Configure case
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# Change to case directory
+cd "${CESM_CASE_DIR}/${CESM_CASE_NAME}" || exit
+
+echo ; echo "!! Configuring case in the directory: $(pwd)" ; echo
+
+# +++ Identify simulation to branch from
+# NOTE: do these setting for the start of the default simulation
+./xmlchange RUN_TYPE=hybrid
+./xmlchange RUN_REFCASE="${BASECASE_NAME}"
+./xmlchange RUN_REFDATE=1950-01-01
+./xmlchange RUN_STARTDATE=1950-01-01  # necessary for hybrid runs
+
+# NOTE: do these settings for test run - one month to test history variable output
+./xmlchange STOP_OPTION="nmonths"
+./xmlchange STOP_N=1
+./xmlchange RESUBMIT=0
+./xmlchange JOB_WALLCLOCK_TIME=00:30:00 --subgroup case.run
+
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# Set up case
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+echo ; echo "!! Setting up case" ; echo
+./case.setup
+
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# Add modified source files
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# cp "/glade/u/home/bbuchovecky/projects/cpl_ppe_co2/hist/data/sourcemods/cam_diagnostics.F90" SourceMods/src.cam/cam_diagnostics.F90
+
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# Modify namelists
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+echo ; echo "!! Modifying namelists in the directory: $(pwd)" ; echo
+
+# Copy over namelist
+cp "/glade/u/home/bbuchovecky/projects/cpl_ppe_co2/hist/data/namelist_mods/coupPPE-hist.000.txt" user_nl_clm
+
+# Modify land namelist
+cat >> user_nl_clm << EOF
+! ---------------------------------INITIAL CONDITIONS------------------------------
+! no finidat because branching from spin up (will use those initial conditions)
+use_init_interp = .true.
+
+!----------------------------------------------------------------------------------
+! ---------------------------------PARAMETER FILE----------------------------------
+! paramfile = ""
+
+!----------------------------------------------------------------------------------
+!----------------------------------HISTORY FILES-----------------------------------
+!----History files (h0): monthly output at grid level
+! all default output variables, excluding the soil variables with vertically resolved soil levels
+hist_nhtfrq(1)=0
+hist_mfilt(1)=120
+hist_fexcl1 = 'CWDC_vr','CWDN_vr','LITR1C_vr','LITR1N_vr','LITR2C_vr','LITR2N_vr','LITR3C_vr','LITR3N_vr','SMIN_NH4_vr','SMIN_NO3_vr','SMINN_vr','SOIL1C_vr','SOIL1N_vr','SOIL2C_vr','SOIL2N_vr','SOIL3C_vr','SOIL3N_vr','SOILC_vr','SOILN_vr'
+
+! Vegetation structure (not included by default)
+hist_fincl1 += 'HBOT'
+
+!----History files (h1): monthly output at PFT level
+hist_nhtfrq(2)=0
+hist_mfilt(2)=120
+hist_dov2xy(2)= .false.
+hist_type1d_pertape(2) = 'PFTS'
+hist_fincl2 = 'TLAI','TSAI','HBOT','HTOP','GPP'
+
+!----History files (h2): daily output at grid level
+hist_nhtfrq(3)=-24
+hist_mfilt(3)=365
+
+! Daily surface energy budget
+hist_fincl3 = 'EFLX_LH_TOT','FIRE','FLDS','FSDS','FSH_TO_COUPLER','FSH','FSR' 
+
+! Carbon fluxes
+hist_fincl3 += 'GPP','NPP'
+
+! Atmospheric forcing
+hist_fincl3 += 'QBOT','RAIN_FROM_ATM','TBOT','TSA','WIND'
+
+! Plant hydraulics and water stress
+! hist_fincl3 += 'BTRAN2','BTRANMN','GSSHALN','GSSUNLN','H2OSOI','IWUELN','PARVEGLN','VEGWPLN','VEGWPPD','VPD_CAN','VPD2M','SMP','SOILWATER_10CM'
+
+! ET partitioning
+hist_fincl3 += 'FCEV','FCTR','FGEV' 
+
+! Temperature extremes
+hist_fincl3 += 'HIA','HIA_R','HIA_U','HUMIDEX','HUMIDEX_R','HUMIDEX_U','WBT','WBT_R','WBT_U','SWBGT','SWBGT_R','SWBGT_U','TREFMNAV','TREFMXAV'
+
+! Hydrologic extremes
+hist_fincl3 += 'QOVER','QRUNOFF'
+EOF
+
+# Modify atmosphere namelist
+cat >> user_nl_cam << EOF
+!----------------------------------------------------------------------------------
+!----------------------------------HISTORY FILES-----------------------------------
+!----History files (h0): monthly output at grid level
+! all default output variables, excluding extraneous vertically resolved variables
+nhtfrq(1)=0
+mfilt(1)=1
+
+! Exclude some aerosol, cloud droplet, and wet removal scheme variables
+! fexcl1 = 'bc_a1','bc_a4','bc_c1','bc_c4','dst_a1','dst_a2','dst_a3','dst_c1','dst_c2','dst_c3','ncl_a1','ncl_a2','ncl_a3','ncl_c1','ncl_c2','ncl_c3','num_a1','num_a2','num_a3','num_a4','num_c1','num_c2','num_c3','num_c4','pom_a1','pom_a4','pom_c1','pom_c4','so4_a1','so4_a2','so4_a3','so4_c1','so4_c2','so4_c3','soa_a1','soa_a2','soa_c1','soa_c2','ANRAIN','AREI','AREL','AWNC','AWNI','ADRAIN','ADSNOW','ANSNOW','NUMICE','NUMLIQ','NUMRAI','NUMSNO','DTWR_DMS','DTWR_H2O2','DTWR_H2SO4','DTWR_SO2','VQ','UQ'
+fexcl1 = 'bc_a1','bc_a4','bc_c1','bc_c4','dst_a1','dst_a2','dst_a3','dst_c1','dst_c2','dst_c3','ncl_a1','ncl_a2','ncl_a3','ncl_c1','ncl_c2','ncl_c3','num_a1','num_a2','num_a3','num_a4','num_c1','num_c2','num_c3','num_c4','pom_a1','pom_a4','pom_c1','pom_c4','so4_a1','so4_a2','so4_a3','so4_c1','so4_c2','so4_c3','soa_a1','soa_a2','soa_c1','soa_c2','ANRAIN','AREI','AREL','AWNC','AWNI','ADRAIN','ADSNOW','ANSNOW','NUMICE','NUMLIQ','NUMRAI','NUMSNO','DTWR_H2O2','DTWR_H2SO4','DTWR_SO2','VQ'
+
+!----History files (h1): additional user-specified monthly output at grid level
+nhtfrq(2)=0
+mfilt(2)=1
+! fincl2 = 'SST','VQ','UQ','uIVT','vIVT'
+fincl2 = 'SST','VQ'
+
+!----History files (h2): daily output at grid level
+nhtfrq(3)=-24
+mfilt(3)=365
+! fincl3 = 'FLDS','FLNS','FSDS','FSNS','LHFLX','SHFLX',    'PRECC','PRECL','QREFHT','RHREFHT','uIVT','vIVT',    'TREFHT','TREFHTMN','TREFHTMX','TS','TSMN','TSMX',    'PBLH','PS','PSL'
+fincl3 = 'FLDS','FLNS','FSDS','FSNS','LHFLX','SHFLX',    'PRECC','PRECL','QREFHT','RHREFHT',    'TREFHT','TREFHTMN','TREFHTMX','TS','TSMN','TSMX',    'PBLH','PS','PSL'
+EOF
+
+# Modify coupler namelist -- only uncomment this for DEFAULT simulations
+# cat >> user_nl_cpl << EOF
+# histaux_a2x3hr = .true.
+# histaux_a2x3hrp = .true.
+# histaux_a2x1hri = .true.
+# histaux_a2x1hr = .true.
+# histaux_a2x24hr = .true.
+# histaux_a2x = .true.
+# EOF
+
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# Build case and copy in restart files
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# Copy resubmit files (from case we're branching from) into this case's run folder on glade
+cd "${RUN_DIR}/${CESM_CASE_NAME}/run" || exit
+echo ; echo "!! Copying restart files into the directory: $(pwd)" ; echo
+cp "${RESTART_DIR}"/* .
+
+# Build the case
+cd "${CESM_CASE_DIR}/${CESM_CASE_NAME}" || exit
+echo ; echo "!! Building case in the directory: $(pwd)" ; echo
+# qcmd -A "${PROJECT_NUM}" -- ./case.build
+./case.build
+
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# Submit case
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+echo ; echo "!! Submitting case in the directory: $(pwd)" ; echo
+./case.submit
+
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# Do some cleanup, copy this run script into the run directory 
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+echo ; echo "!! Copying run scripts into the directory: $(pwd)" ; echo
+cp "${FILENAME}" .
+mv "${FILENAME}.log" .

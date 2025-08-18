@@ -1,0 +1,32 @@
+key,param,loc,minmax,flag,description,category,subcategory,origin_PPE,notes
+0,default,default,default,,NA,NA,NA,CLM5,
+1,fff,P,min,,Decay factor for fractional saturated area,hydrology,soilwater,CLM5,
+2,fff,P,max,,Decay factor for fractional saturated area,hydrology,soilwater,CLM5,
+3,jmaxb0,P,min,,the baseline proportion of nitrogen allocated for electron transport (J),stomatal,luna,CLM5,
+4,jmaxb0,P,max,,the baseline proportion of nitrogen allocated for electron transport (J),stomatal,luna,CLM5,
+5,medlynslope,P,min,,Medlyn slope of conductance-photosynthesis relationship,stomatal,vegwater,CLM5,
+6,medlynslope,P,max,,Medlyn slope of conductance-photosynthesis relationship,stomatal,vegwater,CLM5,
+7,medlynintercept,P,min,,Medlyn intercept of conductance-photosynthesis relationship,stomatal,vegwater,CLM6,use constrained range from CLM6
+8,medlynintercept,P,max,,Medlyn intercept of conductance-photosynthesis relationship,stomatal,vegwater,CLM6,use constrained range from CLM6
+9,maximum_leaf_wetted_fraction,N,min,,Maximum fraction of leaf that may be wet prior to drip occuring,biophysics,latent,CLM5,
+10,maximum_leaf_wetted_fraction,N,max,,Maximum fraction of leaf that may be wet prior to drip occuring,biophysics,latent,CLM5,
+11,kmax,P,min,,Plant segment max conductance,stomatal,vegwater,CLM5,
+12,kmax,P,max,,Plant segment max conductance,stomatal,vegwater,CLM5,
+13,leafcn,P,min,,Leaf C:N,bgc,allocation,CLM5,
+14,leafcn,P,max,,Leaf C:N,bgc,allocation,CLM5,
+15,d_max,P,min,,Dry surface layer (DSL) parameter,hydrology,soilwater,CLM5,
+16,d_max,P,max,,Dry surface layer (DSL) parameter,hydrology,soilwater,CLM5,
+17,psi50,P,min,,Water potential at 50% loss of conductance,stomatal,vegwater,CLM5,
+18,psi50,P,max,,Water potential at 50% loss of conductance,stomatal,vegwater,CLM5,
+19,cv,P,min,,Turbulent transfer coefficient between canopy surface and canopy air,biophysics,latent,CLM5,instead of dleaf
+20,cv,P,max,,Turbulent transfer coefficient between canopy surface and canopy air,biophysics,latent,CLM5,instead of dleaf
+21,lmrha,P,min,,activation energy for lmr,stomatal,acclimation,CLM5,
+22,lmrha,P,max,,activation energy for lmr,stomatal,acclimation,CLM5,
+23,FUN_fracfixers,P,min,,fraction of carbon available for N fixation,bgc,fun,CLM6,use constrained range from CLM6
+24,FUN_fracfixers,P,max,,fraction of carbon available for N fixation,bgc,fun,CLM6,use constrained range from CLM6
+25,KCN,KCN,min,,"kc_nonmyc, kn_nonmyc , akc_active, akn_active, ekc_active, akn_active",--,--,CLM5,
+26,KCN,KCN,max,,"kc_nonmyc, kn_nonmyc , akc_active, akn_active, ekc_active, akn_active",--,--,CLM5,
+27,ACCLIM_SF,ACCLIM_SF,min,,"vcmaxse_sf, jmaxse_sf, tpuse_sf",stomatal,acclimation,CLM5,
+28,ACCLIM_SF,ACCLIM_SF,max,,"vcmaxse_sf, jmaxse_sf, tpuse_sf",stomatal,acclimation,CLM5,
+29,sand_pf,P,min,,Perturbation factor (via addition) for percent sand (percent) ,hydrology,soilwater,None,selected our own range
+30,sand_pf,P,max,,Perturbation factor (via addition) for percent sand (percent) ,hydrology,soilwater,None,selected our own range

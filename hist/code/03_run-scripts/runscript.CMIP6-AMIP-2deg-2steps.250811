@@ -1,0 +1,121 @@
+#!/bin/bash
+
+# 25-08-11
+# bbuchovecky
+
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# Define directories and user settings
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# Case name and directory for the simulation
+export CESM_CASE_NAME="f.e21.FHIST_BGC.f19_f19_mg17.CMIP6-AMIP-2deg-2steps"
+export CESM_CASE_DIR="/glade/u/home/bbuchovecky/cesm_runs/cases/coupPPE-hist/coupled_simulations"
+
+# Project number to charge for the simulation
+export PROJECT_NUM="UWAS0155"
+
+# CESM source code directory
+export CESM_SRC_DIR="/glade/u/home/bbuchovecky/cesm_source/cesm2.1.2-rc.02-derecho"
+
+# Resolution and compset
+export CESM_CASE_RES="f19_f19_mg17"
+export CESM_COMPSET="HIST_CAM60_CLM50%BGC-CROP_CICE%PRES_DOCN%DOM_MOSART_CISM2%NOEVOLVE_SWAV"  # (approx. alias: FHIST_BGC)
+
+# Simulation to branch from
+export BASECASE_NAME="b.e21.BHIST.f19_g17.CMIP6-historical-2deg.001"
+export RESTART_DIR="/glade/derecho/scratch/bbuchovecky/coupPPE-hist/init/b.e21.BHIST.f19_g17.CMIP6-historical-2deg.001/1950-01-01"
+
+# Output storage
+export ARCHIVE_DIR="/glade/derecho/scratch/bbuchovecky/archive/coupPPE-hist/coupled_simulations"
+export RUN_DIR="/glade/derecho/scratch/bbuchovecky"
+
+# This run script
+export FILENAME="/glade/u/home/bbuchovecky/projects/cpl_ppe_co2/hist/code/03_run-scripts/runscript.CMIP6-AMIP-2deg-2steps.250811"
+
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# Redirect all output from this run script to a log file
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+exec > >(tee -a "${FILENAME}.log") 2>&1
+echo "${0}"
+echo "${USER}"
+date +%y-%m-%dT%H:%M:%S
+
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# Clean up workspace (only if necessary)
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# echo ; echo "!! Removing old case and run directories" ; echo
+
+# # Delete old case
+# rm -rf "${CESM_CASE_DIR}/${CESM_CASE_NAME:?}"
+
+# # Delete old run directory
+# rm -rf "${RUN_DIR}/${CESM_CASE_NAME:?}"
+
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# Make case
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# Change to directory to make case
+cd "${CESM_SRC_DIR}/cime/scripts" || exit
+
+# Create new case
+echo ; echo "!! Creating new case in the directory: $(pwd)" ; echo
+./create_newcase --case "${CESM_CASE_DIR}/${CESM_CASE_NAME}" --res "${CESM_CASE_RES}" --compset "${CESM_COMPSET}" --project "${PROJECT_NUM}" --machine derecho --run-unsupported
+
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# Configure case
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# Change to case directory
+cd "${CESM_CASE_DIR}/${CESM_CASE_NAME}" || exit
+
+echo ; echo "!! Configuring case in the directory: $(pwd)" ; echo
+
+# +++ Identify simulation to branch from
+# NOTE: do these setting for the start of the default simulation
+./xmlchange RUN_TYPE=hybrid
+./xmlchange RUN_REFCASE="${BASECASE_NAME}"
+./xmlchange RUN_REFDATE=1950-01-01
+./xmlchange RUN_STARTDATE=1950-01-01  # necessary for hybrid runs
+
+# NOTE: do these settings for test run - two time steps to test model configuration
+./xmlchange STOP_OPTION="nsteps"
+./xmlchange STOP_N=2
+./xmlchange RESUBMIT=0
+./xmlchange JOB_WALLCLOCK_TIME=00:15:00 --subgroup case.run
+
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# Set up case
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+echo ; echo "!! Setting up case" ; echo
+./case.setup
+
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# Build case and copy in restart files
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# Copy resubmit files (from case we're branching from) into this case's run folder on glade
+cd "${RUN_DIR}/${CESM_CASE_NAME}/run" || exit
+echo ; echo "!! Copying restart files into the directory: $(pwd)" ; echo
+cp "${RESTART_DIR}"/* .
+
+# Build the case
+cd "${CESM_CASE_DIR}/${CESM_CASE_NAME}" || exit
+echo ; echo "!! Building case in the directory: $(pwd)" ; echo
+# qcmd -A "${PROJECT_NUM}" -- ./case.build
+./case.build
+
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# Submit case
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+echo ; echo "!! Submitting case in the directory: $(pwd)" ; echo
+./case.submit
+
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# Do some cleanup, copy this run script into the run directory 
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+echo ; echo "!! Copying run scripts into the directory: $(pwd)" ; echo
+cp "${FILENAME}" .
+mv "${FILENAME}.log" .

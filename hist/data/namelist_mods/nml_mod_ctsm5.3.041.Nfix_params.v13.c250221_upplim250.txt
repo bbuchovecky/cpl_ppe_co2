@@ -1,0 +1,3 @@
+! user_nl_clm namelist options for ctsm5.3.041.Nfix_params.v13.c250221_upplim250.nc
+fresh_snw_rds_max=400.0
+upplim_destruct_metamorph=250

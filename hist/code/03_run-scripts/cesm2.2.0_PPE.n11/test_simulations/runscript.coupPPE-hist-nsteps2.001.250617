@@ -1,0 +1,191 @@
+#!/bin/bash
+
+# 25-06-17T13:04:29
+# bbuchovecky
+# test run with 2 time steps and default parameters
+
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# Define directories and user settings
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# Case name and directory for the simulation
+export CESM_CASE_NAME="f.e21.FHIST_BGC.f19_f17_mg17.coupPPE-hist-nsteps2.001"
+export CESM_CASE_DIR="/glade/u/home/bbuchovecky/cesm_runs/cases/cpl_ppe_co2/test_simulations"
+
+# Project number to charge for the simulation
+export PROJECT_NUM="UWAS0155"
+
+# CESM source code directory
+export CESM_SRC_DIR="/glade/u/home/bbuchovecky/cesm_source/cesm_coupled_PPEn11"
+
+# Resolution and compset
+export CESM_CASE_RES="f19_f19_mg17"
+export CESM_COMPSET="HIST_CAM60_CLM50%BGC-CROP_CICE%PRES_DOCN%DOM_MOSART_CISM2%NOEVOLVE_SWAV"  # (approx. alias: FHIST_BGC)
+
+# Simulation to branch from
+export BASECASE_NAME="b.e21.BHIST.f19_g17.CMIP6-historical-2deg.001"
+export RESTART_DIR="/glade/derecho/scratch/bbuchovecky/cpl_ppe_co2/init/b.e21.BHIST.f19_g17.CMIP6-historical-2deg.001/1950-01-01"
+
+# Output storage
+export ARCHIVE_DIR="/glade/derecho/scratch/bbuchovecky/archive/cpl_ppe_co2/test_simulations"
+export RUN_DIR="/glade/derecho/scratch/bbuchovecky"
+
+# This run script
+export FILENAME="/glade/u/home/bbuchovecky/projects/cpl_ppe_co2/hist/code/03_run-scripts/runscript.coupPPE-hist-nsteps2.001.250617"
+
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# Redirect all output from this run script to a log file
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+exec > >(tee -a "${FILENAME}.log") 2>&1
+echo "${0}"
+echo "${USER}"
+date +%y-%m-%dT%H:%M:%S
+
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# Clean up workspace (only if necessary)
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+echo ; echo "!! Removing old case and run directories" ; echo
+
+# Delete old case
+rm -rf "${CESM_CASE_DIR}/${CESM_CASE_NAME:?}"
+
+# Delete old run directory
+rm -rf "${RUN_DIR}/${CESM_CASE_NAME:?}"
+
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# Make case
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# Change to directory to make case
+cd "${CESM_SRC_DIR}/cime/scripts" || exit
+
+# Create new case
+echo ; echo "!! Creating new case in the directory: $(pwd)" ; echo
+./create_newcase --case "${CESM_CASE_DIR}/${CESM_CASE_NAME}" --res "${CESM_CASE_RES}" --compset "${CESM_COMPSET}" --project "${PROJECT_NUM}" --machine derecho --run-unsupported
+# !! keep --run-unsupported tag?
+
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# Configure case
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# Change to case directory
+echo ; echo "!! Configuring case in the directory: $(pwd)" ; echo
+cd "${CESM_CASE_DIR}/${CESM_CASE_NAME}" || exit
+
+# Identify simulation to branch from
+./xmlchange RUN_TYPE=hybrid
+./xmlchange RUN_REFCASE="${BASECASE_NAME}"
+./xmlchange RUN_REFDATE=1950-01-01
+./xmlchange RUN_STARTDATE=1950-01-01  # necessary for hybrid runs
+
+# +++ Modify xml files related to data model components
+# TODO: set up prescribed SST for ocean
+
+# +++ Modify xml files related to run time
+# NOTE:
+# --subgroup case.run only changes the wall clock time for the run, not the build or archiving
+
+# NOTE: do these settings for test run - two time steps to test model configuration
+./xmlchange STOP_OPTION="nsteps"
+./xmlchange STOP_N=2
+./xmlchange RESUBMIT=0
+./xmlchange JOB_WALLCLOCK_TIME=00:30:00 --subgroup case.run
+
+# NOTE: do these settings for test run - single day to test history variable output
+# ./xmlchange STOP_OPTION="ndays"
+# ./xmlchange STOP_N=1
+# ./xmlchange RESUBMIT=0
+# ./xmlchange JOB_WALLCLOCK_TIME=00:30:00 --subgroup case.run
+
+# NOTE: do these settings for test run - single month to test history variable output
+# ./xmlchange STOP_OPTION="nmonths"
+# ./xmlchange STOP_N=1
+# ./xmlchange RESUBMIT=0
+# ./xmlchange JOB_WALLCLOCK_TIME=00:30:00 --subgroup case.run
+
+# NOTE: do these settings for full run
+# ./xmlchange STOP_OPTION="nyears"
+# ./xmlchange STOP_N=1
+# ./xmlchange RESUBMIT=0
+# ./xmlchange JOB_WALLCLOCK_TIME=10:30:00 --subgroup case.run
+
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# Set up case
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+echo ; echo "!! Setting up case" ; echo
+./case.setup
+
+# +++ Only set to TRUE if CESM build is complete
+# ./xmlchange BUILD_COMPLETE=TRUE
+# ./xmlchange EXEROOT="${RUN_DIR}/${BASECASE_NAME}/bld"
+
+# +++ Turn on/off short term archiving (on for testing)
+# ./xmlchange DOUT_S=FALSE
+
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# Modify namelists
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+echo ; echo "!! Modifying namelists in the directory: $(pwd)" ; echo
+
+# Copy over namelist
+cp "/glade/u/home/bbuchovecky/projects/cpl_ppe_co2/hist/code/02_set-up-ensemble/user_nl_clm_TEMPLATE.txt" user_nl_clm
+
+# Modify land namelist
+cat >> user_nl_clm << EOF
+! ---------------------------------INITIAL CONDITIONS------------------------------
+! no finidat because branching from spin up (will use those initial conditions)
+use_init_interp = .true.
+
+!----------------------------------------------------------------------------------
+! ---------------------------------PARAMETER FILE----------------------------------
+paramfile = "/glade/u/home/bbuchovecky/projects/cpl_ppe_co2/hist/data/paramfiles/param.coupPPE-hist.000.nc"
+
+!----------------------------------------------------------------------------------
+!----------------------------------HISTORY FILES-----------------------------------
+EOF
+
+# Modify atmosphere namelist
+cat >> user_nl_cam << EOF
+!----------------------------------------------------------------------------------
+!----------------------------------HISTORY FILES-----------------------------------
+EOF
+
+# Modify coupler namelist -- only uncomment this for DEFAULT simulations
+# cat >> user_nl_cpl << EOF
+# histaux_a2x3hr = .true.
+# histaux_a2x3hrp = .true.
+# histaux_a2x1hri = .true.
+# histaux_a2x1hr = .true.
+# histaux_a2x24hr = .true.
+# histaux_a2x = .true.
+# EOF
+
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# Build case and copy in restart files
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# Copy resubmit files (from case we're branching from) into this case's run folder on glade
+cd "${RUN_DIR}/${CESM_CASE_NAME}/run" || exit
+echo ; echo "!! Copying restart files into the directory: $(pwd)" ; echo
+cp "${RESTART_DIR}"/* .
+
+# Build the case
+cd "${CESM_CASE_DIR}/${CESM_CASE_NAME}" || exit
+echo ; echo "!! Building case in the directory: $(pwd)" ; echo
+qcmd -A "${PROJECT_NUM}" -- ./case.build
+
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# Submit case
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+echo ; echo "!! Submitting case in the directory: $(pwd)" ; echo
+./case.submit
+
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# Do some cleanup, copy this run script into the run directory 
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+echo ; echo "!! Copying run scripts into the directory: $(pwd)" ; echo
+cp "${FILENAME}" .
+mv "${FILENAME}.log" .

@@ -1,0 +1,81 @@
+#!/bin/bash
+
+# 25-06-23T11:29:00
+# bbuchovecky
+
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# Define directories and user settings
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# Case name and directory for the simulation
+export CESM_CASE_NAME="f.e22.FHIST_BGC.f19_f17_mg17.coupPPE-hist.000"
+export CESM_CASE_DIR="/glade/u/home/bbuchovecky/cesm_runs/cases/coupPPE-hist/coupled_simulations"
+
+# Project number to charge for the simulation
+export PROJECT_NUM="UWAS0155"
+
+# CESM source code directory
+export CESM_SRC_DIR="/glade/u/home/bbuchovecky/cesm_source/cesm_coupled_PPEn11"
+
+# Resolution and compset
+export CESM_CASE_RES="f19_f19_mg17"
+export CESM_COMPSET="HIST_CAM60_CLM50%BGC-CROP_CICE%PRES_DOCN%DOM_MOSART_CISM2%NOEVOLVE_SWAV"  # (approx. alias: FHIST_BGC)
+
+# Simulation to branch from
+export BASECASE_NAME="b.e21.BHIST.f19_g17.CMIP6-historical-2deg.001"
+export RESTART_DIR="/glade/derecho/scratch/bbuchovecky/coupPPE-hist/init/b.e21.BHIST.f19_g17.CMIP6-historical-2deg.001/1950-01-01"
+
+# Output storage
+export ARCHIVE_DIR="/glade/derecho/scratch/bbuchovecky/archive/coupPPE-hist/coupled_simulations"
+export RUN_DIR="/glade/derecho/scratch/bbuchovecky"
+
+# This run script
+export FILENAME="/glade/u/home/bbuchovecky/projects/cpl_ppe_co2/hist/code/03_run-scripts/runscript.coupPPE-hist.000.250623-continue"
+
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# Redirect all output from this run script to a log file
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+exec > >(tee -a "${FILENAME}.log") 2>&1
+echo "${0}"
+echo "${USER}"
+date +%y-%m-%dT%H:%M:%S
+
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# Reconfigure case
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# Change to case directory
+cd "${CESM_CASE_DIR}/${CESM_CASE_NAME}" || exit
+
+echo ; echo "!! Reconfiguring case in the directory: $(pwd)" ; echo
+
+# +++ Modify xml files related to run time
+# NOTE:
+# --subgroup case.run only changes the wall clock time for the run, not the build or archiving
+
+# Continue the run from the last stopping point
+./xmlchange CONTINUE_RUN=TRUE
+
+# NOTE: do these settings for full run
+# TIMING CALCS: 0.8 * 8 myrs / 12 whrs = 6 myrs per 12 hr job
+#               run 1951->2017 (66 myrs): 11 6-year chunks
+#               HadOIBl SST dataset extends until end of 2017
+./xmlchange STOP_OPTION="nyears"
+./xmlchange STOP_N=6
+./xmlchange REST_OPTION="nyears"
+./xmlchange REST_N=6
+./xmlchange RESUBMIT=10
+./xmlchange JOB_WALLCLOCK_TIME=11:30:00 --subgroup case.run
+
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# Submit case
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+echo ; echo "!! Submitting case in the directory: $(pwd)" ; echo
+./case.submit
+
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# Do some cleanup, copy this run script into the run directory 
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+echo ; echo "!! Copying run scripts into the directory: $(pwd)" ; echo
+cp "${FILENAME}" .
+mv "${FILENAME}.log" .

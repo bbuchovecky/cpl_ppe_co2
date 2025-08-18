@@ -1,0 +1,20 @@
+#!/bin/bash
+
+# export FILENAME="/glade/u/home/bbuchovecky/projects/cpl_ppe_co2/hist/code/03_run-scripts/run.test"
+
+# exec > >(tee -a "${FILENAME}.log") 2>&1
+# echo "${FILENAME}"
+# echo "${USER}"
+# date +%y-%m-%dT%H:%M:%S
+
+# mv "${FILENAME}.log" ./log/
+
+echo "Do you want to continue? (y/n)"
+read -r answer
+
+if [[ "$answer" != [Yy] ]]; then
+    echo "Halting..."
+    exit
+fi
+
+echo "Continuing..."

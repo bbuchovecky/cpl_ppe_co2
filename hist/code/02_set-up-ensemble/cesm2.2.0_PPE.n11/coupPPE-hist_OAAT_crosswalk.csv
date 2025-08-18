@@ -1,0 +1,22 @@
+name,min,max,loc,flag,description,category,subcat,pft_mins,pft_maxs
+fff,0.02,5,P,,Decay factor for fractional saturated area,hydrology,soilwater,,
+jmaxb0,0.01,0.05,P,,the baseline proportion of nitrogen allocated for electron transport (J),stomatal,luna,,
+medlynslope,pft,pft,P,,Medlyn slope of conductance-photosynthesis relationship,stomatal,vegwater,"9,1.53,1.53,1.53,1.7,1.7,2.05,2.05,2.05,0.91,0.91,0.91,3.78,3.78,0.65,3.89,3.89,0.65,0.65,3.89,3.89,3.89,3.89,3.89,3.89,3.89,3.89,3.89,3.89,3.89,3.89,3.89,3.89,3.89,3.89,3.89,3.89,3.89,3.89,3.89,3.89,3.89,3.89,3.89,3.89,3.89,3.89,3.89,3.89,3.89,3.89,3.89,3.89,3.89,3.89,3.89,3.89,3.89,3.89,3.89,3.89,3.89,3.89,3.89,3.89,3.89,3.89,0.65,0.65,3.89,3.89,0.65,0.65,0.65,0.65,0.65,0.65,3.89,3.89","9,4.14,4.14,4.14,9.11,9.11,7.07,7.07,7.07,5.95,5.95,5.95,8.54,8.54,3.93,7.57,7.57,3.93,3.93,7.57,7.57,7.57,7.57,7.57,7.57,7.57,7.57,7.57,7.57,7.57,7.57,7.57,7.57,7.57,7.57,7.57,7.57,7.57,7.57,7.57,7.57,7.57,7.57,7.57,7.57,7.57,7.57,7.57,7.57,7.57,7.57,7.57,7.57,7.57,7.57,7.57,7.57,7.57,7.57,7.57,7.57,7.57,7.57,7.57,7.57,7.57,7.57,3.93,3.93,7.57,7.57,3.93,3.93,3.93,3.93,3.93,3.93,7.57,7.57"
+medlynintercept,1,12500,P,,Medlyn intercept of conductance-photosynthesis relationship,stomatal,vegwater,,
+maximum_leaf_wetted_fraction,0.01,0.5,N,,Maximum fraction of leaf that may be wet prior to drip occuring,biophysics,latent,,
+kmax,pft,pft,P,,Plant segment max conductance,stomatal,vegwater,"0,3.00E-09,4.00E-09,3.40E-09,1.50E-08,1.30E-08,8.50E-09,1.20E-08,1.30E-08,2.40E-09,9.50E-10,5.90E-10,2.30E-10,4.00E-10,3.10E-10,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09","0,3.80E-08,3.40E-08,3.10E-08,1.70E-07,1.90E-07,6.00E-08,2.20E-07,2.30E-07,2.00E-08,4.10E-09,6.20E-09,3.60E-09,3.00E-09,1.90E-09,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08"
+leafcn,30percent,30percent,P,,Leaf C:N,bgc,allocation,,
+d_max,10,60,P,,Dry surface layer (DSL) parameter,hydrology,soilwater,,
+psi50,30percent,30percent,P,,Water potential at 50% loss of conductance,stomatal,vegwater,,
+cv,0.005,0.02,P,,Turbulent transfer coefficient between canopy surface and canopy air,biophysics,latent,,
+lmrha,50percent,50percent,P,,activation energy for lmr,stomatal,acclimation,,
+FUN_fracfixers,0.1,0.5,P,,fraction of carbon available for N fixation,bgc,fun,,
+jmaxse_sf,20percent,20percent,P,ACCLIM_SF,Scale factor for jmaxse equation,stomatal,acclimation,,
+tpuse_sf,20percent,20percent,P,ACCLIM_SF,Scale factor for tpuse equation,stomatal,acclimation,,
+vcmaxse_sf,20percent,20percent,P,ACCLIM_SF,Scale factor for vcmaxse equation,stomatal,acclimation,,
+akc_active,90percent,900percent,P,KCN,Constant relating root C to arbuscular mycorrhizal root active uptake cost.,bgc,fun,,
+akn_active,90percent,900percent,P,KCN,Constant relating soil layer Nitrogen content to arbuscular mycorrhizal root active uptake cost.,bgc,fun,,
+ekc_active,90percent,900percent,P,KCN,Constant relating root C to ectomycorrhizal root active uptake cost.,bgc,fun,,
+ekn_active,90percent,900percent,P,KCN,Constant relating soil layer Nitrogen content to ectomycorrhizal root active uptake cost.,bgc,fun,,
+kc_nonmyc,90percent,900percent,P,KCN,Constant relating root C to non-mycorrhizal root active uptake cost.,bgc,fun,,
+kn_nonmyc,90percent,900percent,P,KCN,Constant relating soil layer Nitrogen content to non-mycorrhizal root active uptake cost.,bgc,fun,,
