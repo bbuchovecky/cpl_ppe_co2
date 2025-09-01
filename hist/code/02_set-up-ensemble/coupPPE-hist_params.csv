@@ -1,0 +1,31 @@
+,name,loc,flag,min,max,description,category,subcat,def,pft_mins,pft_maxs,notes
+0,dleaf,P,,pft,pft,Characteristic dimension of leaves in the direction of wind flow,biophysics,latent,0.04,"0,0.000216,0.000216,0.00072,0.0081,0.0081,0.0081,0.0081,0.0081,0.0081,0.000405,0.000162,0.000144,0.000144,0.000144,0.000162,0.000162,0.000162,0.000162,0.000162,0.000162,0.000162,0.000162,0.000162,0.000162,0.000162,0.000162,0.000162,0.000162,0.000162,0.000162,0.000162,0.000162,0.000162,0.000162,0.000162,0.000162,0.000162,0.000162,0.000162,0.000162,0.000162,0.000162,0.000162,0.000162,0.000162,0.000162,0.000162,0.000162,0.000162,0.000162,0.000162,0.000162,0.000162,0.000162,0.000162,0.000162,0.000162,0.000162,0.000162,0.000162,0.000162,0.000162,0.000162,0.000162,0.000162,0.000162,0.000162,0.000162,0.000162,0.000162,0.000162,0.000162,0.000162,0.000162,0.000162,0.000162,0.000162,0.000162","0,0.00108,0.00108,0.0036,0.0567,0.0567,0.243,0.243,0.243,0.081,0.1215,0.0486,0.018,0.018,0.018,0.1215,0.1215,0.1215,0.1215,0.1215,0.1215,0.1215,0.1215,0.1215,0.1215,0.1215,0.1215,0.1215,0.1215,0.1215,0.1215,0.1215,0.1215,0.1215,0.1215,0.1215,0.1215,0.1215,0.1215,0.1215,0.1215,0.1215,0.1215,0.1215,0.1215,0.1215,0.1215,0.1215,0.1215,0.1215,0.1215,0.1215,0.1215,0.1215,0.1215,0.1215,0.1215,0.1215,0.1215,0.1215,0.1215,0.1215,0.1215,0.1215,0.1215,0.1215,0.1215,0.1215,0.1215,0.1215,0.1215,0.1215,0.1215,0.1215,0.1215,0.1215,0.1215,0.1215,0.1215",
+1,d_max,S,,10,60,Dry surface layer (DSL) parameter,hydrology,soilwater,15,,,
+2,maximum_leaf_wetted_fraction,N,,0.01,0.5,Maximum fraction of leaf that may be wet prior to drip occuring,biophysics,latent,0.05,,,
+3,fff,S,,0.02,5,Decay factor for fractional saturated area,hydrology,soilwater,0.5,,,
+4,medlynslope,P,,pft,pft,Medlyn slope of conductance-photosynthesis relationship,stomatal,vegwater,"Ranges [1.62, 9]","9,1.53,1.53,1.53,1.7,1.7,2.05,2.05,2.05,0.91,0.91,0.91,3.78,3.78,0.65,3.89,3.89,0.65,0.65,3.89,3.89,3.89,3.89,3.89,3.89,3.89,3.89,3.89,3.89,3.89,3.89,3.89,3.89,3.89,3.89,3.89,3.89,3.89,3.89,3.89,3.89,3.89,3.89,3.89,3.89,3.89,3.89,3.89,3.89,3.89,3.89,3.89,3.89,3.89,3.89,3.89,3.89,3.89,3.89,3.89,3.89,3.89,3.89,3.89,3.89,3.89,3.89,0.65,0.65,3.89,3.89,0.65,0.65,0.65,0.65,0.65,0.65,3.89,3.89","9,4.14,4.14,4.14,9.11,9.11,7.07,7.07,7.07,5.95,5.95,5.95,8.54,8.54,3.93,7.57,7.57,3.93,3.93,7.57,7.57,7.57,7.57,7.57,7.57,7.57,7.57,7.57,7.57,7.57,7.57,7.57,7.57,7.57,7.57,7.57,7.57,7.57,7.57,7.57,7.57,7.57,7.57,7.57,7.57,7.57,7.57,7.57,7.57,7.57,7.57,7.57,7.57,7.57,7.57,7.57,7.57,7.57,7.57,7.57,7.57,7.57,7.57,7.57,7.57,7.57,7.57,3.93,3.93,7.57,7.57,3.93,3.93,3.93,3.93,3.93,3.93,7.57,7.57",
+5,medlynintercept,P,,1,12500,Medlyn intercept of conductance-photosynthesis relationship,stomatal,vegwater,100,,,use constrained range from CLM6
+6,Jmaxb0,S,,0.01,0.05,the baseline proportion of nitrogen allocated for electron transport (J),stomatal,luna,0.0311,,,
+7,kmax,P,,pft,pft,Plant segment max conductance,stomatal,vegwater,2.00E-08,"0,3.00E-09,4.00E-09,3.40E-09,1.50E-08,1.30E-08,8.50E-09,1.20E-08,1.30E-08,2.40E-09,9.50E-10,5.90E-10,2.30E-10,4.00E-10,3.10E-10,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09,1.60E-09","0,3.80E-08,3.40E-08,3.10E-08,1.70E-07,1.90E-07,6.00E-08,2.20E-07,2.30E-07,2.00E-08,4.10E-09,6.20E-09,3.60E-09,3.00E-09,1.90E-09,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08,3.10E-08",
+8,psi50,P,,30percent,30percent,Water potential at 50% loss of conductance,stomatal,vegwater,"Ranges [-530000, -150000]",,,
+9,FUN_fracfixers,P,,0.1,0.5,fraction of carbon available for N fixation,bgc,fun,"Varies [0, 0.25, 1]",,,use constrained range from CLM6
+10,kc_nonmyc,P,KCN,90percent,900percent,Constant relating root C to non-mycorrhizal root active uptake cost.,bgc,fun,,,,
+11,kn_nonmyc,P,KCN,90percent,900percent,Constant relating soil layer Nitrogen content to non-mycorrhizal root active uptake cost.,bgc,fun,,,,
+12,akc_active,P,KCN,90percent,900percent,Constant relating root C to arbuscular mycorrhizal root active uptake cost.,bgc,fun,,,,
+13,akn_active,P,KCN,90percent,900percent,Constant relating soil layer Nitrogen content to arbuscular mycorrhizal root active uptake cost.,bgc,fun,,,,
+14,ekc_active,P,KCN,90percent,900percent,Constant relating root C to ectomycorrhizal root active uptake cost.,bgc,fun,,,,
+15,ekn_active,P,KCN,90percent,900percent,Constant relating soil layer Nitrogen content to ectomycorrhizal root active uptake cost.,bgc,fun,,,,
+16,leafcn,P,,30percent,30percent,Leaf C:N,bgc,allocation,"NET: 58
+ NDT: 25.813112
+ BET: 29.603315
+ BDT: 23.452158
+ BES: 36.416607
+ BDS: 23.255814
+ C3 Grass/C3 Crop: 28.026905
+ C4 Grass: 35.360680
+ C3 Irrig/Corn/Sugarcane: 25
+ Other Crop: 20",,,
+17,lmrha,S,,50percent,50percent,activation energy for lmr,stomatal,acclimation,46390,,,
+18,vcmaxse_sf,S,ACCLIM_SF,20percent,20percent,Scale factor for vcmaxse equation,stomatal,acclimation,1,,,
+19,jmaxse_sf,S,ACCLIM_SF,20percent,20percent,Scale factor for jmaxse equation,stomatal,acclimation,1,,,
+20,tpuse_sf,S,ACCLIM_SF,20percent,20percent,Scale factor for tpuse equation,stomatal,acclimation,1,,,
